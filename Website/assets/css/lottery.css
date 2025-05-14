@@ -1,0 +1,991 @@
+.main-layout-handler-main-page {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.good-status {
+    color: green;
+}
+
+.bad-status {
+    color: red;
+}
+
+.lottery-main-container {
+    max-width: 990px;
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+.lottery-center-main-container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lottery-content-container {
+    background-color: #024560;
+    border-radius: 0.75rem;
+    display: flex;
+    width: 100%;
+    max-width: 975px;
+    flex-direction: column;
+}
+
+.lottery-main-content {
+    width: 100%;
+    max-width: 975px;
+    display: flex;
+    border-radius: 0.75rem;
+    padding: 20px;
+}
+
+.picture-preview-slide img {
+    background-color: white;
+    border-radius: 2rem;
+    width: 100%;
+}
+
+.image-section {
+    max-width: 45rem;
+}
+
+.picture-preview-selector {
+    background-color: white;
+    border-radius: 1rem;
+    width: 70px;
+}
+
+.picture-preview-selector-row {
+    gap: 0;
+}
+
+.content-section {
+    margin-left: 20px;
+    flex: auto;
+}
+
+.content-section .first-line {
+    color: #a7cdde;
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    line-height: 1.3;
+    font-size: 14px;
+}
+
+.content-section .second-line {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 23px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #e7a141;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.content-section .second-line span {
+    color: white;
+    font-size: 19px;
+}
+
+.content-section .third-line {
+    font-size: 13px;
+    color: #c4cbf9;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.ticket-solid {
+    font-family: "Josefin Sans", sans-serif;
+    color: #e7a141;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.3;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.contest-no {
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.contest-no span {
+    color: #ec1379;
+}
+
+.max-min-no {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.percentage {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 999px;
+}
+
+.percentage>div {
+    transition: width 1s;
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #13063c;
+    overflow: hidden;
+    border-radius: 999px;
+}
+
+.remaining {
+    font-size: 14px;
+    color: #c4cbf9;
+    line-height: 1.7;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.price {
+    line-height: 1.7;
+    margin: 0;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.price-extension {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #e7a141;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.price-seperator {
+    margin-top: 15px;
+    display: flex;
+    align-items: baseline;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+}
+
+.button-container>button {
+    background-image: -webkit-linear-gradient(7deg, rgb(236, 19, 121) 0%, rgb(108, 0, 146) 100%);
+    box-shadow: 0px 17px 40px 0px rgba(124, 78, 25, 0.3490196078);
+    background-color: #5a4bcc;
+    cursor: pointer;
+    padding: 15px 35px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 999px;
+    transition: background-size 0.3s;
+    color: #ffffff;
+    border: none;
+}
+
+.button-container>button:hover {
+    background-size: 300%;
+    color: #ffffff;
+}
+
+.quantity-selector {
+    position: relative;
+    width: 170px;
+    height: 42px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity-selector i {
+    width: 35px;
+    height: 35px;
+    background-color: #064d70;
+    border-radius: 50%;
+    color: #c4cbf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    position: absolute;
+    left: 130px;
+}
+
+.quantity-selector i:nth-child(1) {
+    left: 3px;
+}
+
+.quantity-selector span {
+    color: #e7a141;
+    margin-left: -13px;
+    font-weight: bold;
+}
+
+.quantity-selector input {
+    border: none;
+    text-align: center;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #e7a141;
+    height: 60px;
+    padding-left: 15px;
+    width: 100%;
+    background-color: transparent;
+    margin-left: -19px;
+    width: 66px;
+}
+
+#buy-ticket-button {
+    border-radius: 11px;
+    background-color: #fba83c;
+    border: 2px solid white;
+    font-size: 20px;
+    padding: 15px;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+}
+
+#buy-ticket-button:hover {
+    background-color: #bb7922;
+    color: #ffffff;
+}
+
+#buy-ticket-button:disabled {
+    background-color: #917046;
+    color: white;
+}
+
+.style-helper-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.style-helper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: baseline;
+}
+
+.style-helper>span {
+    color: #e7a141;
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.share-functionality {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -5px;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.share-functionality>li {
+    font-size: 16px;
+    color: #c4cbf9;
+    line-height: 1.7;
+    margin: 5px;
+}
+
+.share-functionality>li>a {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(10, 30, 94, 0);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    transition: all 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.share-functionality>li>a:hover {
+    background-color: rgb(238, 71, 48);
+    box-shadow: 0px 5px 9px 0px rgba(238, 71, 48, 0.54);
+}
+
+.lottery-timer-container {
+    width: 50%;
+    height: 135px;
+    border-radius: 25px 25px 0px 0px;
+    background-color: #04516f;
+}
+
+.lottery-timer-container>p {
+    color: #eceafe;
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0;
+    margin-bottom: .5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.lottery-timer-container div div span:nth-child(odd) {
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 700;
+    color: black;
+    text-shadow: 0px 7px 4px rgba(87, 74, 179, 0.65);
+    display: block;
+    background-color: #fefefe;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.lottery-timer-container div div span:nth-child(even) {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.lottery-timer-container>div {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.lottery-timer-container>div>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lottery-timer-container>div>span {
+    color: white;
+    font-weight: bolder;
+    font-size: 39px;
+    margin: 0;
+    padding: 0;
+}
+
+.social-sharing-buttons {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.social-btn i {
+    margin-right: 5px;
+}
+
+.social-btn.facebook {
+    background-color: #3b5998;
+}
+
+.social-btn.facebook:hover {
+    background-color: #fff;
+    color: #2d4373;
+    border-radius: 5px;
+    border: 1px solid #2d4373;
+}
+
+.social-btn.twitter {
+    background-color: #1da1f2;
+}
+
+.social-btn.twitter:hover {
+    background-color: #fff;
+    color: #1da1f2;
+    border-radius: 5px;
+    border: 1px solid #1da1f2;
+}
+
+.social-btn.linkedin {
+    background-color: #0077b5;
+}
+
+.social-btn.linkedin:hover {
+    background-color: #fff;
+    color: #005582;
+    border-radius: 5px;
+    border: 1px solid #005582;
+}
+
+.social-btn.email {
+    background-color: #c71610;
+}
+
+.social-btn.email:hover {
+    background-color: #fff;
+    color: #a4130d;
+    border-radius: 5px;
+    border: 1px solid #a4130d;
+}
+
+.social-btn.whatsapp {
+    background-color: #25d366;
+}
+
+.social-btn.whatsapp:hover {
+    background-color: #fff;
+    color: #1ebe5a;
+    border-radius: 5px;
+    border: 1px solid #1ebe5a;
+}
+
+.lower-content {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.prizes-text {
+    font-size: 25px;
+    text-align: center;
+}
+
+.picture-preview-selector-column {
+    border: none;
+}
+
+.rank {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background for depth */
+    border: 2px solid white;
+    padding: 12px; /* Adjusted padding for better spacing */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition effects */
+    margin-bottom: 15px; /* Space between ranks */
+    width: 100%; /* Ensure it takes full width of parent */
+}
+
+.rank:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighter background on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.rank img {
+    width: 60px; /* Slightly larger for better visibility */
+    height: 60px; /* Ensure the image is square */
+    margin-right: 15px; /* Adjusted margin for better spacing */
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid #ccc; /* Light border for image */
+}
+
+.rank-details {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.rank p {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap; /* Ensure the text doesn't wrap */
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis to overflow text */
+}
+
+.prize-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 350px; /* Adjust the width as needed */
+}
+
+
+.rank-info {
+    font-size: 16px; /* Consistent font size for rank info */
+    color: white;
+}
+
+.winner-info {
+    font-size: 14px; /* Slightly smaller font for winner info */
+    color: #b3b3b3; /* Lighter color for winner info */
+}
+
+.prizes-style-helper {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .rank {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px; /* Reduce padding for smaller screens */
+    }
+
+    .rank img {
+        width: 50px; /* Reduce image size for smaller screens */
+        height: 50px;
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 10px; /* Add bottom margin */
+    }
+
+    .rank-details {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .rank p {
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+
+    .prize-name {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 250px; /* Adjust the width as needed */
+    }
+
+
+    .rank-info {
+        font-size: 14px; /* Reduce font size for rank info */
+    }
+
+    .winner-info {
+        font-size: 12px; /* Reduce font size for winner info */
+    }
+}
+
+@media (max-width: 480px) {
+    .rank {
+        padding: 6px; /* Further reduce padding for very small screens */
+    }
+
+    .rank img {
+        width: 40px; /* Further reduce image size */
+        height: 40px;
+    }
+
+    .rank p {
+        font-size: 12px; /* Further reduce font size */
+    }
+
+    .prize-name {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 250px; /* Adjust the width as needed */
+    }
+
+
+    .rank-info {
+        font-size: 12px; /* Further reduce font size for rank info */
+    }
+
+    .winner-info {
+        font-size: 10px; /* Further reduce font size for winner info */
+    }
+}
+
+
+.secondary-page-handler {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 17px;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    display: none;
+}
+
+.secondary-page-container {
+    max-width: 990px;
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    min-height: 100vh;
+}
+
+.secondary-page-center-container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.secondary-page-content-container {
+    background-color: #024560;
+    border-radius: 0.75rem;
+    display: flex;
+    width: 100%;
+    max-width: 975px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secondary-page-content-container h4 {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.secondary-lottery-timer-container {
+    width: 95%;
+    height: 135px;
+    border-radius: 25px 25px 0px 0px;
+    background-color: #04516f;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+
+.magic-button {
+    border: 2px solid white;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    font-size: 23px;
+    display: flex;
+    border-radius: 12px;
+    gap: 8px;
+    align-items: center;
+}
+
+.magic-button:hover {
+    background-color: #282889;
+}
+
+.delete-button {
+    border: 2px solid white;
+    background-color: #FF5733;
+    color: white;
+    padding: 10px;
+    font-size: 23px;
+    display: flex;
+    border-radius: 12px;
+    gap: 8px;
+    align-items: center;
+}
+
+.delete-button:hover {
+    background-color: rgba(255, 0, 0, 0.568);
+}
+
+.picker-number-container {
+    background-color: #d7dad8;
+    width: 28rem;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    gap: 15px;
+    justify-content: center;
+}
+
+.picker-number-container h6 {
+    background-color: #c98f14;
+    margin: 0;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.picker-number-container h5 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+}
+
+.magic-button-picker {
+    border: none;
+    color: blue;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    user-select: none;
+}
+
+.magic-button-picker:hover {
+    color: rgb(45, 45, 206);
+}
+
+.delete-button-picker {
+    border: none;
+    background: transparent;
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+    user-select: none;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.delete-button-picker:hover {
+    color: rgb(245, 74, 74);
+}
+
+.button-picker-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.picker-style-helper {
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.add-more-button {
+    border: 3px solid white;
+    border-radius: 999px;
+    background-color: #01465f;
+    color: white;
+    padding: 9px;
+    font-size: 18px;
+    margin: 9px;
+}
+
+.add-more-button:disabled {
+    color: #c2b68e;
+    border: 3px solid #c2b68e;
+}
+
+.add-more-button:hover {
+    border: 3px solid #c2b68e;
+}
+
+.summary-container {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.summary-container h2 {
+    margin: 0;
+    background-color: #024560;
+    padding: 15px;
+    font-size: 40px;
+    padding-left: 50px;
+    color: white;
+    padding-right: 50px;
+    text-transform: uppercase;
+}
+
+.summary-container p {
+    margin: 0;
+    display: flex;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 7px;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.summary-container p:nth-child(5) {
+    font-size: 20px;
+}
+
+.summary-container button {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    border-color: gold;
+}
+
+.summary-container button:hover {
+    color: rgb(221, 205, 205);
+    border-color: rgb(72, 255, 0);
+}
+
+.summary-container button:disabled {
+    background-color: #01465f;
+    color: #c2b68e;
+    border: 3px solid white;
+}
+
+.picker-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+}
+
+.picker-container span {
+    border: 1px solid #b1abab;
+    padding: 4px;
+    border-radius: 4px;
+    width: 28px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+
+.picker-container span.silver {
+    background-color: #71706e;
+    color: white;
+}
+
+.picker-container span.gold {
+    background-color: #b59410;
+    color: white;
+}
+
+.close-picker-button {
+    margin-left: auto;
+    position: relative;
+    margin-right: 10px;
+    font-size: 21px;
+    color: red;
+    margin-bottom: -33px;
+    margin-top: 0;
+    user-select: none;
+    cursor: pointer;
+}
+
+.close-picker-button:hover {
+    color: rgb(148, 39, 39);
+}
+
+.lottery-card-extra:nth-child(2) {
+    display: none;
+}
+
+@media (max-width: 1630px) {
+    .hide-handler {
+        display: none;
+    }
+
+    .wrap-handler {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .secondary-page-handler {
+        flex-direction: column;
+    }
+
+    .lottery-timer-container>div {
+        gap: 0;
+    }
+
+    .magic-button {
+        font-size: 14px;
+    }
+
+    .delete-button {
+        font-size: 14px;
+    }
+
+    .secondary-lottery-timer-container {
+        height: 189px;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .all-button {
+        gap: 30px !important;
+    }
+
+    .main-layout-handler-main-page {
+        flex-direction: column;
+    }
+
+    .lottery-timer-container {
+        width: 90%;
+    }
+
+    .lottery-main-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .picture-preview-selector-column {
+        padding: 3px;
+    }
+
+    .social-sharing-buttons {
+        flex-wrap: wrap;
+    }
+
+    .picture-preview-slide {
+        display: flex;
+        justify-content: center;
+    }
+
+    .picture-preview-selector {
+        width: 61px;
+    }
+
+    .lottery-main-container {
+        order: -2;
+    }
+}
+
+.purchase-done {
+    display: none;
+    text-align: center;
+    padding-top: 6px;
+}

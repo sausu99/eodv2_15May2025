@@ -1,0 +1,33 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/actionbar"
+        layout="@layout/activity_toolbar" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txtTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/darkgraywhite"
+            android:layout_below="@id/actionbar"
+            android:fontFamily="@font/opensansmediam"
+            android:textSize="16dp"
+            android:padding="10dp"/>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

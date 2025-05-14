@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Activity.game_ouc">
+    <include layout="@layout/activity_loading"/>
+
+    <include layout="@layout/activity_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lnlCoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="7dp"
+                android:background="@drawable/et_dotted"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yourbal"
+                    android:fontFamily="monospace"
+                    android:textSize="20dp"
+                    android:padding="11dp"
+                    android:textColor="@color/primarylight"
+                    />
+
+                <TextView
+                    android:id="@+id/txtGetCoinTop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="0"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="21dp"/>
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_coin"
+                    android:tint="@color/gold"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginVertical="30dp"
+                android:gravity="center"
+                android:background="@drawable/spin_back"
+                android:layout_height="130dp">
+
+                <ImageView
+                    android:layout_width="13dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/marker"
+                    android:scaleType="fitXY"
+                    android:elevation="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"/>
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/rvnumbers"
+                    android:paddingVertical="16dp"
+                    android:scrollbars="none"/>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="6dip"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ouc_bonus"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="20dp"
+                    android:gravity="center"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dip"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/bonus1"
+                        android:layout_width="70dip"
+                        android:layout_height="50dip"
+                        app:showText="true"
+                        android:gravity="center"
+                        android:paddingEnd="7dip"
+                        android:layout_marginEnd="10dip"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        app:track="@drawable/custom_track"
+                        android:thumb="@drawable/custom_thumb"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="serif"
+                        android:textColor="@color/primarylight"
+                        android:text="@string/ouc_10luck"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/bonus2"
+                        android:layout_width="70dip"
+                        android:layout_height="50dip"
+                        app:showText="true"
+                        android:gravity="center"
+                        android:paddingEnd="7dip"
+                        android:layout_marginEnd="10dip"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:track="@drawable/custom_track"
+                        android:thumb="@drawable/custom_thumb"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="serif"
+                        android:textColor="@color/primarylight"
+                        android:text="@string/ouc_20luck"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/bonus3"
+                        android:layout_width="70dip"
+                        android:layout_height="50dip"
+                        app:showText="true"
+                        android:gravity="center"
+                        android:paddingEnd="7dip"
+                        android:layout_marginEnd="10dip"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        app:track="@drawable/custom_track"
+                        android:thumb="@drawable/custom_thumb"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="serif"
+                        android:textColor="@color/primarylight"
+                        android:text="@string/ouc_30luck"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="16dip"
+                android:divider="@drawable/et_dotted"
+                android:showDividers="middle"
+                android:background="@drawable/et_dotted"
+                android:layout_marginHorizontal="10dip"
+                android:padding="7dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/ouc_cost"
+                    android:textColor="@color/primarylight"/>
+
+                <TextView
+                    android:id="@+id/txtAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="16dip"
+                    android:text="50"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="5dp"
+                    android:src="@drawable/ic_coin"
+                    android:tint="@color/gold"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string370"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/et_filled"
+                android:textColor="@color/whitewhite"
+                android:textSize="22sp"
+                android:id="@+id/spin"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom|center"
+                android:text="@string/howtoplay"
+                android:textStyle="italic"
+                android:id="@+id/underline"
+                android:textSize="18dp"
+                android:layout_marginTop="11dp"
+                android:textColor="@color/primarylight"/>
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/ouc_min"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/ouc_max"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/ouc_win_min"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/ouc_win_max"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/ouc_bonus1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/ouc_bonus2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/ouc_bonus3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/ouc_amount"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/result"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

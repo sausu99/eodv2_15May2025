@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".Activity.OpenPixActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:hint="@string/string182"
+        android:id="@+id/amountOpenPix"/>
+    <Button
+        android:id="@+id/payOpen"
+        android:layout_width="180dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_bg1"
+        android:text="PAY WITH OPENpix"
+        android:textColor="@color/whitewhite" />
+    <LinearLayout
+        android:id="@+id/lnlDetails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:visibility="visible">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:background="@color/btncolor"
+            android:padding="10dp"
+            >
+            <TextView
+                android:id="@+id/brText"
+                android:layout_width="0dp"
+                android:textColor="@color/whitewhite"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="BR Code:"
+                android:textSize="13sp"/>
+            <ImageView
+                android:id="@+id/copyBr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_copy_24"
+                android:layout_gravity="center"
+                android:tint="@color/whitewhite"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCAN TO PAY"
+            android:textColor="@color/graywhite"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/qrCode"
+            android:layout_width="300sp"
+            android:layout_height="300sp"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/closeButton"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="14dp"
+                android:layout_weight="1"
+                android:padding="18dp"
+                android:text="Close"
+                android:textColor="@color/primarylight"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/doneButton"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="#892EFF"
+                android:padding="18dp"
+                android:text="Done"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBarOpenFix"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+
+
+
+</LinearLayout>

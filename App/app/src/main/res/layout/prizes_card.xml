@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dip"
+    android:id="@+id/card">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="25dip"
+        android:paddingStart="20dip"
+        android:paddingEnd="130dip"
+        android:text="PRODUCT NAME"
+        android:textColor="@color/raffledark"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textSize="23sp"
+        android:id="@+id/name"
+        android:alpha="0.95"
+        android:fontFamily="sans-serif"
+        android:backgroundTint="#f5f5f7"
+        android:background="@drawable/et_filled_up"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="16dip"
+        android:paddingHorizontal="20dip"
+        android:text="@string/rank"
+        android:textColor="@color/whitewhite"
+        android:textSize="19sp"
+        android:id="@+id/rank"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_below="@id/name"
+        android:backgroundTint="@color/raffledark"
+        android:background="@drawable/et_filled_profile_down"/>
+
+    <ImageView
+        android:layout_width="100dip"
+        android:layout_height="120dip"
+        android:src="@drawable/img_background"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dip"
+        android:scaleType="fitCenter"
+        android:elevation="10dip"
+        android:id="@+id/image"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

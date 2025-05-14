@@ -1,0 +1,524 @@
+
+.auction-container {
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    max-width: 1000px;
+    gap: 25px;
+    font-size: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#slider-container {
+    max-width: 440px;
+    min-width: 440px;
+}
+
+.auction-images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.auction-images img {
+    width: 100px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.auction-images img:hover {
+    transform: scale(1.1);
+}
+
+.auction-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: left;
+    max-width: 55rem;
+}
+
+.auction-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.auction-details h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.wishlist-icon {
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.wishlist-icon:hover {
+    color: darkred;
+}
+
+.auction-details p,
+.auction-details button {
+    margin: 5px 0;
+}
+
+.share-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.share-button:hover {
+    background-color: #0056b3;
+}
+
+.bid-section {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.auction-details-section {
+    margin-bottom: 20px;
+}
+
+.auction-details-section h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bid-history {
+    margin-top: 20px;
+}
+
+.bid-history h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bid-entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-name {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.bid-value {
+    color: green;
+    margin-right: 10px;
+}
+
+.bid-date {
+    color: #888;
+}
+
+.social-sharing-buttons {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.social-btn i {
+    margin-right: 5px;
+}
+
+.social-btn.facebook {
+    background-color: #3b5998;
+}
+
+.social-btn.facebook:hover {
+    background-color: #fff;
+    color:#2d4373;
+    border-radius: 5px;
+    border: 1px solid #2d4373;
+}
+
+.social-btn.twitter {
+    background-color: #1da1f2;
+}
+
+.social-btn.twitter:hover {
+    background-color: #fff;
+    color:#1da1f2;
+    border-radius: 5px;
+    border: 1px solid #1da1f2;
+}
+
+.social-btn.linkedin {
+    background-color: #0077b5;
+}
+
+.social-btn.linkedin:hover {
+    background-color: #fff;
+    color:#005582;
+    border-radius: 5px;
+    border: 1px solid #005582;
+}
+
+.social-btn.email {
+    background-color: #c71610;
+}
+
+.social-btn.email:hover {
+    background-color: #fff;
+    color:#a4130d;
+    border-radius: 5px;
+    border: 1px solid #a4130d;
+}
+
+.social-btn.whatsapp {
+    background-color: #25d366;
+}
+
+.social-btn.whatsapp:hover {
+    background-color: #fff;
+    color:#1ebe5a;
+    border-radius: 5px;
+    border: 1px solid #1ebe5a;
+}
+
+#wishlist {
+    width: 20px;
+}
+
+.auction-container p {
+    color: #7f889d;
+}
+
+.auction-container p>span {
+    color: black;
+}
+
+.place-bid-input {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #EEEEEE;
+    padding: 11px 15px;
+    transition: all 0.42s ease;
+}
+
+.place-bid-input:focus {
+    border: 1px solid #32C36C;
+}
+
+.place-bid-button,
+.notify-button {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px 35px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Saira", sans-serif;
+    color: white;
+    background-color: #32c36c;
+}
+
+.place-bid-button {
+    width: unset;
+}
+
+.place-bid-button:hover,
+.notify-button:hover {
+    color: #fff;
+    background-color: black;
+}
+
+.tabs {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tabs button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tabs button:hover {
+    background-color: #ddd;
+}
+
+.tabs button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.auction-details-s, .bid-entry {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.user-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-name, .bid-value, .bid-date, .bid-status {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.leaderboard-entry {
+    margin-bottom: 5px;
+}
+
+.details-table th {
+    width: 126px;
+}
+
+.details-table td {
+    width: 74%;
+}
+
+.details-table th, .details-table td {
+    height: 50px;
+    padding: 10px;
+}
+
+.details-table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.details-table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.details-table {
+    display: block;
+}
+
+.active-offer,
+.upcoming-offer {
+    border: 1px solid green;
+    border-radius: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    color: green;
+    margin-bottom: 15px;
+}
+
+.ended-offer {
+    border: 1px solid red;
+    border-radius: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    color: red;
+    margin-bottom: 15px;
+}
+
+.switch-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.switch-input {
+    display: none;
+}
+
+.switch-label {
+    width: 50px;
+    height: 24px;
+    background-color: #ccc;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.switch-label::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s;
+}
+
+.switch-input:checked + .switch-label {
+    background-color: #4caf50;
+}
+
+.switch-input:checked + .switch-label::after {
+    transform: translateX(26px);
+}
+
+.switch-text {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+@media (max-width: 900px)
+{
+    #slider-container {
+        min-width: unset;
+    }
+
+    .social-sharing-buttons {
+        flex-wrap: wrap;
+    }
+
+    .tabs {
+        display: inline-flex;
+        overflow-x: scroll;
+        font-size: 14px;
+        text-wrap: nowrap;
+        width: 100%;
+    }
+
+    .auction-info {
+        width: 100%;
+    }
+}
+
+#auction-details-s {
+    display: block;
+}
+
+#winner {
+    color: darkgreen;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Review Section Styles */
+#review-box {
+    margin: 20px 0;
+}
+
+#review-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.review-entry {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.review-entry .user-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.review-entry .user-name {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.review-entry .review-rating {
+    color: #f39c12;
+    margin-right: 10px;
+}
+
+.review-entry .review-comment {
+    flex-grow: 1;
+    color: #555;
+}
+
+.review-entry .review-date {
+    font-size: 12px;
+    color: #999;
+    margin-left: 10px;
+}
+
+.review-entry:last-child {
+    border-bottom: none;
+}
+
+.review-entry p {
+    margin: 0;
+}
+
+.good-state {
+    color: green!important;
+}
+
+.bad-state {
+    color: red!important;
+}
+
+#place-bid-form {
+    display: flex;
+    height: 5rem;
+}
+
+#place-bid-form span {
+    position: relative;
+    left: 23px;
+    top: 14px;
+    color: gray;
+}
+
+.place-bid-input {
+    flex: 1;
+    padding-left: 28px;
+}

@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# SEO-friendly URLs for auction and lottery pages
+RewriteRule ^auction/([^/]+)/([^/]+)/?$ auction.php?id=$2 [L,QSA]
+RewriteRule ^lottery/([^/]+)/([^/]+)/?$ lottery.php?id=$2 [L,QSA]
+
+<Files "connection.php">
+    Require all denied
+</Files>
+
+# Only block direct access, not internal includes
+<If "%{REQUEST_URI} =~ m#connection.php#">
+    Require all denied
+</If>

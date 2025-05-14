@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.wowcodes.bidwazir.Activity.Paypalpay" >
+
+    <LinearLayout
+        android:id="@+id/wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/graywhite"
+            android:textStyle="bold"
+            android:hint="@string/string182"
+            android:id="@+id/amountedit"/>
+
+        <Button
+            android:id="@+id/buyItBtn"
+            android:layout_width="@dimen/_148sdp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_11ssp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_14sdp"
+            android:background="@drawable/btn_bg1"
+            android:text="@string/string280"
+            android:textColor="@color/whitewhite" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=""
+            android:textSize="@dimen/_14ssp"
+            android:id="@+id/txtResult" />
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+

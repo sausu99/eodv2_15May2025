@@ -1,0 +1,73 @@
+<?php
+if(isset($_SERVER['HTTP_X_FORWARDED_PROTO'] )) {
+  if (strpos( $_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== true) {
+    $_SERVER['HTTPS']='on';
+  }
+};
+
+include("includes/connection.php");
+include("language/language.php");
+
+// Redirect to home if user is already logged in
+if (isset($_SESSION['user_id'])) {
+    //  <!--removed .php-->
+  header("Location:home");
+  exit;
+}
+
+// Check if user is already logged in with persistent cookie
+if (isset($_COOKIE['remember_me_token']) && !isset($_SESSION['user_id'])) {
+  $token = $_COOKIE['remember_me_token'];
+
+  // Lookup user based on token
+  $qry = "SELECT * FROM tbl_users WHERE remember_me_token = '$token'";
+  $result = mysqli_query($mysqli, $qry);
+
+  if (mysqli_num_rows($result) > 0) {
+      $row = mysqli_fetch_assoc($result);
+
+      // Set session variables
+      $_SESSION['user_id'] = $row['id'];
+      $_SESSION['user_email'] = $row['email'];
+
+      // Redirect to home.php or any desired page
+        //<!--removed .php-->
+      header("Location: home");
+      exit;
+  }
+}
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<base href="/">
+
+<meta name="author" content="">
+<meta name="description" content="">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title><?php echo APP_NAME;?> - Login</title>
+<link rel="stylesheet" type="text/css" href="assets/css/vendor.css">
+<link rel="stylesheet" type="text/css" href="assets/css/flat-admin.css">
+<link rel="icon" href="/images/profile.png" type="image/x-icon">
+
+<!-- Theme -->
+<link rel="stylesheet" type="text/css" href="assets/css/theme/blue-sky.css">
+<link rel="stylesheet" type="text/css" href="assets/css/theme/blue.css">
+<link rel="stylesheet" type="text/css" href="assets/css/theme/red.css">
+<link rel="stylesheet" type="text/css" href="assets/css/theme/yellow.css">
+<link rel="stylesheet" href="assets/css/intlTelInput.css">
+
+<script src="assets/js/jquery-3.4.1.min.js"></script>
+<script src="assets/js/intlTelInput.min.js"></script>
+
+<style>
+  .close-button-user {
+    display: none;
+  }
+</style>
+</head>
+<body>
+  <?php include("login_data.php"); ?>
+</body>
+</html>

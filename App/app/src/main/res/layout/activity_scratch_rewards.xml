@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".Activity.ScratchRewardsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="7dip"
+        android:layout_height="50dip">
+
+        <ImageView
+            android:id="@+id/imgBackk"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:padding="15dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_back"
+            app:tint="@color/whitewhite" />
+
+        <TextView
+            android:id="@+id/txtAucname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/rewards"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dip"
+            android:fontFamily="casual"
+            android:textColor="@color/whitewhite"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/offwhiteblack"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="25dip"
+                android:background="@drawable/et_filled_profile_down"
+                android:backgroundTint="@color/colorPrimary">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="fetching..."
+                    android:textColor="@color/whitewhite"
+                    android:textStyle="bold"
+                    android:textSize="35sp"
+                    android:layout_marginTop="10dip"
+                    android:id="@+id/total"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/rewards_earned"
+                    android:textColor="@color/faint_yellow"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:textSize="17sp"
+                    android:layout_marginTop="5dip"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/offwhiteblack"
+                android:orientation="vertical"
+                android:paddingTop="15dip"
+                android:background="@drawable/et_filled_up">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    android:paddingHorizontal="30dip"
+                    android:id="@+id/noitems"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="250dip"
+                        android:layout_height="250dip"
+                        android:src="@drawable/noscratchcard"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/noscratchcard"
+                        android:fontFamily="monospace"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dip"
+                        android:textSize="25sp"/>
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/scratchCards_recycler"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

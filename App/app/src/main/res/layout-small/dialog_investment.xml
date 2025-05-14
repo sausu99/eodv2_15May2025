@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#70000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_filled_up"
+        android:orientation="vertical"
+        android:padding="@dimen/_12sdp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/details"
+        android:elevation="1dip"
+        android:backgroundTint="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plan Name"
+                android:textSize="@dimen/_14ssp"
+                android:fontFamily="@font/opensansbold"
+                android:textStyle="bold"
+                android:layout_gravity="bottom"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:id="@+id/plan_name"/>
+
+
+            <ImageView
+                android:layout_width="27dp"
+                android:layout_height="@dimen/_27sdp"
+                android:src="@drawable/admob_close_button_white_circle_black_cross"
+                android:id="@+id/close"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="..plan description goes here.."
+            android:textSize="@dimen/_13ssp"
+            android:fontFamily="@font/opensansmediam"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="1dip"
+            android:id="@+id/desc"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/investment_range"
+            android:textSize="@dimen/_14ssp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:fontFamily="@font/opensansbold"
+            android:textColor="#a8c7fb"
+            android:id="@+id/range"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interest"
+            android:textSize="@dimen/_13ssp"
+            android:textColor="@color/black"
+            android:id="@+id/interest"
+            android:layout_marginTop="@dimen/_1sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/duration"
+            android:textSize="@dimen/_13ssp"
+            android:textColor="@color/black"
+            android:id="@+id/time"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_1sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_amount"
+            android:textSize="@dimen/_13ssp"
+            android:id="@+id/txt_amount"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/_9sdp"/>
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_dotted_black"
+            android:layout_marginTop="@dimen/_9sdp"
+            android:padding="@dimen/_4sdp"
+            android:hint="Range"
+            android:maxLength="9"
+            android:inputType="number"
+            android:paddingStart="@dimen/_6sdp"
+            android:textSize="@dimen/_14ssp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_4sdp"
+            android:background="@drawable/et_filled_profile"
+            android:backgroundTint="#a8c7fb"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:text="@string/investnow"
+            android:textColor="@color/whitewhite"
+            android:layout_marginHorizontal="@dimen/_4sdp"
+            android:gravity="center"
+            android:id="@+id/invest"
+            android:textStyle="bold"
+            android:textSize="@dimen/_14ssp"/>
+    </LinearLayout>
+</RelativeLayout>

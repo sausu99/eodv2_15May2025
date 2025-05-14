@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/_4sdp"
+        android:id="@+id/card"
+        android:background="@color/offwhiteblack"
+        android:paddingVertical="@dimen/_2sdp"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:src="@drawable/img_background"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:id="@+id/prod_img"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Name"
+                android:textSize="@dimen/_14ssp"
+                android:textColor="@color/black"
+                android:id="@id/prod_name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product description will go here."
+                android:textSize="@dimen/_12ssp"
+                android:layout_marginEnd="35dip"
+                android:singleLine="true"
+                android:id="@+id/prod_desc"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ends on :- 22 March 2024"
+                android:textSize="@dimen/_11ssp"
+                android:layout_marginEnd="@dimen/_35sdp"
+                android:singleLine="true"
+                android:id="@+id/prod_end"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_filled"
+        android:backgroundTint="@color/offwhiteblack"
+        android:padding="@dimen/_3sdp"
+        android:gravity="center"
+        android:id="@+id/aucNameLL"
+        android:layout_marginEnd="@dimen/_2sdp"
+        android:layout_below="@id/card"
+        android:layout_marginTop="-30dip"
+        android:layout_alignParentEnd="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English Auction"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/black"
+            android:id="@+id/aucName"
+            android:visibility="gone"
+            android:layout_marginStart="3dip"
+            android:layout_marginEnd="5dip"/>
+
+        <ImageView
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:src="@drawable/ic_ticket"
+            android:id="@+id/infoIcon"
+            app:tint="@color/black"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/darkgray"
+        android:layout_below="@+id/card"/>
+</RelativeLayout>

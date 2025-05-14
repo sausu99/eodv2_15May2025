@@ -1,0 +1,84 @@
+<resources>
+    <color name="colorPrimary">#2C084B</color> <!-- Darker variant of the original purple -->
+    <color name="colorPrimaryDark">#1F0636</color> <!-- Darker than colorPrimary -->
+    <color name="colorAccent">#3B1069</color> <!-- Slightly darker for accent elements -->
+    <color name="pieceColor">#E0D9E8</color> <!-- Softer light color -->
+    <color name="black">#FFFFFF</color> <!-- Off-white to reduce glare -->
+    <color name="white">#1B1B1B</color> <!-- Almost black for the background or text -->
+    <color name="colorPrimaryLight">#3F275D</color> <!-- Darker for night mode -->
+    <color name="searchbg">#252525</color>
+    <color name="tabbg">#00000000</color>
+    <color name="txtcolor">#FFFFFF</color> <!-- Almost black for the background or text -->
+    <color name="darkgray">#5A5A5A</color> <!-- More subtle gray for night mode -->
+    <color name="lightgray">#B0B0B0</color> <!-- Softer, less bright gray -->
+    <color name="gray">#E8E8E8</color> <!-- Reduced brightness for gray -->
+    <color name="redd">#4A075B</color> <!-- Darker variant of your purple-based red -->
+    <color name="teal">#013240</color> <!-- Dark teal for a night theme -->
+    <color name="lightgrayy">#D3D3D3</color> <!-- Softened light gray -->
+
+    <color name="selected1">#3B1069</color> <!-- Darker version of the selected color -->
+    <color name="selected2">#571877</color> <!-- Darkened purple -->
+    <color name="selected3">#673488</color> <!-- A bit darker and muted -->
+    <color name="btncolor">#3B1069</color> <!-- Darkened button color -->
+    <color name="transprant">#00000000</color> <!-- Transparent color remains the same -->
+    <color name="gold">#D4AF37</color> <!-- Darkened gold for reduced brightness -->
+
+    <!-- Onboarding Page color -->
+    <color name="docotorcolor">#3B1069</color> <!-- Same darker purple for consistency -->
+
+    <color name="lightblack">#2E2E2E</color> <!-- Subtle, darker light black -->
+    <color name="black2">#151515</color> <!-- Dark black with minimal brightness -->
+    <color name="pink">#C51162</color> <!-- A bit darker pink -->
+    <color name="purple">#7B1FA2</color> <!-- Darkened purple -->
+    <color name="paypal">#005993</color> <!-- Darkened PayPal blue -->
+    <color name="background">#121212</color> <!-- Standard dark background color for night mode -->
+    <color name="progress">#333333</color> <!-- Softer black for progress bars -->
+    <color name="back">#222222</color> <!-- Darkened back color for night mode -->
+    <color name="cardBackground">#2C2C2C</color> <!-- Darkened card background -->
+    <color name="cartText">#E0D9E8</color> <!-- Lighter text to contrast dark backgrounds -->
+    <color name="cartText1">#CCCCCC</color> <!-- Muted light gray for text -->
+    <color name="raffle">#3B1069</color> <!-- Darker variant of your purple for raffle elements -->
+    <color name="raffledark">#3B1069</color> <!-- Consistent dark purple for raffle -->
+    <color name="txtWinner">#D1D1D1</color> <!-- Light text for winners display -->
+    <color name="bluelayout">#0077CC</color> <!-- Darker blue for layout elements -->
+    <color name="whiteNight">#404040</color> <!-- Softer off-white for night mode -->
+    <color name="dominantWinner">#3B1069</color> <!-- Darkened dominant color for winner text -->
+    <color name="backgroundForCategoryDetail">#232340</color> <!-- Darkened background for category detail -->
+    <color name="txtColorForCategoryDetail">#CCCCCC</color> <!-- Muted text color for category details -->
+
+    <color name="primarylight">#BA7BF1</color>
+    <color name="auctionbg">#1c1c1e</color>
+    <color name="txtprimary">#C3B1E1</color>
+    <color name="buttoncolor">#fdfdfd</color>
+    <color name="graywhite">#fdfdfd</color>
+    <color name="blackdeep">#000000</color>
+    <color name="tabcolor">#fdfdfd</color>
+    <color name="youbg">#1c1c1e</color>
+    <color name="strokes">#1c1c1e</color>
+    <color name="youtxtcolor">#FFFFFFFF</color>
+    <color name="imgtint">#FFFFFF</color>
+    <color name="viewdark">#000000</color>
+    <color name="blackblack">#000000</color>
+    <color name="youbg0">#000000</color>
+    <color name="whitewhite">#FFFFFF</color>
+    <color name="dotsactive">#424141</color>
+    <color name="button0">#398cf9</color>
+    <color name="button1">#954535</color>
+    <color name="graygray">#848484</color>
+    <color name="darkgraywhite">#fdfdfd</color>
+    <color name="primaryblack">#000000</color>
+    <color name="offwhiteblack">#000000</color>
+    <color name="dialogtitle">#BFBFBF</color>
+    <color name="offwhitewhite">#FFFFFF</color>
+    <color name="hintcolor">#BFBFBF</color>
+    <color name="faint_yellow">#FFFFC5</color>
+    <color name="green_forest_primary_dark">#228B22</color>
+
+    <color name="green_forest">#228B22</color>
+    <color name="hot_pink">#BA7BF1</color>
+    <color name="crimson">#DC143C</color>
+    <color name="coral_primary">#FF7F50</color>
+    <color name="green_forest_secondary">#228B22</color>
+    <color name="winnerbottom">#1c1c1e</color>
+
+</resources>

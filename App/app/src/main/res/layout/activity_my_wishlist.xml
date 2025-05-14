@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Activity.MyWishlist">
+    <include layout="@layout/activity_toolbar"
+        android:id="@+id/toolbar"/>
+    <include layout="@layout/activity_loading" />
+    <TextView
+        android:id="@+id/noItemTxt"
+        android:visibility="gone"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/dark_gray"
+        android:textAlignment="center"
+        android:textSize="@dimen/_17ssp"
+        android:text="@string/string529"
+        android:layout_marginTop="@dimen/_150sdp"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:background="@color/blackdeep"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/wishlistrecycler"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="@dimen/_15sdp"
+        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

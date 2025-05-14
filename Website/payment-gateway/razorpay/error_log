@@ -1,0 +1,4 @@
+[05-Sep-2024 09:02:16 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #4 cannot be passed by reference in /home1/omkriuhp/scripts/prizex.wowcodes.in/payment-gateway/razorpay/process_payment.php:53
+Stack trace:
+#0 {main}
+  thrown in /home1/omkriuhp/scripts/prizex.wowcodes.in/payment-gateway/razorpay/process_payment.php on line 53

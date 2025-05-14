@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="Activity.games">
+
+    <include layout="@layout/activity_toolbar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLAY GAMES &amp; EARN COINS"
+        android:gravity="center"
+        android:textSize="@dimen/_17ssp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginHorizontal="@dimen/_4sdp"
+        android:padding="@dimen/_6sdp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:background="@drawable/et_border11"
+        android:textColor="@color/colorPrimary"
+        android:visibility="gone"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_6sdp"
+        android:scrollbars="none"
+        android:id="@+id/scrollview">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@color/faint_yellow"
+                android:paddingVertical="@dimen/_4sdp"
+                android:id="@+id/cric_ll"
+                android:paddingHorizontal="@dimen/_9sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_27sdp"
+                    android:layout_height="@dimen/_27sdp"
+                    android:padding="@dimen/_3sdp"
+                    android:tint="@color/blackblack"
+                    android:src="@drawable/ic_cricket"
+                    android:layout_marginHorizontal="7dip"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cricket"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:textColor="@color/blackblack"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_124sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_cric"
+                android:id="@+id/cric"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:id="@+id/rps_ll"
+                android:background="@color/faint_yellow"
+                android:paddingVertical="@dimen/_4sdp"
+                android:paddingHorizontal="@dimen/_9sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_27sdp"
+                    android:layout_height="@dimen/_27sdp"
+                    android:padding="@dimen/_3sdp"
+                    android:tint="@color/blackblack"
+                    android:src="@drawable/ic_rock"
+                    android:layout_marginHorizontal="@dimen/_4sdp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rps"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:textColor="@color/blackblack"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_124sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_rps"
+                android:id="@+id/rps"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@color/faint_yellow"
+                android:id="@+id/gn_ll"
+                android:paddingVertical="@dimen/_4sdp"
+                android:paddingHorizontal="@dimen/_9sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_27sdp"
+                    android:layout_height="@dimen/_27sdp"
+                    android:padding="@dimen/_3sdp"
+                    android:tint="@color/blackblack"
+                    android:src="@drawable/ic_guess"
+                    android:layout_marginHorizontal="@dimen/_4sdp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/guess"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:textColor="@color/blackblack"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_124sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_gn"
+                android:id="@+id/gn"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:id="@+id/spin_ll"
+                android:background="@color/faint_yellow"
+                android:paddingVertical="@dimen/_4sdp"
+                android:paddingHorizontal="@dimen/_9sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_27sdp"
+                    android:layout_height="@dimen/_27sdp"
+                    android:padding="@dimen/_3sdp"
+                    android:tint="@color/blackblack"
+                    android:src="@drawable/ic_spin"
+                    android:layout_marginHorizontal="@dimen/_4sdp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/spin"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:textColor="@color/blackblack"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_124sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_spin_wheel"
+                android:id="@+id/spin"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@color/faint_yellow"
+                android:paddingVertical="@dimen/_4sdp"
+                android:id="@+id/coin_ll"
+                android:paddingHorizontal="@dimen/_9sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_27sdp"
+                    android:layout_height="@dimen/_27sdp"
+                    android:padding="@dimen/_3sdp"
+                    android:tint="@color/blackblack"
+                    android:src="@drawable/ic_toss"
+                    android:layout_marginHorizontal="@dimen/_4sdp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/coin"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:textColor="@color/blackblack"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_124sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_coinn"
+                android:id="@+id/coin"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:id="@+id/ouc_ll"
+                android:background="@color/faint_yellow"
+                android:paddingVertical="@dimen/_4sdp"
+                android:paddingHorizontal="@dimen/_9sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_27sdp"
+                    android:layout_height="@dimen/_27sdp"
+                    android:padding="@dimen/_3sdp"
+                    android:tint="@color/blackblack"
+                    android:src="@drawable/ic_spinner"
+                    android:layout_marginHorizontal="@dimen/_4sdp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/spinner"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/_3sdp"
+                    android:textColor="@color/blackblack"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_124sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_spin"
+                android:id="@+id/ouc"
+                />
+
+
+            <!--ADD NEW GAMES BELOW..-->
+
+
+
+            </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

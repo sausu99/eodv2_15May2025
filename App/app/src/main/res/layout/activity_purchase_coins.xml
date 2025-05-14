@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Activity.PurchaseCoinsActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/activity_toolbar" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins"
+                    android:text="@string/curr_bal"
+                    android:textColor="@color/black"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="34dip"
+                    android:layout_height="34dip"
+                    android:src="@drawable/coinimg" />
+
+                <TextView
+                    android:id="@+id/bal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:text=" N/A"
+                    android:textColor="@color/black"
+                    android:textSize="29sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dip"
+                android:layout_marginTop="5dip"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/et_borderrr"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="7dip">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dip"
+                        android:text="@string/coinstoadd"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="bottom"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="38dip"
+                            android:layout_height="38dip"
+                            android:layout_marginBottom="5dip"
+                            android:src="@drawable/coinimg" />
+
+                        <EditText
+                            android:id="@+id/amt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dip"
+                            android:hint="0"
+                            android:inputType="number"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/black" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/amt200"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dip"
+                    android:background="@drawable/et_borderr"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="7dip">
+
+                    <ImageView
+                        android:layout_width="27dip"
+                        android:layout_height="27dip"
+                        android:src="@drawable/coinimg" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" 200"
+                        android:textColor="@color/darkgraywhite"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/amt500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dip"
+                    android:background="@drawable/et_borderr"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="7dip">
+
+                    <ImageView
+                        android:layout_width="27dip"
+                        android:layout_height="27dip"
+                        android:src="@drawable/coinimg" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" 500"
+                        android:textColor="@color/darkgraywhite"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dip"
+                android:layout_marginTop="16dip"
+                android:background="@drawable/et_borderrr"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingHorizontal="7dip"
+                android:paddingVertical="7dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensansbold"
+                    android:text="@string/forevery"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+                <ImageView
+                    android:layout_width="25dip"
+                    android:layout_height="25dip"
+                    android:src="@drawable/coinimg" />
+
+                <TextView
+                    android:id="@+id/rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensansbold"
+                    android:text="@string/coinvalue"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dip"
+                android:layout_marginTop="12dip"
+                android:background="@drawable/et_borderrr"
+                android:backgroundTint="#346758"
+                android:fontFamily="@font/opensansbold"
+                android:gravity="center"
+                android:paddingHorizontal="7dip"
+                android:paddingVertical="7dip"
+                android:text="@string/youcanalso"
+                android:textColor="@color/whitewhite"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dip"
+                android:background="#E0EFE8"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dip">
+
+                <ImageView
+                    android:layout_width="37dip"
+                    android:layout_height="37dip"
+                    android:src="@drawable/ic_percentage"
+                    app:tint="#346758" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dip"
+                    android:fontFamily="@font/opensansbold"
+                    android:text="@string/getdiscount"
+                    android:textColor="#346758"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/offers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="70dip" />
+
+            <LinearLayout
+                android:id="@+id/nodata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dip"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/nodata" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"
+                    android:text="No offers found at the moment !"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="27sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:elevation="20dip"
+        android:padding="11dip">
+
+        <LinearLayout
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_filled"
+            android:backgroundTint="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="10dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensansbold"
+                android:text="@string/select_payment_method"
+                android:textColor="@color/whitewhite"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="22dip"
+                android:layout_height="22dip"
+                android:layout_marginStart="5dip"
+                android:src="@drawable/ic_next"
+                app:tint="@color/whitewhite" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

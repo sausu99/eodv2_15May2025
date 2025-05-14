@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_217sdp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/btn_bglboutlinewhite"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/_5sdp"
+
+    >
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please check!"
+        android:textStyle="bold"
+        android:textSize="@dimen/_14ssp"
+        android:gravity="center"
+        android:fontFamily="@font/opensansregular"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textColor="@color/primarylight"
+        android:id="@+id/txtMpesa"/>
+
+    <Button
+        android:id="@+id/okaybtn"
+        android:layout_width="@dimen/_55sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="@dimen/_24sdp"
+        android:autoLink="all"
+        android:textColor="@color/whitewhite"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="@font/opensansregular"
+        android:text="@string/string37"
+        android:textStyle="bold" />
+
+</LinearLayout>

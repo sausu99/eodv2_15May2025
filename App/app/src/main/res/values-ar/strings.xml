@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:Tools="http://schemas.android.com/apk/res-auto">
+
+    <!-- TODO: يمكنك تغيير رسالة خطأ إذن التخزين أدناه -->
+    <string name="msg_rationale">تحتاج إلى توفير الوصول إلى مساحة التخزين لتحديث صورة الملف الشخصي</string>
+    <string name="txt_info">المعلومات</string>
+    <string name="txt_warning">تحذير</string>
+    <!-- ما يجب القيام به: يمكنك تغيير النص الأول لشاشة الإعداد أدناه -->
+    <string name="slidetitle1" Tools:ignore="Missingtext_translation">هل أنت مستعد للفوز؟</string>
+    <string name="secondtittle1" Tools:ignore="Missingtext_translation">المزادات</string>
+    <string name="thirdtittle1" Tools:ignore="Missingtext_translation">هل تشعر بأنك محظوظ؟</string>
+    <string name="fourthtittle1" Tools:ignore="Missingtext_translation">تسوق</string>
+    <string name="fifthtittle1" Tools:ignore="Missingtext_translation">لنبدأ</string>
+    <!-- TODO: مخفي (لا حاجة للتغيير) -->
+    <string name="slidetitle2" Tools:ignore="Missingtext_translation">خصومات هائلة</string>
+    <string name="secondtittle2" Tools:ignore="Missingtext_translation">احصل على أرباحك خلال 7 أيام</string>
+    <string name="thirdtittle2" Tools:ignore="Missingtext_translation">قم بإحالة أصدقائك واكسب عملات معدنية مجانية</string>
+    <!-- ما يجب القيام به: يمكنك تغيير نص الصفحة الثالثة لشاشة الإعداد الموجود أدناه -->
+    <string name="slidetitle3" Tools:ignore="Missingtext_translation">استعد لاستكشاف عالم من الإثارة والراحة، كل ذلك في مكان واحد.</string>
+    <string name="secondtittle3" Tools:ignore = "Missingtext_translation"> انغمس في عالم المزادات، واربح مبالغ كبيرة واحصل على العناصر المفضلة لديك بأسعار لا تصدق!</string>
+    <string name="thirdtittle3" Tools:ignore="Missingtext_translation">جرب يدك في اليانصيب لدينا للحصول على فرصة للفوز بجوائز مذهلة، كل تذكرة هي بمثابة الفوز بالجائزة الكبرى المحتملة!</string>
+    <string name="fourthtittle3" Tools:ignore="Missingtext_translation">استكشف متجرنا المتنوع المليء بالمنتجات المختارة خصيصًا لك. من الأدوات العصرية إلى الكلاسيكية، هناك ما يناسب الجميع. </string>
+    <string name="fifthtittle3" Tools:ignore="Missingtext_translation">انقر على "البدء" وابدأ رحلتك</string>
+    <!-- TODO: يمكنك تغيير نص "حسنًا" الموجود أدناه -->
+    <string name="gotit_txt" Tools:ignore="Missingtext_translation">لقد فهمت!</string>
+    <!-- المهام: يمكنك تغيير تخطي النص أدناه -->
+    <string name="skip_txt" Tools:ignore="Missingtext_translation">استكشاف التطبيق</string>
+    <!-- TODO: يمكنك تغيير نص المتابعة أدناه -->
+    <string name="txt_continue" Tools:ignore="Missingtext_translation">متابعة</string>
+    <string name="text_200" Tools:ignore="Missingtext_translation">كل تذكرة رقم 100 تفوز</string>
+    <string name="tc">\ الشروط والأحكام </string>
+    <string name="privacy">\ سياسة الخصوصية</string>
+    <string name="fourthtittle2" Tools:ignore="Missingtext_translation">التسليم السريع</string>
+    <string name="fifthtittle2">أشير واكسب</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1086534682040766</string>
+    <string name="facebook_client_token" translatable="false">c2c90fa1fb2018a80ef8d5977918bc9d</string>
+    <string name="title_activity_loto_detail" translatable="false">LotoDetailActivity</string>
+    <!-- السلاسل المستخدمة للأجزاء للتنقل   TODO:-->
+    <string name="first_fragment_label" translatable="false">الجزء الأول</string>
+    <string name="second_fragment_label" translatable="false">الجزء الثاني</string>
+    <string name="next">التالي</string>
+    <string name="previous">السابق</string>
+
+    <string name="hello_first_fragment">مرحبًا بالجزء الأول</string>
+    <string name="hello_second_fragment" translatable="false">مرحبًا بالجزء الثاني. الوسيطة: %1$s</string>
+    <string name="title_activity_dynamic_auction" translatable="false">DynamicAuctionActivity</string>
+    <string name="title_activity_paystack" translatable="false">PaystackActivity</string>
+    <string name="string1">عروض التسعير الخاصة بك</string>
+    <string name="string2">جميع المشاركين</string>
+    <string name="string3">تذاكرك</string>
+    <string name="string4">نوع العنصر</string>
+    <string name="string5">اقرأ أقل</string>
+    <string name="string6">اقرأ المزيد..</string>
+    <string name="string7">أقل عرض سعر فريد </string>
+    <string name="string8">أعلى عرض سعر فريد</string>
+    <string name="string9">استرداد</string>
+    <string name="string10">معاملات العملة</string>
+    <string name="string11">تحديث الملف الشخصي</string>
+    <string name="string12">سجل الشراء</string>
+    <string name="string13">دعونا نلعب &amp; فوز</string>
+    <string name="string14">ملفك الشخصي</string>
+    <string name="string15">العملة</string>
+    <string name="string15_1">متجر العملات 🛒</string>
+    <string name="string16">الفائز</string>
+    <string name="string17">اربح</string>
+    <string name="string18">التشغيل من أجل </string>
+    <string name="playfor0">العب مجانًا</string>
+    <string name="redeemfor0">المطالبة مجانًا</string>
+    <string name="string19">معرف الطلب: </string>
+    <string name="string20">المبلغ: </string>
+    <string name="string21">مبلغ الطلب </string>
+    <string name="string22">مزاد قرش</string>
+    <string name="string23">\ سيتم خصم العملات المعدنية من رصيد العملات المعدنية الخاصة بك عند التأكيد</string>
+    <string name="string24">المزايدة لـ</string>
+    <string name="string25"> مقدمو العروض</string>
+    <string name="string26">عرض التسعير الحالي</string>
+    <string name="string27">مجد، أنت تفوز حاليًا</string>
+    <string name="string28">لا توجد مزايدات حتى الآن، عرض التسعير المبدئي </string>
+    <string name="string29">\ هو الفائز حاليًا</string>
+    <string name="string30">ينتهي المزاد خلال:- جارٍ التحميل..</string>
+    <string name="string31">لقد انتهى الأمر.. انتهى المزاد</string>
+    <string name="string32">\ سياسة الخصوصية</string>
+    <string name="string33">رقم تذكرتك</string>
+    <string name="string34">هل أنت متأكد من رغبتك في شراء </string>
+    <string name="string35">التذاكر؟</string>
+    <string name="string36">العملات غير كافية، يرجى شراء بعض العملات للمشاركة.</string>
+    <string name="string37">حسنًا</string>
+    <string name="string38">المشاركين</string>
+    <string name="string39">العملة المعدنية:</string>
+    <string name="string40">لـ</string>
+    <string name="string41">ينتهي في:- جارٍ التحميل..</string>
+    <string name="string42">ينتهي بـ</string>
+    <string name="string43">راجع &amp; اربح</string>
+    <string name="string44">تذاكرك</string>
+    <string name="string45">مشتريات العملات</string>
+    <string name="string46">\ العملات المعدنية المتوفرة</string>
+    <string name="string47">الرمز الخاص بك</string>
+    <string name="string48">تم استلام الطلب</string>
+    <string name="string49">تم رفض الطلب</string>
+    <string name="string50">لقد اكتشفنا بعض الطرق غير الأخلاقية التي تستخدمها لكسب العملات المعدنية، \n إذا كانت لديك أية أسئلة، يمكنك مراسلتنا عبر البريد الإلكتروني.</string>
+    <string name="string51">شارك الآن</string>
+    <string name="string52">جميع مقدمي العروض</string>
+    <string name="string53">عروض التسعير الخاصة بك</string>
+    <string name="string54">المزايدة على 1</string>
+    <string name="string55">عرض واحد</string>
+    <string name="string56">عرض تسعير متعدد</string>
+    <string name="string57">المزايدة أعلى من 1</string>
+    <string name="string58">أو</string>
+    <string name="string59">تعيين كلمة مرور جديدة</string>
+    <string name="string60">لحسابك المرتبط بـ: mobno</string>
+    <string name="string61">رقم الهاتف المحمول</string>
+    <string name="string62">لم تشارك بعد</string>
+    <string name="string212">لا يوجد مشاركون حتى الآن. كن أول من ينضم!</string>
+    <string name="string63">تخطي</string>
+    <string name="string64">من خلال المتابعة، فإنك توافق على</string>
+    <string name="string65">\ و</string>
+    <string name="string66">تسجيل الدخول</string>
+    <string name="string67">إنشاء حساب</string>
+    <string name="string68">استكشاف التطبيق --></string>
+    <string name="string69">ينتهي خلال:- 00d 00h 00m 00s</string>
+    <string name="string70">اللاعبون</string>
+    <string name="string71">عفوًا!</string>
+    <string name="string72">يبدو أننا لا نستطيع العثور على ما\n تبحث عنه</string>
+    <string name="string73"> حاول مرة أخرى </string>
+    <string name="string74">معلومات الدفع</string>
+    <string name="string75">الدفع</string>
+    <string name="string76">العب مقابل 1000</string>
+    <string name="string77">11111 مقدمو العروض</string>
+    <string name="string78">عنوانك:-</string>
+    <string name="string79">تقديم الطلب</string>
+    <string name="string80">• قم بإحالة التطبيق إلى أصدقائك</string>
+    <string name="string81">• عندما يقوم صديقك بالتسجيل تحصل على عملات معدنية مجانية</string>
+    <string name="string82">• يحصل صديقك أيضًا على عملة مجانية مقابل الاشتراك باستخدام الرمز الخاص بك</string>
+    <string name="string83">نطاق عرض الأسعار</string>
+    <string name="string84">ضع عروض أسعار متعددة باستخدام هذه الميزة</string>
+    <string name="string85">إلى</string>
+    <string name="string86">حدث خطأ ما!!</string>
+    <string name="string87">إرسال العطاء</string>
+    <string name="string88">شاهد الإعلان</string>
+    <string name="string89">نصيحة: هذا سر!! </string>
+    <string name="string91">أقل عرض سعر فريد:</string>
+    <string name="string92">اسم المنتج</string>
+    <string name="string93">فاز بها:- </string>
+    <string name="string94">أعلى عرض سعر فريد:-</string>
+    <string name="string95">معرف الطلب</string>
+    <string name="string96">حسنًا</string>
+    <string name="string97">يُرجى النقر على تأكيد الدفع لاستكمال الطلب</string>
+    <string name="string98">الملف الشخصي للبائع</string>
+    <string name="string99">الرابط</string>
+    <string name="string100">تم تقديم العطاء</string>
+    <string name="string101">تم تقديم العطاء بنجاح!</string>
+    <string name="string102">تم استلام الطلب!</string>
+    <string name="string103">يمكنك تتبع حالة طلبك في ملفك الشخصي</string>
+    <string name="string104">طلباتي</string>
+    <string name="string105">قيمنا</string>
+    <string name="string106">أدخل معرف البريد الإلكتروني الخاص بك</string>
+    <string name="string107">إلغاء</string>
+    <string name="string108">المطالبة بالجائزة</string>
+    <string name="string109">شاهد &amp; اربح</string>
+    <string name="string110">تحرير الملف الشخصي</string>
+    <string name="string111">اسمك</string>
+    <string name="string112">حول</string>
+    <string name="string113">كيفية اللعب</string>
+    <string name="string114">سجل الطلبات</string>
+    <string name="string115">\ الشروط والأحكام </string>
+    <string name="string116">اتصل بنا</string>
+    <string name="string117">1234</string>
+    <string name="string118">العملات المعدنية</string>
+    <string name="string119">عملاتك المعدنية</string>
+    <string name="string120">عرضك الفريد لـ</string>
+    <string name="string121">تأكيد العطاء</string>
+    <string name="string122">أدنى نطاق عرض فريد</string>
+    <string name="string123">لكل عرض أسعار فردي</string>
+    <string name="string124">لا يمكنك تقديم سوى 100 عرض تسعير بحد أقصى في المرة الواحدة باستخدام ميزة نطاق العطاء :(</string>
+    <string name="string125">لم يتم إرساله لأنه لا يمكنك إدخال قيمة عرض السعر إلا بين</string>
+    <string name="string126">فقط</string>
+    <string name="string127">متبقي في المخزون😱</string>
+    <string name="string128">السحب المحظوظ</string>
+    <string name="string129">تشغيل</string>
+    <string name="string130">المزاد</string>
+    <string name="string131">شراء</string>
+    <string name="string132">تأكيد الاسترداد 😇</string>
+    <string name="string133">تأكيد الطلب 😇</string>
+    <string name="string134">عملات غير كافية</string>
+    <string name="string135">المزاد مغلق</string>
+    <string name="string136">ينتهي اللوتو في:-</string>
+    <string name="string137">البائع:</string>
+    <string name="string138">طرق الدفع</string>
+    <string name="string139">تم الدفع بنجاح</string>
+    <string name="string140">فشل الدفع! حاول مرة أخرى.</string>
+    <string name="string141">تم إرسال الطلب على Mpesa</string>
+    <string name="string142">جاري تأكيد الدفع</string>
+    <string name="string143">رقم الهاتف غير صالح!</string>
+    <string name="string144">المبلغ: 1.00 دولار</string>
+    <string name="string145">مشاركة التطبيق</string>
+    <string name="string146">تاريخ العملات</string>
+    <string name="string147">جارٍ التحميل..</string>
+    <string name="string148">الرجاء الانتظار...</string>
+    <string name="string149">جارٍ معالجة طلبك</string>
+    <string name="string150">الرجاء إدخال كلمة المرور الصحيحة</string>
+    <string name="string151">غير متوفر حاليًا!</string>
+    <string name="string152">الرجاء إدخال عنوان بريد إلكتروني صالح</string>
+    <string name="string153">الرجاء إدخال عنوان صالح</string>
+    <string name="string154">الرجاء إدخال اسم صالح</string>
+    <string name="string155">الرجاء إدخال بعض قيمة العطاء</string>
+    <string name="string156">يُرجى إضافة قيمة واحدة فقط في كل مرة..</string>
+    <string name="string157">يُرجى إضافة قيمة العطاء من الحد الأدنى إلى الحد الأقصى</string>
+    <string name="string158">تم إلغاء المكافأة</string>
+    <string name="string159">الرجاء إدخال كافة التفاصيل</string>
+    <string name="string160">أنت فائز حاليًا، ولا يمكنك تقديم عرض الآن.</string>
+    <string name="string161">فشل. يرجى المحاولة مرة أخرى.</string>
+    <string name="string162">تم شراء التذاكر بنجاح</string>
+    <string name="string163">خطأ في الدفع:</string>
+    <string name="string164">تم النجاح</string>
+    <string name="string165">خطأ</string>
+    <string name="string166">تم الإلغاء</string>
+    <string name="string167">يُرجى تحديد سياسة الخصوصية</string>
+    <string name="string168">أدخل رقم الهاتف المحمول</string>
+    <string name="string169">تم التحديث</string>
+    <string name="string170">سوف نتصل بك هنا خلال 48 ساعة</string>
+    <string name="string171">الاسم</string>
+    <string name="string172">أدخل كلمة المرور الجديدة</string>
+    <string name="string173">أعد إدخال كلمة المرور</string>
+    <string name="string174">البريد الإلكتروني</string>
+    <string name="string175">رقم الهاتف</string>
+    <string name="string176">تحرير كلمة المرور:-</string>
+    <string name="string177">كلمة المرور</string>
+    <string name="string178">أدخل رقمك المسجل</string>
+    <string name="string179">كلمة المرور الخاصة بك</string>
+    <string name="string180">ليس لديك حساب؟</string>
+    <string name="string181">هل نسيت كلمة المرور؟</string>
+    <string name="string182">قيمة الدفع</string>
+    <string name="string183">أدخل رقم تسجيلك في Mpesa.</string>
+    <string name="string184">هل لديك رمز الإحالة؟</string>
+    <string name="string185">أدخل عنوانك الذي تريد تسليم الجائزة إليه</string>
+    <string name="string186">حدد طريقة الدفع:</string>
+    <string name="string187">الإعلانات</string>
+    <string name="string188">لإبقائك على اطلاع دائم!</string>
+    <string name="string189">العملات النقدية التي تم إنفاقها</string>
+    <string name="string190">اللغة</string>
+    <string name="noscratchcard">لم تفز بأي بطاقة خدش حتى الآن</string>
+    <string name="noitems">لا يوجد شيء للعرض الآن، سنضيف بعضًا منه قريبًا</string>
+    <string name="search">البحث عن المنتجات أو الفئات</string>
+    <string name="search_top">سينتهي قريبًا</string>
+    <string name="home_username">مرحبًا</string>
+    <string name="string191">تسجيل الدخول</string>
+    <string name="string192">سجل الآن</string>
+    <string name="string193">هل أنت متأكد من أنك تريد الخروج؟</string>
+    <string name="string194">هل أنت متأكد أنك تريد اللعب؟</string>
+    <string name="string195">نعم</string>
+    <string name="string196">لا</string>
+    <string name="string197">تهانينا، لقد فزت!</string>
+    <string name="string198">التذكرة الفائزة</string>
+    <string name="string199">تم تسليم الطلب</string>
+    <string name="string200">لقد نجحنا في توصيل طلبك، لا تنس الإشارة إلينا على وسائل التواصل الاجتماعي :)</string>
+    <string name="string201">قيمة اللوتو:</string>
+    <string name="string202">قيمة العطاء:</string>
+    <string name="string203">القيمة:</string>
+    <string name="string204">ينتهي المزاد خلال:- </string>
+    <string name="string205">السحب</string>
+    <string name="string206">اليانصيب</string>
+    <string name="string207">تسجيل الخروج</string>
+    <string name="string208">مرحبًا بك مرة أخرى في تطبيق المزاد</string>
+    <string name="string209">لا أحد يفوز الآن</string>
+    <string name="string210">المزايدة الفائزة:-</string>
+    <string name="string211">الرقم الفائز</string>
+    <string name="string213">يستمر المزاد حتى انتهاء الوقت وعدم تقديم أي مزايدات أخرى، وعند هذه النقطة ينتهي المزاد، ويفوز أعلى مزايد بالعنصر.</string>
+    <string name="string214">الفائز في مزاد قرش هو آخر مزايد قدم عرضًا قبل انتهاء وقت المزاد ولم يتم تقديم أي مزايدات أخرى</string>
+    <string name="string215">تأكيد الدفع</string>
+    <string name="string216">مرحبًا! طلبك في طريقه للتسليم.</string>
+    <string name="string217">تم شحن الطلب اليوم</string>
+    <string name="string218">نحن نقوم بمعالجة طلبك وسيتم شحنه قريبًا</string>
+    <string name="string219">مرحبًا! لقد تلقينا طلبك بالفعل</string>
+    <string name="string220">لقد استلمنا طلبك وستتم معالجته قريبًا</string>
+    <string name="string221">أمر المعالجة</string>
+    <string name="string222">العب واربح</string>
+    <string name="string223">موقع البائع</string>
+    <string name="string224">ينتهي بـ:-</string>
+    <string name="string225">لقد انتهى الأمر.. انتهى اليانصيب</string>
+    <string name="string226">لقد انتهى الأمر.. انتهى اليانصيب</string>
+    <string name="string227">قدم عرضًا بقيمة </string>
+    <string name="string228">بدء المزايدة في</string>
+    <string name="string229">المزايدة بالأعلى</string>
+    <string name="string230">أعلى عرض أسعار فريد منفرد</string>
+    <string name="string231">تشغيل</string>
+    <string name="string232">أنت</string>
+    <string name="string233">تحتاج إلى تسجيل الدخول/التسجيل للوصول إلى هذه الصفحة</string>
+    <string name="string234">اختر أي شخص أدناه</string>
+    <string name="string235">تحديث الملف الشخصي</string>
+    <string name="string236">كيفية الفوز بالعناصر: </string>
+    <string name="string237">هذا هو أعلى عرض سعر فريد</string>
+    <string name="string238">هذا مزاد باللغة الإنجليزية</string>
+    <string name="string239">هذا هو أقل عرض سعر فريد</string>
+    <string name="string240">هذا مزاد بنس واحد</string>
+    <string name="string241">هذا هو نظام اليانصيب</string>
+    <string name="string242">عملات غير كافية! يرجى شراء المزيد من العملات المعدنية لشراء التذكرة</string>
+    <string name="string243">قم بشراء المزيد والمزيد من التذاكر لزيادة فرصك للفوز بهذا العنصر</string>
+    <string name="string244">العب لشخص واحد</string>
+    <string name="string245">حدد الرقم</string>
+    <string name="string246">المحفظة</string>
+    <string name="string247">إنشاء</string>
+    <string name="string248">إرسال</string>
+    <string name="string249">إنشاء تلقائي</string>
+    <string name="string250">الفائز يحصل عليها مجانًا!!</string>
+    <string name="string251">دعوة الأصدقاء &amp; اربح عملة مجانية</string>
+    <string name="string252">راجع سجل المعاملات</string>
+    <string name="string253">راجع سجل معاملات العملة</string>
+    <string name="string254">شراء العملة</string>
+    <string name="string255">استخدم العملات المعدنية للمشاركة في المزاد المباشر</string>
+    <string name="string256">يُرجى التحقق!</string>
+    <string name="string257">الشوكولاتة</string>
+    <string name="string258">البيئة</string>
+    <string name="string259">أدخل المبلغ</string>
+    <string name="string260">في النهاية، يفوز المستخدم بالعنصر مجانًا</string>
+    <string name="string261">عرض الكل</string>
+    <string name="string262">سيتم عرض التذاكر التي اشتريتها هنا</string>
+    <string name="string263">مقابل عملة واحدة</string>
+    <string name="string264">عروض الأسعار</string>
+    <string name="string266">\ سياسة الخصوصية،TOS</string>
+    <string name="string267">التاريخ:</string>
+    <string name="string268">يمكنك تقديم مزايدات إضافية عن طريق تسليم العدد المطلوب من العملات المعدنية.</string>
+    <string name="string269">تأكيد</string>
+    <string name="string270">استخدم ميزة \'نطاق العطاء\'.</string>
+    <string name="string271">باستخدامه يمكنك تقديم عدة عطاءات في وقت واحد. على سبيل المثال: يمكنك المزايدة من 9.00 إلى 9.70 مرة واحدة باستخدام هذه الميزة</string>
+    <string name="string272">كيف يعمل هذا المزاد؟</string>
+    <string name="string273">تحتاج إلى محاولة تقديم أعلى عرض سعر لم يقدمه أي شخص آخر. على سبيل المثال: إذا قدمت عرضًا بقيمة 10.00 وكنت الشخص الوحيد الذي قدمه، فإن عرض السعر هذا يكون \'فريدًا\'. في النهاية، سيفوز الشخص صاحب العرض الأعلى والفريد..</string>
+    <string name="string274">يمكن أن يصبح عرض السعر \'الفريد\' \'غير فريد\' في أي وقت</string>
+    <string name="string275">من الممكن أن يكون عرض التسعير الذي قدمته \'فريدًا\' في وقت تقديمه، ولكن إذا قام أي مستخدم آخر بتقديم عرض تسعير بنفس المبلغ، فسيصبح عرض التسعير الخاص بك \'ليس فريدًا \' نظرًا لأن كلا المستخدمين قد قدموا نفس العرض</string>
+    <string name="string276">مقابل كل عرض أسعار تقدمه، سيتم محاسبتك ببعض العملات المعدنية</string>
+    <string name="string277">سيتم خصم الرسوم من محفظتك عند تقديم العطاء. يرجى ملاحظة أن هذه القطع النقدية غير قابلة للاسترداد.</string>
+    <string name="string278">في النهاية، سيفوز الشخص صاحب العرض الأعلى والفريد بالمزاد</string>
+    <string name="string279">يبدو أننا لا نستطيع العثور على ما\n تبحث عنه \n يرجى التحقق من اتصالك بالإنترنت</string>
+    <string name="string280">الدفع باستخدام PAYPAL</string>
+    <string name="string281">المزايدة &amp; فوز</string>
+    <string name="string282">للمشاركة في المزايدة، انقر فوق الزر \'المزايدة\'. بمجرد النقر عليه، يزداد عرض السعر بمقدار معين، ويضيف المؤقت بضع ثوانٍ.</string>
+    <string name="string283">ينتهي المزاد مع آخر مزايد</string>
+    <string name="string284">كن الفائز!</string>
+    <string name="string285">من خلال التسجيل فإنك توافق على سياسة الخصوصية والشروط المدرجة على موقعنا الإلكتروني</string>
+    <string name="string286">الرجاء إدخال كلمة المرور لمرة واحدة (OTP) المرسلة إلى المسجل لديك</string>
+    <string name="string287">الرجاء إدخال كلمة مرور صالحة لمرة واحدة (OTP)</string>
+    <string name="string288">أوافق</string>
+    <string name="string289">لم تتلق كلمة مرور لمرة واحدة (OTP)؟ </string>
+    <string name="string290">إعادة الإرسال</string>
+    <string name="string291">مما يعني أن الشخص الذي لديه أعلى عرض تسعير فريد هو الفائز</string>
+    <string name="string292">في النهاية، سيفوز الشخص صاحب أعلى عرض بالمزاد</string>
+    <string name="string293">مما يعني أن الشخص الذي حصل على أعلى عرض في وقت النهاية هو الفائز</string>
+    <string name="string294">هل نسيت كلمة المرور؟</string>
+    <string name="string295">أدخل رقم هاتفك المحمول المسجل لتلقي كلمة مرور لمرة واحدة (OTP)</string>
+    <string name="string296">أدخل رمز التحقق</string>
+    <string name="string297">إرسال</string>
+    <string name="string298">اسم العنصر</string>
+    <string name="string299">تم الطلب بتاريخ:-</string>
+    <string name="string300">مبلغ الخصم:</string>
+    <string name="string301">المبلغ المتبقي:</string>
+    <string name="string302">التاريخ</string>
+    <string name="string303">تم الطلب بنجاح!!</string>
+    <string name="string304">سيتصل بك فريقنا قريبًا..</string>
+    <string name="string306">باستخدامه يمكنك تقديم عدة عطاءات في وقت واحد. على سبيل المثال: يمكنك المزايدة من 1.00 إلى 1.50 في المرة الواحدة باستخدام هذه الميزة</string>
+    <string name="string307">تحتاج إلى محاولة تقديم أقل عرض سعر لم يقدمه أي شخص آخر. على سبيل المثال: إذا قدمت عرضًا بقيمة 1.00 وكنت الشخص الوحيد الذي قدمه، فإن عرض السعر هذا يكون \'فريدًا\'. في النهاية، سيفوز الشخص صاحب العرض الأقل والفريد..</string>
+    <string name="string309">من الممكن أن يكون عرض التسعير الذي قدمته \'فريدًا\' في وقت تقديمه، ولكن إذا قام أي مستخدم آخر بتقديم عرض تسعير بنفس المبلغ، فسيصبح عرض التسعير الخاص بك \'ليس فريدًا \' نظرًا لأن كلا المستخدمين قد قدموا نفس العرض</string>
+    <string name="string311">في النهاية، سيفوز الشخص صاحب العرض الأقل والفريد بالمزاد</string>
+    <string name="string312">مما يعني أن الشخص الذي لديه أقل عرض تسعير فريد هو الفائز</string>
+    <string name="string313">التسجيل</string>
+    <string name="string314">إعادة تعيين كلمة المرور</string>
+    <string name="string315">تفاصيل تسجيل الدخول التجريبي:-</string>
+    <string name="string316">رقم الجوال:- 70013</string>
+    <string name="string317">كلمة المرور:- 123</string>
+    <string name="string318">البائع</string>
+    <string name="string319">نفاد المخزون! يرجى الانتظار حتى إعادة التخزين التالية</string>
+    <string name="string320">الوصف</string>
+    <string name="string321">ينتهي المزاد في:- </string>
+    <string name="string322">أدخل أعلى عرض تسعير فريد</string>
+    <string name="string323">أدخل أقل عرض فريد فريد</string>
+    <string name="string324">ينتهي اليانصيب في:- </string>
+    <string name="string325">لعب اليانصيب</string>
+    <string name="string326">انتهى الرسم على:- </string>
+    <string name="string327">أدخل الرسم</string>
+    <string name="string329">ادخل إلى المزاد</string>
+    <string name="string330">حفظ</string>
+    <string name="string331">بمجرد تعيين كلمة المرور الجديدة بنجاح، ستحتاج إلى تسجيل الدخول مرة أخرى</string>
+    <string name="string332">حزمة العملات</string>
+    <string name="string333">أعلى مزايد في النهاية يفوز بالمزاد</string>
+    <string name="string334">نبذة عنا</string>
+    <string name="string335">قم بدعوة أصدقائك وشارك الرمز </string>
+    <string name="string336">تم بيع جميع التذاكر</string>
+    <string name="string337"> استمر في شراء التذاكر </string>
+    <string name="string338"> تابع </string>
+    <string name="string339"> إلغاء </string>
+    <string name="string340"> التذاكر المتبقية</string>
+    <string name="string341"> استمر في إنشاء المزيد من الأرقام</string>
+    <string name="string342"> تغيير الوضع الفاتح / الداكن</string>
+    <string name="gamezone">منطقة اللعبة</string>
+    <string name="redeem">استرداد</string>
+    <string name="shop">تسوق</string>
+    <string name="lub">أقل عرض سعر فريد</string>
+    <string name="hub">أعلى عرض سعر فريد</string>
+    <string name="lotto">اليانصيب</string>
+    <string name="raffle">السحب المحظوظ</string>
+    <string name="engauc">المزاد الإنجليزي</string>
+    <string name="penny">مزاد بيني</string>
+    <string name="manual">الشراء اليدوي</string>
+    <string name="manual1">إجمالي العملات التي ستحصل عليها: </string>
+    <string name="manual2">هل تريد شراء العملات مباشرة؟</string>
+    <string name="nodata">لا توجد عناصر للعرض</string>
+    <string name="nowinner">لا يوجد فائزون لعرضهم حاليًا</string>
+    <string name="notran">لا توجد معاملات لعرضها</string>
+    <string name="noorder">لا توجد طلبات للعرض</string>
+    <string name="lottotitle">تم شراء الرقم بنجاح</string>
+    <string name="title_activity_open_pix" translatable="false">OpenPixActivity</string>
+    <string name="title_activity_location">نشاط الموقع</string>
+    <string name="choose_country">اختر المنطقة</string>
+    <string name="winner_trophy">الفائز</string>
+    <string name="taptocopy">انقر للنسخ</string>
+    <string name="yourbal">رصيدك:- </string>
+    <string name="enternoofcoins">أدخل عدد العملات المعدنية</string>
+    <string name="submitplay">إرسال &amp; تشغيل</string>
+    <string name="howtoplay">كيف تلعب؟</string>
+    <string name="enterguess">-: أدخل تخمينك :-</string>
+    <string name="submitguess">إرسال التخمين</string>
+    <string name="triesremain">المحاولات المتبقية: </string>
+    <string name="hinttv">** تلميح **</string>
+    <string name="choosemove">-: اختر حركتك :-</string>
+    <string name="watchearn">شاهد &amp; اربح</string>
+    <string name="colprize">اجمع الجائزة</string>
+    <string name="referearn">راجع &amp; اربح</string>
+    <string name="earnfreemoney">اربح أموالًا مجانية</string>
+    <string name="text111">راجع أصدقائك و\nاربح عملات معدنية مجانية</string>
+    <string name="refernow">ارجع الآن</string>
+    <string name="playearn">اللعب &amp; اربح</string>
+    <string name="playnow1">تشغيل الألعاب</string>
+    <string name="text112">العب ألعابًا سهلة واربح\nالمال</string>
+    <string name="playnow2">تشغيل الألعاب</string>
+    <string name="string343">المحفظة</string>
+    <string name="string344">الرصيد المتاح</string>
+    <string name="string345">رقم البطاقة</string>
+    <string name="string346">إضافة أموال</string>
+    <string name="string347">المعاملة</string>
+    <string name="string348">اربح</string>
+    <string name="string349">سحب</string>
+    <string name="string350">عروض على العملات المعدنية</string>
+    <string name="string351">تسجيل الدخول</string>
+    <string name="string352">مرحبًا بعودتك</string>
+    <string name="string353">مرحبًا، قم بتسجيل الدخول للمتابعة!</string>
+    <string name="string354">رقم الهاتف المحمول</string>
+    <string name="string355">التسجيل</string>
+    <string name="string356">مستخدم جديد؟</string>
+    <string name="string357">لنبدأ رحلتك .. \nفقط املأ النموذج أدناه للتسجيل!</string>
+    <string name="string358">الاسم</string>
+    <string name="string359">البريد الإلكتروني</string>
+    <string name="string360">رقم الهاتف المحمول</string>
+    <string name="string361">كلمة المرور</string>
+    <string name="string362">هل لديك رمز إحالة؟</string>
+    <string name="string363">من خلال المتابعة، فإنك توافق على</string>
+    <string name="string364">التسجيل</string>
+    <string name="string365">رمز الإحالة الخاص بك</string>
+    <string name="string366">ارجع الآن</string>
+    <string name="string367">إحالتك</string>
+    <string name="days">أيام</string>
+    <string name="hours">الساعات</string>
+    <string name="minutes">دقائق</string>
+    <string name="seconds">ثواني</string>
+    <string name="between">المزايدة بين</string>
+    <string name="string368">اختر لغة التطبيق</string>
+    <string name="string369">اشتر الآن</string>
+    <string name="string370">دوران &amp; فوز</string>
+    <string name="string371">مباشر</string>
+    <string name="string372">القادم</string>
+    <string name="string373">مسرحياتك</string>
+    <string name="entervaluefirst">الرجاء إدخال بعض القيمة!</string>
+    <string name="donthaveenoughcoins">ليس لديك ما يكفي من العملات!</string>
+    <string name="minbidallowed">الحد الأدنى لعرض التسعير المسموح به هو </string>
+    <string name="maxbidallowed">الحد الأقصى لعرض التسعير المسموح به هو</string>
+    <string name="selectmovefirst">يُرجى تحديد حركتك</string>
+    <string name="enterguessfirst">أدخل التخمين أولاً !!</string>
+    <string name="guessrange">يجب أن يكون التخمين ضمن النطاق 1 - 100</string>
+    <string name="youareout">عفوًا!!\nلقد خرجت.\n\nمجموع نقاطك كان: 6\n\nوحصل الخصم على هدف: 7</string>
+    <string name="woohout">مرحبًا!\nلقد خرج الخصم..\n\nلقد فزت بالمباراة!!\n\nتمت إضافة 9 عملات معدنية إلى حسابك!</string>
+    <string name="yourtotal">أنت - 0</string>
+    <string name="computertotal">الخصم - 0</string>
+    <string name="youarebatter">أنت رجل المضرب</string>
+    <string name="youareballer">أنت لاعب الكرة</string>
+    <string name="thisover">انتهى هذا</string>
+    <string name="youscored">تسديدة رائعة!\nلقد سجلت 5 نقاط!!\n\nإجمالي النقاط الجديد هو: 6\n\n(الكرات المتبقية - 0)</string>
+    <string name="ballsover">تسديدة رائعة!\nلقد سجلت 5 أشواط أخرى!!\n\nإجمالي رمياتك الجديدة هو: 6\n\nوهدف الخصم هو: 7</string>
+    <string name="dotball">لقد لعبت كرة منقطة!!\n\nإجمالي نقاطك هو: 6\n\nوهدف الخصم هو: 7</string>
+    <string name="computerscored">ضربها الخصم بشكل جيد!\nوسجل 5 نقاط!!\n\nالإجمالي الجديد للخصم هو: 6</string>
+    <string name="computerscoredand">ضربها الخصم بقوة \nوسجل 5 نقاط!!\n\n</string>
+    <string name="computerscoredbut">تهانينا!\nلقد فزت بـ 6 جولات ضد الخصم!!\n\nتمت إضافة 9 عملات معدنية إلى حسابك..</string>
+    <string name="youwon">مرحبًا!!\nلقد فزت!!\n\nصديق المباراة الرائع.\n\nتمت إضافة 9 عملات معدنية إلى حسابك!</string>
+    <string name="cleanbold">يا إلهي، Clean Bold!!\nيا لها من كرة تفوز بالمباراة..\n\nبطل لعبة رائع!\n\nتمت إضافة 9 عملات معدنية إلى حسابك!</string>
+    <string name="computerwon">أوه لا!!\nلقد خسرت!!\n\nلكنك بذلت قصارى جهدك.\n\nتم خصم 9 عملات معدنية من حسابك!</string>
+    <string name="itsadraw">إنها تعادل.\nانتبه إلى الكرة الأخيرة!!\nيا لها من منافسة شديدة!!\n\nلقد بذلت قصارى جهدك بالرغم من ذلك..</string>
+    <string name="quit">إذا تركت هذه اللعبة في المنتصف،\nسوف تخسر وسيتم خصم عدد القطع النقدية التي راهنت بها من حسابك.</string>
+    <string name="quitgame">قم بإنهاء اللعبة</string>
+    <string name="yourname">أنت</string>
+    <string name="compname">الخصم</string>
+    <string name="winnerlist">قائمة الفائزين --></string>
+    <string name="kyc">تحديث KYC</string>
+    <string name="kycform">نموذج تقديم المستند</string>
+    <string name="kycstatusincomplete">حالة KYC الحالية لديك: - غير مكتملة</string>
+    <string name="kycstatuspending">حالة KYC الحالية لديك: - معلقة</string>
+    <string name="kycstatuscomplete">حالة KYC الحالية لديك:- كاملة</string>
+    <string name="kycstatusrejected">حالة KYC الحالية لديك: - مرفوضة</string>
+    <string name="enteryourfname">أدخل الاسم الأول:-</string>
+    <string name="enteryourlname">أدخل الاسم الأخير:-</string>
+    <string name="entercountryname">أدخل اسم المنطقة:-</string>
+    <string name="dateofbirth">تاريخ ميلادك:-</string>
+    <string name="idtype">نوع المعرف:-</string>
+    <string name="idnumber">رقم الهوية:-</string>
+    <string name="idfrontimg">الصورة الأمامية للمعرف:-</string>
+    <string name="idbackimg">صورة الهوية الخلفية:</string>
+    <string name="clicktoaddupdate">(انقر على الصورة للإضافة/التحديث)</string>
+    <string name="submitkyc">تحديث KYC</string>
+    <string name="enternamefirst">الرجاء إدخال اسمك الكامل أولاً!</string>
+    <string name="entercountryfirst">يُرجى إدخال منطقتك أولاً!</string>
+    <string name="enterdobfirst">الرجاء إدخال تاريخ ميلادك أولاً!</string>
+    <string name="enteridnofirst">الرجاء إدخال رقم الهوية الخاص بك أولاً!</string>
+    <string name="uploadfrontimg">يُرجى تحميل الصورة الأمامية لبطاقة التعريف أولاً!</string>
+    <string name="uploadbackimg">يُرجى تحميل الصورة الخلفية لبطاقة الهوية أولاً!</string>
+    <string name="sameimages">صور الهوية الأمامية والخلفية متماثلة!</string>
+    <string name="invaliddate">تم إدخال تاريخ غير صالح.</string>
+    <string name="kycsubmitted">تم إرسال تفاصيل KYC بنجاح!</string>
+    <string name="cannoteditnow">لا يمكنك تحرير/تحديث تفاصيل KYC الآن</string>
+    <string name="kyctryafter">حدث خطأ أثناء الحصول على حالة KYC الخاصة بك\nيرجى المحاولة بعد مرور بعض الوقت</string>
+    <string name="permission">يحتاج التطبيق إلى إذن تخزين لتحميل الصور/الملفات .</string>
+    <string name="permissiondenied">لا يمكنك الاستمرار دون إعطاء الأذونات .</string>
+    <string name="winnerlist1"> - الفائزون - </string>
+    <string name="youwon1"> ( لقد فزت )</string>
+    <string name="winner_list">تحقق من الفائزين -></string>
+    <string name="check_winner">تحقق من الفائزين -></string>
+    <string name="see_more">شاهد المزيد </string>
+    <string name="see_less">انظر أقل </string>
+    <string name="see_about_seller">الاطلاع على المزيد \u0020 حول البائع</string>
+    قائمة منتجات <string name="other_products">" -"</string>
+    تفاعلات <string name="other_interactions">" -"</string>
+    <string name="member_since">"عضو منذ "</string>
+    <string name="user_profile">الملف الشخصي للمستخدم</string>
+    <string name="seller_profile">الملف الشخصي للبائع</string>
+    <string name="played_on">"تم التشغيل - "</string>
+    <string name="buy_ticket">شراء تذكرة</string>
+    <string name="soldby">يُباع بواسطة:- </string>
+    <string name="wonon">تم الفوز في:- </string>
+    <string name="type">النوع:- </string>
+    <string name="cricket">هوس لعبة الكريكيت</string>
+    <string name="rps">مقص ورق الصخرة</string>
+    <string name="guess">خمن الرقم</string>
+    <string name="spin">عجلة الدوران</string>
+    <string name="coin">إلقاء العملة</string>
+    <string name="spinner">الدوار المحظوظ</string>
+    <string name="prizepool">مجموعة الجوائز</string>
+    <string name="entryfee">رسوم الدخول</string>
+    <string name="winners">الفائزون:- </string>
+    <string name="tickets">التذاكر</string>
+    <string name="onewinner">فائز واحد</string>
+    <string name="winner">الفائزون</string>
+    <string name="started">تم البدء</string>
+    <string name="startsin">يبدأ خلال:-</string>
+    <string name="buyfor">الشراء مقابل </string>
+    <string name="redeemfor">الاسترداد مقابل </string>
+    <string name="value">القيمة</string>
+    <string name="on">تشغيل:- </string>
+    <string name="hubrange">أعلى نطاق عرض أسعار فريد</string>
+    <string name="adsclosed">تم إغلاق الإعلانات</string>
+    <string name="languageset">تم ضبط اللغة على:-</string>
+    <string name="change">سيتم تطبيق التغييرات قريبًا</string>
+    <string name="gamerules">قواعد اللعبة</string>
+    <string name="minbet">الحد الأدنى للرهان:-</string>
+    <string name="maxbet">الحد الأقصى للرهان:-</string>
+    <string name="winbonus">مكافأة الفوز:-</string>
+    <string name="winchance">فرصة الفوز:-</string>
+    <string name="ouc_baseamt">المبلغ الأساسي الذي تحتاج للمراهنة به:-</string>
+    <string name="ouc_min_winamt">الحد الأدنى لمبلغ الربح :-</string>
+    <string name="ouc_max_winamt">الحد الأقصى لمبلغ الربح:-</string>
+    <string name="ouc_extra10">عملات معدنية إضافية للحصول على 10% من الحظ:-</string>
+    <string name="ouc_extra20">عملات معدنية إضافية للحصول على 20% من الحظ:-</string>
+    <string name="ouc_extra30">عملات معدنية إضافية للحصول على 30% من الحظ:-</string>
+    <string name="coinsadded">العملات المعدنية المضافة إلى حسابك !</string>
+    <string name="coinsdeducted">تم خصم العملات المعدنية من حسابك</string>
+    <string name="lost">عفوا! لقد خسرت</string>
+    <string name="numberwas">الرقم كان</string>
+    <string name="guesswrong">عفوا! لقد أخطأ تخمينك</string>
+    <string name="hint">يمكنك الاطلاع على التلميحات أدناه للفوز!</string>
+    <string name="remainingtries">يمكنك تجربة المزيد</string>
+    <string name="steps">خطوات الفوز:-</string>
+    <string name="step1">1. تحتاج إلى إضافة بعض العملات المعدنية في المربع المحدد.</string>
+    <string name="step2">2.بعد إدخال عدد العملات، انقر على \'إرسال &amp; تشغيل\'.</string>
+    <string name="bestofluck">لنبدأ اللعبة ونربح بعض العملات!!</string>
+    <string name="cricstep3">3.الآن سيتم نقلك إلى منطقة اللعبة وستكون أنت الضارب الأول.</string>
+    <string name="cricstep4">4.تحتاج الآن إلى اختيار رقم من الأرقام المحددة (1-6).</string>
+    <string name="cricstep5">5.إذا كنت أنت وخصمك، فاختر كلاكما نفس الرقم مما يعني خروجكما.</string>
+    <string name="cricstep6">6.الآن هي فرصتك للرمي، وسوف تختار رقمًا وإذا اختار الخصم نفس الرقم، فسيخرج الخصم.</string>
+    <string name="cricstep7">7.ستلعب أنت والخصم ست كرات وسيفوز اللاعب الذي حصل على أعلى الدرجات!.</string>
+    <string name="correctmobile">الرجاء إدخال رقم الهاتف المحمول الصحيح</string>
+    <string name="entervalidemail">أدخل بريدًا إلكترونيًا/كلمة مرور صالحة</string>
+    <string name="entervalidmobileno">أدخل رقم هاتف صالح</string>
+    <string name="entervalidpass">يجب أن يكون طول كلمة المرور أكبر من 6</string>
+    <string name="gnstep3">3.الآن سيقوم الكمبيوتر بإنشاء رقم عشوائي وستحصل على ثلاث فرص لتخمين الرقم..</string>
+    <string name="gnstep4">4.بعد كل تخمين، ستحصل على تلميح حول الرقم (أي أعلى أو أقل) وإذا خمنت الرقم بشكل صحيح في 3 فرص، فستحصل على عدد العملات المعدنية التي قمت بالمزايدة بها + المكافأة الفائزة يتم حسابه على أساس عدد العملات التي قمت بالمزايدة عليها..</string>
+    <string name="rpsstep2">2.أنت الآن بحاجة إلى تحديد الحركة التي ستلعبها..</string>
+    <string name="rpsstep3">3. بعد تحديد حركتك، انقر فوق \'إرسال &amp; تشغيل\'</string>
+    <string name="rpsstep4">4.الآن سينقل الكمبيوتر مسرحية وإذا فزت، فستحصل على عدد العملات التي قمت بالمزايدة عليها + مكافأة الفوز المحسوبة على عدد العملات التي قمت بالمزايدة بها..</string>
+    <string name="ouc_olderversion_error">نظرًا لأن لديك إصدارًا أقدم من android، \n لا يمكنك لعب هذه اللعبة</string>
+    <string name="oucstep1">1.يجب عليك التأكد من وجود عملات معدنية متاحة في رصيدك..</string>
+    <string name="oucstep2">2.الآن تحتاج فقط إلى النقر فوق زر الدوران &amp; زر الفوز..</string>
+    <string name="oucstep3">3.الآن يقوم الكمبيوتر بخصم المبلغ الأساسي (+ عملات معدنية إضافية إذا قمت بتحديد أي تعزيز للحظ) وبعد ذلك سوف يقوم بتدوير العجلة.. سيتم إضافة كمية العملات المعدنية التي فزت بها في الدورة. إلى حسابك ..</string>
+    <string name="spin_step2">2.تحتاج الآن إلى تخمين نتيجة الدوران (أي عليك تحديد اللون الأحمر أو الأزرق)..</string>
+    <string name="spin_step3">3. بعد تحديد تخمينك، انقر فوق \'إرسال &amp; تشغيل\'</string>
+    <string name="spin_step4">4.الآن سيقوم الكمبيوتر بتدوير العجلة وإذا فزت، فستحصل على عدد العملات التي قمت بالمزايدة عليها + مكافأة الفوز المحسوبة على عدد العملات التي قمت بالمزايدة بها..</string>
+    <string name="tcstep2">2.الآن عليك أن تخمن أن نتيجة الرمية ستكون (أي عليك تحديد الرؤوس أو الذيول)..</string>
+    <string name="tcstep4">4.الآن سيقوم الكمبيوتر برمي العملة وإذا فزت، فستحصل على عدد العملات المعدنية التي قمت بالمزايدة بها + مكافأة الفوز المحسوبة على عدد العملات المعدنية التي قمت بالمزايدة عليها..</string>
+    <string name="pleasewaitauction">الرجاء الانتظار.. \nالمزاد لم يبدأ بعد !!</string>
+    <string name="pleasewaitlottery">الرجاء الانتظار.. \nلم يبدأ اليانصيب بعد !!</string>
+    <string name="claimprize">المطالبة بالجائزة</string>
+    <string name="orderplaced">تم تقديم الطلب! \nتتبع التسليم</string>
+    <string name="prizes">الجوائز</string>
+    <string name="taptoadd">انقر هنا لإضافة المزيد من التذاكر</string>
+    <string name="drawclosesin">يُغلق اليانصيب</string>
+    <string name="myticket">تذكرتي</string>
+    <string name="viewalltickets">عرض الكل </string>
+    <string name="emailempty">لا يمكن أن يكون عنوان البريد الإلكتروني فارغًا</string>
+    <string name="emailinvalid">عنوان البريد الإلكتروني الذي تم إدخاله غير صالح</string>
+    <string name="notickets">سيتم عرض التذاكر الخاصة بك هنا ..</string>
+    <string name="notify">أخطرني</string>
+    <string name="notified">سيتم إعلامك</string>
+    <string name="notiset">تم تعيين الإشعار بنجاح !</string>
+    <string name="noticancel">تم إلغاء الإشعار !</string>
+    <string name="productlive">المنتج الذي حددته أصبح متاحًا الآن!</string>
+    <string name="bidby">المزايدة حسب\u0020</string>
+    <string name="saleendsin">ينتهي البيع في\u0020</string>
+    <string name="lotteryendsin">ينتهي اليانصيب في\u0020</string>
+    <string name="auctionendsin">ينتهي المزاد خلال\u0020</string>
+    <string name="nobidsyet">لم يتم عرض أي عطاءات بعد ..</string>
+    <string name="notifications">السماح بالإشعارات في الإعدادات أولاً !!</string>
+    <string name="prize1">الجائزة الأولى</string>
+    <string name="noofwinners">الفائزون</string>
+    <string name="winnername">اسم الفائز:</string>
+    <string name="buynow">اشتر الآن</string>
+    <string name="over">انتهى</string>
+    <string name="rewards">المكافآت</string>
+    <string name="rewardexpired">لقد انتهت صلاحية المكافأة بالفعل !!</string>
+    <string name="rewardclaimed">تم استرداد المكافأة بالفعل !!</string>
+    <string name="rewardlocked">لم يتم فتح المكافأة بعد.\nتحقق بعد مرور بعض الوقت</string>
+    <string name="youwon2">لقد فزت:</string>
+    <string name="locked">مقفل !</string>
+    <string name="expired">انتهت الصلاحية</string>
+    <string name="claimed">تم الاسترداد !!</string>
+    <string name="item_steps">1. انقر فوق الزر \'الاسترداد الآن\' .\n\n2. سيتم نقلك إلى صفحة العنصر وهناك ستحتاج إلى النقر فوق "شراء الآن" وإدخال عنوانك.\n\n3. هذا كل شيء!</string>
+    <string name="coin_steps">1. ما عليك سوى النقر على زر \'الاسترداد الآن\' وستتم إضافة العملات المعدنية إلى حسابك !!</string>
+    <string name="coupon_steps">1. ما عليك سوى النقر على الزر \'نسخ إلى الحافظة\' واستخدام الرمز أثناء الدفع !!</string>
+    <string name="redeemnow">الاسترداد الآن</string>
+    <string name="shopnow">تسوق الآن</string>
+    <string name="welcome">مرحبًا بك في الهند !!</string>
+    <string name="choose_app_lang">اختر لغة التطبيق</string>
+    <string name="change_country">السفر إلى منطقة مختلفة !</string>
+    <string name="caught_up">لا توجد إشعارات جديدة لعرضها</string>
+    <string name="change_language">تغيير اللغة</string>
+    <string name="welcome_app">مرحبًا!</string>
+    <string name="welcome_text">مرحبًا بك في منصتنا، حيث تمثل كل لعبة فرصة، وكل لعبة فيها تحمل وعدًا بالإثارة واحتمالات الفوز!</string>
+    <string name="referral_code">أدخل رمز الإحالة أدناه حتى تحصل أنت والشخص المُحيل على عملات معدنية مجانية !!</string>
+    <string name="place_bid">تقديم المزايدة</string>
+    <string name="bidding_history">- سجل العطاءات -</string>
+    <string name="see_all">مشاهدة الكل</string>
+    <string name="rewards_earned">إجمالي المكافآت المكتسبة</string>
+    <string name="no_referral">لا توجد إحالات لإظهارها بعد!</string>
+    <string name="reveal_winner">الكشف عن الفائز</string>
+    <string name="title_activity_notification_history">سجل الإشعارات</string>
+    <string name="title_home">الصفحة الرئيسية</string>
+    <string name="title_dashboard">لوحة التحكم</string>
+    <string name="title_notifications">الإشعارات</string>
+    <string name="hello">مرحبًا</string>
+    <string name="notification_deleted">تم حذف الإشعار</string>
+    <string name="undo">تراجع</string>
+    <string name="dontask">لا تسأل مرة أخرى</string>
+    <string name="loginfirst">يلزمك تسجيل الدخول أولاً !</string>
+    <string name="auctions">المزادات</string>
+    <string name="wallet">المحفظة</string>
+    <string name="earn">اربح</string>
+    <string name="timeleft">الوقت المتبقي</string>
+    <string name="startin">يبدأ</string>
+    <string name="highestbid">أعلى عرض سعر</string>
+    <string name="minbid">الحد الأدنى لعرض التسعير</string>
+    <string name="maxbid">الحد الأقصى لعرض التسعير</string>
+    <string name="currentbid">عرض السعر الحالي</string>
+    <string name="totalbids">إجمالي عروض التسعير</string>
+    <string name="endson">ينتهي في - </string>
+    <string name="something_wrong">حدث خطأ ما!</string>
+    <string name="hurry_up">أسرع، لم يتبق سوى 44 قطعة فقط !!</string>
+    <string name="txt_starts_in"> يبدأ في:- </string>
+    <string name="ends_in"> ينتهي بـ:- </string>
+    <string name="securely_sign_in">قم بتسجيل الدخول بشكل آمن من خلال تقديم رقم هاتفك المحمول</string>
+    <string name="securely_sign_in_mail">قم بتسجيل الدخول بشكل آمن من خلال تقديم معرف البريد الإلكتروني الخاص بك</string>
+    <string name="enterpassword">أدخل كلمة المرور للمتابعة ..</string>
+    <string name="loginwithemail">تسجيل الدخول باستخدام البريد الإلكتروني</string>
+    <string name="loginwithmob">تسجيل الدخول باستخدام الهاتف المحمول</string>
+    <string name="loginwithgoogle">تسجيل الدخول باستخدام Google</string>
+    <string name="loginwithfb">تسجيل الدخول باستخدام Facebook</string>
+    <string name="emaildoesnotexist">معرف البريد الإلكتروني غير موجود!\nحاول التسجيل باستخدام الهاتف المحمول بدلاً من ذلك..</string>
+    <string name="frgt_pswd">نسيت كلمة المرور</string>
+    <string name="enter_mobile">أدخل رقم الجوال</string>
+    <string name="gen_otp">إنشاء كلمة المرور لمرة واحدة (OTP)</string>
+    <string name="noaccount">ليس لديك حساب؟</string>
+    <string name="backtosignin">الرجوع إلى تسجيل الدخول</string>
+    <string name="verification">التحقق</string>
+    <string name="reset_pass">إعادة تعيين كلمة المرور</string>
+    <string name="verifymob">التحقق من رقم الهاتف المحمول</string>
+    <string name="get_started">ابدأ</string>
+    <string name="order_comment">أي تعليقات (اختياري)</string>
+    <string name="order_city">المدينة</string>
+    <string name="order_zip">الرمز البريدي</string>
+    <string name="order_address2">سطر العنوان 2 (اختياري)</string>
+    <string name="order_address">عنوان الشارع</string>
+    <string name="order_enteraddress">أدخل عنوانك</string>
+    <string name="buynowfor">اشتر الآن مقابل 10 دولارات</string>
+    <string name="free">مجاني</string>
+    <string name="rank">الرتبة</string>
+    <string name="payment">إجراء الدفع</string>
+    <string name="ouc_bonus">نصيحة إضافية: يمكنك استخدام الأزرار أدناه لزيادة حظك في الفوز بالمزيد من الجوائز !!</string>
+    <string name="ouc_10luck">+10% حظ</string>
+    <string name="ouc_20luck">+ 20% حظ</string>
+    <string name="ouc_30luck">+ 30% حظ</string>₹
+    <string name="ouc_cost">تكلفة دورة واحدة</string>
+    <string name="share_text">ألق نظرة على هذه watch على wowcodes</string>
+    <string name="price">السعر</string>
+    <string name="nooptionsel">لم يتم تحديد أي خيار</string>
+    <string name="nolangsel">لم يتم تحديد أي لغة</string>
+    <string name="savechanges">احفظ التغييرات</string>
+    <string name="invest">استثمر</string>
+    <string name="noplans">لم يتم العثور على خطط</string>
+    <string name="areyousure">هل أنت متأكد أنك تريد إلغاء اشتراكك؟</string>
+    <string name="keepplan">احتفظ بالخطة</string>
+    <string name="cancelplan">إلغاء الاشتراك</string>
+    <string name="interest">نسبة الفائدة: </string>
+    <string name="duration">مدة الوقت: </string>
+    <string name="amount">المبلغ: </string>
+    <string name="amt">المبلغ</string>
+    <string name="enter_amount">أدخل المبلغ:</string>
+    <string name="investnow">استثمر الآن</string>
+    <string name="investment_complete">تمت العملية بنجاح !! \n يمكنك عرض خططك المشتركة في قسم \'استثماراتي\'</string>
+    <string name="per_min"> عملات في الدقيقة</string>
+    <string name="per_hour"> عملات في الساعة</string>
+    <string name="per_day"> عملات في اليوم</string>
+    <string name="per_week"> عملات في الأسبوع</string>
+    <string name="per_mon"> عملات في الشهر</string>
+    <string name="per_year"> عملات في السنة</string>
+    <string name="upcoming_payment">الدفعة القادمة</string>
+    <string name="completed_on">اكتملت في</string>
+    <string name="cancelled_on">ألغيت في</string>
+    <string name="investment_plan">خطة الاستثمار</string>
+    <string name="investment_range">نطاق الاستثمار: </string>
+    <string name="investment">الاستثمار: </string>
+    <string name="return_interest">عائد الفائدة</string>
+    <string name="received_amount">المبلغ المستلم</string>
+    <string name="cancel_plan"> إلغاء الخطة</string>
+    <string name="compound_interest">الفائدة المركبة</string>
+    <string name="capital_back">استعادة رأس المال</string>
+    <string name="lifetime_earning">الأرباح مدى الحياة</string>
+    <string name="amt_invested">المبلغ المستثمر</string>
+    <string name="amt_earned">المبلغ المكتسب</string>
+    <string name="imgcoins2"> عملات |</string>
+    <string name="cancel_charge">رسوم الإلغاء</string>
+    <string name="total_earned">إجمالي الأرباح</string>
+    <string name="current_bal">الرصيد الحالي</string>
+    <string name="cancel_investment">إلغاء خطة الاستثمار</string>
+    <string name="cancel_complete">تم إلغاء خطة الاستثمار بنجاح!</string>
+    <string name="cancel_not_possible">ليس لديك ما يكفي من العملات لدفع رسوم الإلغاء!</string>
+    <string name="ok">حسنًا</string>
+    <string name="investearn">استثمر واكسب</string>
+    <string name="maxamtallowed">أقصى مبلغ مسموح به للاستثمار هو</string>
+    <string name="minamtallowed">أقل مبلغ مسموح به للاستثمار هو</string>
+    <string name="verification_status">حالة التحقق من KYC</string>
+    <string name="verified">تم التحقق</string>
+    <string name="rejected">مرفوض</string>
+    <string name="pending">قيد الانتظار</string>
+    <string name="incomplete">لم يبدأ بعد</string>
+    <string name="submit_docs">إرسال المستندات ></string>
+    <string name="resubmit_docs">إعادة إرسال المستندات ></string>
+    <string name="achievements">إنجازاتك</string>
+    <string name="no_achievements">لا شيء لعرضه بعد ..</string>
+    <string name="claimed2">مطالب به</string>
+    <string name="coins">عملات</string>
+    <string name="locked2">مقفل</string>
+    <string name="in_progress">قيد التنفيذ</string>
+    <string name="claim">مطالبة</string>
+    <string name="morelikethis">المزيد مثل هذا</string>
+    <string name="chanceitemwin">فرصة للفوز بالعنصر إذا كان عرضك الأدنى وكذلك الفريد بعد انتهاء المزاد.</string>
+    <string name="buydiscout">اشتره بسعر مخفض.</string>
+    <string name="learnmore">تعرف على المزيد -></string>
+    <string name="productdetail">تفاصيل المنتج</string>
+    <string name="lowestuniquebid">فرصة للفوز بهذا العنصر إذا كان عرضك الأدنى وكذلك الفريد بعد انتهاء المزاد.</string>
+    <string name="highestuniquebid">فرصة للفوز بهذا العنصر إذا كان عرضك الأعلى وكذلك الفريد بعد انتهاء المزاد.</string>
+    <string name="englishauction">اربح هذا العنصر من خلال تقديم العرض الفريد الأعلى قبل انتهاء وقت المزاد.</string>
+    <string name="pennyauction">كن آخر مقدم عرض واربح هذا العنصر.</string>
+    <string name="reverseauction">اربح هذا العنصر من خلال تقديم العرض الأدنى قبل انتهاء وقت المزاد.</string>
+    <string name="slotauction">فرصة للفوز بهذا العنصر بسعر 1٪ من سعر العنصر.</string>
+    <string name="ticketsbought">التذاكر المشتراة</string>
+    <string name="bidsplaced">العروض المقدمة</string>
+    <string name="ended">انتهى</string>
+    <string name="view_details">عرض التفاصيل ></string>
+    <string name="recharge_wallet">إعادة شحن المحفظة</string>
+    <string name="purchase_coins">شراء العملات</string>
+    <string name="buy_more">شراء المزيد من العملات</string>
+    <string name="withdraw_coins">سحب العملات</string>
+    <string name="spend_coins">أنفق عملاتك</string>
+    <string name="earn_coins">اكسب العملات</string>
+    <string name="curr_bal">الرصيد الحالي:</string>
+    <string name="forevery">لكل\u0020</string>
+    <string name="coinstoadd">العملات التي ستضاف</string>
+    <string name="coinvalue">\u0020ستحتاج لدفع $1</string>
+    <string name="enter_amt">الرجاء إدخال المبلغ</string>
+    <string name="youcanalso">يمكنك أيضًا شراء حزم العملات بخصم!</string>
+    <string name="getdiscount">احصل على خصم عند شراء العملات</string>
+    <string name="buy">شراء</string>
+    <string name="spinearn">ادور واكسب</string>
+    <string name="scratchearn">خدش واكسب</string>
+    <string name="string400">هذا مزاد عكسي</string>
+    <string name="string401">يفوز بالمزاد صاحب أقل سعر قبل انتهاء وقت المزاد.</string>
+    <string name="string402">في النهاية، سيفوز بالمزاد الشخص صاحب أقل سعر</string>
+    <string name="string403">وهذا يعني أن الشخص صاحب أقل سعر في وقت انتهاء المزاد هو الفائز</string>
+    <string name="string405">اشترِ المزيد والمزيد من الفتحات لزيادة فرصك في الفوز بهذا العنصر</string>
+    <string name="string406">يحصل الفائز عليه مقابل 1% من سعر العنصر!!</string>
+    <string name="string407">في النهاية، يفوز المستخدم بالعنصر مقابل 1% من سعر العنصر!!</string>
+    <string name="string404">هذا مزاد الفتحات</string>
+    <string name="string408">تم وضع عرض</string>
+    <string name="string409">يمكنك تقديم عروض إضافية عن طريق تسليم العدد المطلوب من العملات</string>
+    <string name="string410">موافق</string>
+    <string name="string411">تأكيد المزايدة</string>
+    <string name="string412">تأكيد</string>
+    <string name="string413">مبلغ المزايدة</string>
+    <string name="string414">إرسال</string>
+    <string name="string415">لا توجد تقييمات</string>
+    <string name="string416">جميع مقدمي العطاءات</string>
+    <string name="string417">عطاءاتك</string>
+    <string name="string418">o_name</string>
+    <string name="string419">رسوم المزايدة: </string>
+    <string name="string420">o_amount</string>
+    <string name="string421">ماذا يحدث عندما أقدم عرضًا؟</string>
+    <string name="string422">السعر الفعلي: $ 5000</string>
+    <string name="string423">السعر المخفض: 4500 دولار</string>
+    <string name="string424">تم البيع بواسطة</string>
+    <string name="string425">بدون تقييم</string>
+    <string name="string426">بدون اسم</string>
+    <string name="string427">95% </string>
+    <string name="string428">تقييمات إيجابية من</string>
+    <string name="string429">أكثر من 100 ألف </string>
+    <string name="string430">عملاء</string>
+    <string name="string431">عرض قائمة أخرى -></string>
+    <string name="string432">التعليقات</string>
+    <string name="string434">بدون تعليقات</string>
+    <string name="string435">فشل في جلب المنتج...</string>
+    <string name="string436">9 ساعات : 5 دقائق : 30 ثانية</string>
+    <string name="string437">وضع عرض</string>
+    <string name="string438">الرابح حاليًا: </string>
+    <string name="string439">معلومات عن البائع </string>
+    <string name="string440">يبدأ العرض من </string>
+    <string name="string441">الحد الأقصى للعرض </string>
+    <string name="string442">القيمة </string>
+    <string name="string443">العرض الحالي </string>
+    <string name="string444">الأماكن المتبقية </string>
+    <string name="string445">فقط </string>
+    <string name="string446">وأسعار أخرى كثيرة</string>
+    <string name="string447">وضع عرض </string>
+    <string name="string448">استرداد </string>
+    <string name="string449">اشتر الآن</string>
+    <string name="string450">أعلمني </string>
+    <string name="string451">اشتر تذكرة</string>
+    <string name="string452">متوفرة في المخزون</string>
+    <string name="string453">أنت</string>
+    <string name="string454">الفائزون </string>
+    <string name="string455">فائز حاليًا في </string>
+    <string name="string456">المتجر</string>
+    <string name="string457">فائز حاليًا</string>
+    <string name="string458">لا أحد فائز حاليًا</string>
+    <string name="string459">التذاكر المتبقية</string>
+    <string name="string460">أدخل تفاصيل العنوان</string>
+    <string name="string461">رقم المنزل، اسم المبنى</string>
+    <string name="string462">اسم الطريق، المنطقة، المستعمرة</string>
+    <string name="string463">المدينة</string>
+    <string name="string464">الولاية/المحافظة/المنطقة</string>
+    <string name="string465">الرمز البريدي/الرمز البريدي</string>
+    <string name="string467">الدولة</string>
+    <string name="string468">حفظ العنوان باسم</string>
+    <string name="string470">المنزل</string>
+    <string name="string471">العمل</string>
+    <string name="string472">آخر</string>
+    <string name="string474">إضافة/تحديث العنوان</string>
+    <string name="string475">Apple Watch Series 9</string>
+    <string name="string476">فاز بواسطة:</string>
+    <string name="string477">أميت</string>
+    <string name="string478">19 يوليو 2023</string>
+    <string name="string479">عرض التفاصيل -></string>
+    <string name="string480">مجموع الجوائز:</string>
+    <string name="string481">15000 دولار</string>
+    <string name="string482">عرض الفائزين -></string>
+    <string name="string483">100 فائز</string>
+    <string name="string484">4.</string>
+    <string name="string485">بطاقة هدايا أمازون</string>
+    <string name="string486">54 56 98 54 12</string>
+    <string name="string487">أنت الفائز!</string>
+    <string name="string488">احصل على الجائزة</string>
+    <string name="string489">عرض الطلب</string>
+    <string name="string490">الرتبة رقم</string>
+    <string name="string491">كريشنا أجراوال</string>
+    <string name="string492">تبلغ قيمتها 499 دولارًا</string>
+    <string name="string493">المنزل</string>
+    <string name="string494">سطر العنوان 1</string>
+    <string name="string495">سطر العنوان 2</string>
+    <string name="string496">المدينة، البريد</string>
+    <string name="string497">الولاية، البلد</string>
+    <string name="string498">أدخل لقبًا لهذا العنوان</string>
+    <string name="string499">اللقب</string>
+    <string name="string501">إرسال</string>
+    <string name="string502">فاز بها</string>
+    <string name="string503">العرض الفائز</string>
+    <string name="string504">التوفير</string>
+    <string name="string505">عرض الطلب</string>
+    <string name="string506">المطالبة بالجائزة</string>
+    <string name="string507">إضافة عنوان</string>
+    <string name="string508">1</string>
+    <string name="string509">2</string>
+    <string name="string510">3</string>
+    <string name="string511">54 56 98 54 12</string>
+    <string name="string512">ساعة أنيقة</string>
+    <string name="string513">سميرة حديد</string>
+    <string name="string514"> فائزون حاليًا </string>
+    <string name="string515">كن أول من يقدم عرضًا.</string>
+    <string name="string516">يمكنك شراء عدد لا نهائي من الفتحات لزيادة فرصك في الفوز.</string>
+    <string name="string517">شراء فتحة</string>
+    <string name="string518">كم عدد الفتحات التي تريد شراءها؟</string>
+    <string name="string519">ملفك الشخصي</string>
+    <string name="string521">قائمة أمنياتي</string>
+    <string name="string522">عنواني</string>
+    <string name="string523">قم بالمزايدة الآن</string>
+    <string name="string524">شراء الفتحات</string>
+    <string name="string525">شراء التذاكر</string>
+    <string name="string526">شراء القسيمة</string>
+    <string name="string527">استرداد العنصر</string>
+    <string name="string528">شراء العنصر</string>
+    <string name="string529">لا توجد عناصر في قائمة الأمنيات أضف العناصر</string>
+    <string name="string530">إرسال أقل عرض فريد</string>
+    <string name="string531">فائز حاليًا</string>
+    <string name="string532">أنت فائز حاليًا</string>
+    <string name="string533">لا أحد فائز حاليًا</string>
+    <string name="string534">إرسال أعلى عرض فريد</string>
+    <string name="string535">أنت فائز حاليًا بـ </string>
+    <string name="string536">كن آخر مقدم عرض واربح</string>
+    <string name="string537">إرسال أقل عرض فريد قبل انتهاء المهلة</string>
+    <string name="string538">اربح عنصرًا بنسبة 1% من سعر العنصر</string>
+    <string name="livelottery">اليانصيب المباشر</string>
+    <string name="upcominglottery">اليانصيب القادم</string>
+    <string name="liveraffle">السحب المباشر</string>
+    <string name="upcomingraffle">السحب القادم</string>
+    <string name="liveauction">المزاد المباشر</string>
+    <string name="upcomingauction">المزاد القادم</string>
+    <string name="ongoingauction">المزاد الجاري</string>
+    <string name="store">المتجر</string>
+    <string name="marketplace">السوق</string>
+    <string name="welcome_auction">اكتشف عالمًا من المزادات المثيرة وسوق التسوق، كل ذلك في تطبيق واحد! سواء كنت هنا للفوز بصفقات حصرية في مزاداتنا المثيرة أو لاستكشاف مجموعة واسعة من المنتجات في سوقنا، لدينا شيء للجميع.</string>
+    <string name="welcome_lottery">انضم إلى عالم اليانصيب المثير معنا، الوجهة الأفضل لعشاق اليانصيب! سواء كنت تشعر بالحظ أو تحب الإثارة، نقدم لك مجموعة متنوعة من ألعاب اليانصيب لاستكشافها. من السحوبات اليومية إلى اليانصيب الكبرى، هناك شيء للجميع.</string>
+</resources>

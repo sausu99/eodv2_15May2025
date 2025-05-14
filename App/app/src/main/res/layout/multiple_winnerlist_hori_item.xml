@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_width="@dimen/_82sdp"
+    android:layout_height="@dimen/_105sdp">
+
+    <ImageView
+        android:id="@+id/youwonh"
+        android:layout_width="@dimen/_24sdp"
+        android:layout_height="@dimen/_24sdp"
+        android:visibility="gone"
+        android:background="@drawable/youwon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:elevation="10dp" />
+
+    <LinearLayout
+        android:layout_width="@dimen/_79sdp"
+        android:layout_height="@dimen/_95sdp"
+        android:orientation="vertical"
+        android:background="@drawable/winnerbgblack"
+        android:elevation="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="1sp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:paddingHorizontal="@dimen/_8sdp">
+
+            <TextView
+                android:id="@+id/rank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string490"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+                android:fontFamily="sans-serif-black"/>
+
+            <TextView
+                android:id="@+id/rankno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/rank"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp"
+                android:fontFamily="sans-serif-black"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/winnername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_8sdp"
+            android:text="@string/string491"
+            android:textSize="@dimen/_7ssp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:fontFamily="sans-serif-black"/>
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/obimg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_marginHorizontal="@dimen/_7sdp"/>
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/string492"
+            android:textSize="@dimen/_7ssp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@drawable/winnerbottom"
+            android:fontFamily="sans-serif-black"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

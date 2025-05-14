@@ -1,0 +1,478 @@
+  .live-auction-container {
+    white-space: nowrap;
+  }
+
+  .featured-container {
+    white-space: nowrap;
+  }
+
+  .item-box-featured {
+    position: relative;
+    /* Make the container relative for ribbon positioning */
+    display: inline-block;
+    margin-right: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 200px;
+    /* Adjust this width as needed */
+    border: 1px solid #ddd;
+    /* Add a border */
+    padding: 10px;
+    /* Add padding inside the box */
+    background-color: #FFC0CF;
+    border-radius: 5px;
+    /* Controls the radius of curvature */
+  }
+
+  .item_type {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #F0F3DE;
+    /* color for the ribbon */
+    color: #331A10;
+    text-align: center;
+    padding: 5px 0;
+    /* Adjust vertical padding as needed */
+    border-radius: 3px;
+    /* Add rounded corners */
+  }
+
+  .info-icon {
+    color: #331A10;
+    /* Change the color to your desired color */
+  }
+
+
+  .ribbon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 80px;
+    background-color: #F5CB1F;
+    /* color for the ribbon */
+    color: #1D1204;
+    text-align: center;
+    padding: 5px 0;
+    /* Adjust vertical padding as needed */
+    border-radius: 3px;
+    /* Add rounded corners */
+  }
+
+  .ribbon::before,
+  .ribbon::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    z-index: -1;
+    /* Place the extensions behind the main ribbon */
+  }
+
+  .ribbon::before {
+    top: 0;
+    left: -20px;
+    /* Adjust the overhang as needed */
+    border-width: 10px 20px 10px 0;
+    border-color: transparent #FFD700 transparent transparent;
+  }
+
+  .ribbon::after {
+    bottom: 0;
+    right: -20px;
+    /* Adjust the overhang as needed */
+    border-width: 10px 20px 10px 0;
+    border-color: transparent transparent transparent #FFD700;
+  }
+
+  .item-box {
+    display: inline-block;
+    margin-right: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 500px;
+    /* Set the width to 500px */
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+
+  .auction-item .image img {
+    height: 200px;
+  }
+
+  .view-all-btn {
+    float: right;
+    /* Position button to the right */
+  }
+
+  .img-thumbnail {
+    max-width: 100%;
+    /* Ensure image fits within the box */
+    height: auto;
+    /* Maintain aspect ratio */
+    border: none !important;
+  }
+
+  .banner-slider {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    z-index: 99;
+  }
+
+  .banner-container {
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.4s ease-in-out;
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+  }
+
+
+
+  .banner-container img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+  .prev-btn {
+    left: 20px;
+  }
+
+  .next-btn {
+    right: 20px;
+  }
+
+
+  .lottery-container {
+    white-space: nowrap;
+  }
+
+  .auction-item {
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    height: 96%;
+  }
+
+  @media (max-width: 900px)
+  {
+    .auction-item {
+      width: unset;
+    }
+  }
+
+  .auction-item .image {
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+  .auction-item .image a.star,
+  .auction-item .image a.hammer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #f1c40f;
+    /* Adjust color as needed */
+    font-size: 24px;
+  }
+
+  .auction-item .auction-content h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-wrap: wrap;
+  }
+
+  .auction-width-fix {
+    width: 350px;
+  }
+
+  .auction-content p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+
+  .auction-item .bid,
+  .auction-item .buy-now-price {
+    margin-bottom: 10px;
+  }
+
+  .auction-item .bid span,
+  .auction-item .buy-now-price span {
+    font-weight: bold;
+  }
+
+  .auction-item .time {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .auction-item .time .countdown {
+    margin-right: 10px;
+  }
+
+  .auction-item .button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    /* Adjust color as needed */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .auction-item .button a:hover {
+    background-color: #0056b3;
+    /* Adjust color as needed */
+  }
+
+  .header-button {
+    display: inline-block;
+    /* Ensure the button appears inline with text */
+    margin-left: 10px;
+    /* Add some spacing between the "Featured" text and button */
+    float: right;
+  }
+
+  .header-button {
+    display: inline-block;
+    /* Ensure the button appears inline with text */
+    margin-left: 10px;
+    /* Add some spacing between the "Featured" text and button */
+    float: right;
+  }
+
+
+  .view-all {
+    background-color: #FFD700;
+    /* Set background color for the button */
+    color: #333;
+    /* Set text color for the button */
+    border: 2px solid #FFD700;
+    /* Add border to the button */
+    padding: 8px 16px;
+    /* Add padding to the button */
+    text-decoration: none;
+    /* Remove default underline */
+  }
+
+  .view-all:hover {
+    background-color: #fff;
+    /* Change background color on hover */
+    color: #FFD700;
+    /* Change text color on hover */
+  }
+
+  .btn-blue {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007AFF;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .btn-blue:hover {
+    background-color: #007AFF;
+    color: #fff;
+  }
+
+
+  .description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* Limit to 2 lines */
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    min-height: 2em;
+    /* Minimum height equivalent to two lines */
+    line-height: 1em;
+    /* Line height equivalent to one line */
+  }
+
+
+  .bold-text {
+    font-weight: bold;
+  }
+
+  /* CSS for timer overlay */
+  .auction-timer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* Transparent white background */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background-color: rgb(141 157 228);
+    color: rgb(255 255 255);
+    border-radius: 10px;
+    justify-content: center;
+  }
+
+  .auction-timer>p {
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+    margin-right: 6px;
+  }
+
+  .countdown {
+    font-size: 14px;
+    color: white;
+  }
+
+  .auction-fix {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    justify-content: center;
+  }
+
+  .flex-lottery-fix {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+  }
+
+  .lottery-fix-a {
+    background-color: #5648c4;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    border-radius: 9px;
+    margin-top: 17px;
+  }
+
+  #wishlist {
+    width: 30px;
+    position: relative;
+    right: -94%;
+    top: -7px;
+    cursor: pointer;
+  }
+
+  #wishlist:hover {
+    color: rgb(56, 52, 52);
+  }
+
+  .lottery-item {
+    background-color: #4538b6;;
+    width: 30rem;
+    align-items: stretch;
+  }
+
+  .lottery-style-1 {
+    position: absolute;
+    width: 45rem;
+    height: 54rem;
+    margin-left: -18px;
+  }
+
+  .lottery-style-2 {
+    position: absolute;
+    top: 50%;
+  }
+
+  .auction-content {
+    z-index: 1;
+  }
+
+  .button {
+    z-index: 1;
+  }
+
+  .lottery-fix-h5 {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: clamp(1.0625rem, .3vw + 1rem, 1.25rem);
+    margin: 0 0 20px 0;
+    font-family: "Oswald", sans-serif;
+    line-height: 1.2;
+    margin-top: 20px;
+    word-break: break-word;
+  }
+
+  .lottery-description-fix {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .currency-lottery-fix {
+    font-weight: 600;
+    font-size: clamp(1.375rem, .8vw + 1rem, 2.25rem);
+    font-family: "Oswald", sans-serif;
+    color: white;
+    text-align: center;
+  }
+
+  .button-lottery-fix {
+    font-weight: 600;
+    border: 2px solid #948cd1!important;
+    background-color: #5648c4!important;
+    color: white!important;
+  }
+
+  .button-lottery-fix:hover {
+    background-color: #776dc0!important;
+  }
+
+  .progress-parent-container {
+    border: none;
+    background-color: white;
+    border-radius: 9999px;
+    width: 85px;
+    height: 10px;
+  }
+
+  .super-parent-progress {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

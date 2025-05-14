@@ -1,0 +1,125 @@
+[11-Jun-2023 09:47:38 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/stripe/index.php on line 6
+[11-Jun-2023 09:47:38 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_edSi4zBTzhzMIJ) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[11-Jun-2023 09:47:41 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/stripe/index.php on line 6
+[11-Jun-2023 09:47:41 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_gDADPE1Xc6WYKF) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[11-Jun-2023 09:47:53 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/stripe/index.php on line 6
+[11-Jun-2023 09:47:53 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_lcMTFXU1tWjtYS) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[11-Jun-2023 09:48:08 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/stripe/index.php on line 6
+[11-Jun-2023 09:48:09 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_NLPDTt23tYi9Ur) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[11-Jun-2023 09:48:13 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/stripe/index.php on line 6
+[11-Jun-2023 09:48:13 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_elN4JrNHGw9aym) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[11-Jun-2023 09:48:15 UTC] PHP Warning:  include(includes/connection.php): Failed to open stream: No such file or directory in /home4/digitjc4/wowcodes.shop/test/stripe/charge.php on line 1
+[11-Jun-2023 09:48:15 UTC] PHP Warning:  include(includes/connection.php): Failed to open stream: No such file or directory in /home4/digitjc4/wowcodes.shop/test/stripe/charge.php on line 1
+[11-Jun-2023 09:48:15 UTC] PHP Warning:  include(): Failed opening 'includes/connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/digitjc4/wowcodes.shop/test/stripe/charge.php on line 1
+[11-Jun-2023 09:48:15 UTC] PHP Warning:  include(includes/function.php): Failed to open stream: No such file or directory in /home4/digitjc4/wowcodes.shop/test/stripe/charge.php on line 2
+[11-Jun-2023 09:48:15 UTC] PHP Warning:  include(includes/function.php): Failed to open stream: No such file or directory in /home4/digitjc4/wowcodes.shop/test/stripe/charge.php on line 2
+[11-Jun-2023 09:48:15 UTC] PHP Warning:  include(): Failed opening 'includes/function.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/digitjc4/wowcodes.shop/test/stripe/charge.php on line 2
+[11-Jun-2023 09:48:16 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/stripe/index.php on line 6
+[11-Jun-2023 09:48:16 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_C1NwsVvoxnelQL) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[11-Jun-2023 09:48:18 UTC] PHP Warning:  include(includes/connection.php): Failed to open stream: No such file or directory in /home4/digitjc4/wowcodes.shop/test/stripe/charge.php on line 1
+[11-Jun-2023 09:48:18 UTC] PHP Warning:  include(includes/connection.php): Failed to open stream: No such file or directory in /home4/digitjc4/wowcodes.shop/test/stripe/charge.php on line 1
+[11-Jun-2023 09:48:18 UTC] PHP Warning:  include(): Failed opening 'includes/connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/digitjc4/wowcodes.shop/test/stripe/charge.php on line 1
+[11-Jun-2023 09:48:18 UTC] PHP Warning:  include(includes/function.php): Failed to open stream: No such file or directory in /home4/digitjc4/wowcodes.shop/test/stripe/charge.php on line 2
+[11-Jun-2023 09:48:18 UTC] PHP Warning:  include(includes/function.php): Failed to open stream: No such file or directory in /home4/digitjc4/wowcodes.shop/test/stripe/charge.php on line 2
+[11-Jun-2023 09:48:18 UTC] PHP Warning:  include(): Failed opening 'includes/function.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/digitjc4/wowcodes.shop/test/stripe/charge.php on line 2
+[11-Jun-2023 09:48:34 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/stripe/index.php on line 6
+[11-Jun-2023 09:48:35 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_R2ZNVRiFDZ2Pf0) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[11-Jun-2023 09:52:59 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[11-Jun-2023 09:52:59 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_ztGaZAdYR6FLlo) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[11-Jun-2023 09:53:37 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[11-Jun-2023 09:53:37 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_AX0psnUBy06XiK) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[11-Jun-2023 09:53:39 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[11-Jun-2023 09:53:40 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_XymYuFmYJY9zqs) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[11-Jun-2023 09:56:33 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[11-Jun-2023 09:56:33 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_qe79EmmyixC06c) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[11-Jun-2023 12:39:25 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_CoZO5uZKotK52K) Amount must convert to at least 50 cents. ₹1.00 converts to approximately €0.01.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[11-Jun-2023 19:33:09 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[11-Jun-2023 19:33:09 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_FxMUrHRAkH6Fa5) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[11-Jun-2023 19:33:52 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[11-Jun-2023 19:33:52 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_GsCiBSSrh73KKR) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[11-Jun-2023 19:34:08 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_Ljcs1LR0i0jp0w) Amount must convert to at least 50 cents. ₹10.00 converts to approximately €0.11.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[11-Jun-2023 19:34:14 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_FI0Zzs3eH8jEsT) Amount must convert to at least 50 cents. ₹10.00 converts to approximately €0.11.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[12-Jun-2023 04:13:01 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 04:13:02 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_4Xwto5O9iLyifZ) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[12-Jun-2023 05:13:42 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_uenAYXalpyoqMI) Amount must convert to at least 50 cents. ₹1.00 converts to approximately €0.01.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[12-Jun-2023 05:14:05 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 05:14:05 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_gL8qkD4v1Pbd0R) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[12-Jun-2023 05:15:59 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 05:15:59 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_kHbTShlLJ3yPNC) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[12-Jun-2023 05:20:37 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 05:20:40 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 05:21:48 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_YeN67RlQOnMem3) Amount must convert to at least 50 cents. ₹1.00 converts to approximately €0.01.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[12-Jun-2023 05:22:17 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 05:22:19 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 05:22:21 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 05:22:23 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 05:25:47 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 05:37:06 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 05:37:14 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 05:39:03 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 05:45:10 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 05:46:16 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 06:05:07 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 06:06:10 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_uktoLPqaJ0dWHF) Amount must convert to at least 50 cents. ₹1.00 converts to approximately €0.01.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[12-Jun-2023 06:06:34 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 06:17:15 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 06:17:17 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 06:20:17 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 06:20:18 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 06:35:18 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 06:35:20 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 06:35:40 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 06:35:42 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 06:36:35 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_feQsGyp6b2wQXk) Amount must convert to at least 50 cents. ₹1.00 converts to approximately €0.01.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[12-Jun-2023 06:36:38 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_75tWHbM8hRhtcM) Amount must convert to at least 50 cents. ₹1.00 converts to approximately €0.01.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[12-Jun-2023 06:39:25 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_D3Vw53Dga2Av4E) Amount must convert to at least 50 cents. ₹1.00 converts to approximately €0.01.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[12-Jun-2023 06:39:26 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_auo4t3qUGwoa9k) Amount must convert to at least 50 cents. ₹1.00 converts to approximately €0.01.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[12-Jun-2023 06:39:28 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_YhSXY2UvB0Ww5e) Amount must convert to at least 50 cents. ₹1.00 converts to approximately €0.01.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[12-Jun-2023 07:02:38 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 07:02:38 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_UFTorWbYppmRRT) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[12-Jun-2023 07:02:41 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 07:02:41 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_JNRTXK6z2nJMdy) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[12-Jun-2023 09:17:47 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 09:17:47 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_zHzIpGpRDs5ilB) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[12-Jun-2023 09:17:51 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 09:17:51 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_yY49godaOeIeMU) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[12-Jun-2023 10:17:29 UTC] PHP Warning:  Attempt to read property "amount" on null in /home4/digitjc4/wowcodes.shop/test/Stripe/index.php on line 6
+[12-Jun-2023 10:17:30 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_qX7yOTuLfYz7M6) This value must be greater than or equal to 1.
+  thrown in /home4/digitjc4/wowcodes.shop/test/Stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- recycler_item.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/_4sdp"
+    tools:ignore="ExtraText">
+
+    <!-- Circular ImageView -->
+    <ImageView
+        android:id="@+id/imageViewCircle"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:background="@color/white"
+        android:src="@drawable/coinimg"
+        android:contentDescription="Image" />
+
+    <!-- Text below the circle image -->
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Feathured Item"
+        android:textSize="@dimen/_9ssp" />
+</LinearLayout>

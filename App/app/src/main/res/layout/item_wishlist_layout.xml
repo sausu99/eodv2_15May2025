@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingHorizontal="@dimen/_8sdp"
+    android:backgroundTint="@color/white"
+    android:elevation="@dimen/_5sdp"
+    android:layout_marginHorizontal="@dimen/_5sdp"
+    android:background="@drawable/bg_tab2"
+    android:layout_marginVertical="@dimen/_5sdp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:padding="@dimen/_2sdp"
+        android:background="@drawable/bg_tab2"
+        android:id="@+id/itemImg"
+        android:elevation="@dimen/_3sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginVertical="@dimen/_8sdp"
+        android:layout_width="@dimen/_65sdp"
+        android:layout_height="@dimen/_75sdp">
+
+    </ImageView>
+   <TextView
+       android:id="@+id/itemName"
+       android:ellipsize="end"
+       android:maxLines="1"
+       android:textSize="@dimen/_14ssp"
+       android:layout_marginStart="@dimen/_15sdp"
+       android:text="Apple Watch Series 6"
+       android:textColor="@color/black"
+       android:fontFamily="sans-serif-black"
+       android:layout_alignTop="@+id/itemImg"
+       android:layout_toEndOf="@+id/itemImg"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+   </TextView>
+    <TextView
+        android:elevation="@dimen/_2sdp"
+        android:background="@drawable/bg_tab2"
+        android:backgroundTint="@color/colorPrimary"
+        android:id="@+id/addmorebtn"
+        android:paddingVertical="@dimen/_3sdp"
+        android:paddingHorizontal="@dimen/_5sdp"
+        android:layout_below="@+id/itemName"
+        android:text="Buy now more"
+        android:textSize="@dimen/_13ssp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/whitewhite"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_toEndOf="@+id/itemImg">
+
+    </TextView>
+
+
+    <TextView
+        android:elevation="@dimen/_2sdp"
+        android:background="@drawable/bg_tab2"
+        android:id="@+id/removeBtn"
+        android:paddingVertical="@dimen/_3sdp"
+        android:paddingHorizontal="@dimen/_5sdp"
+        android:layout_below="@+id/addmorebtn"
+        android:text="Remove"
+        android:textAlignment="center"
+        android:textSize="@dimen/_13ssp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/red"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_toEndOf="@+id/itemImg">
+
+    </TextView>
+
+
+</RelativeLayout>

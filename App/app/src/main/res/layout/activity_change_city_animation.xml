@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingHorizontal="16dip"
+    tools:context=".Activity.changeLangAnimationActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="350dip"
+        android:layout_height="350dip"
+        android:layout_centerInParent="true"
+        android:id="@+id/gif"
+        android:src="@drawable/change_city" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change_country"
+        android:textColor="@color/primarylight"
+        android:fontFamily="monospace"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/text"
+        android:layout_below="@+id/gif"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

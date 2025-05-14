@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="@dimen/_6sdp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string184"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="@color/white"
+        android:padding="@dimen/_3sdp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/dialog_bg"
+        android:padding="@dimen/_6sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/graywhite"
+            android:text="@string/referral_code" />
+
+        <EditText
+            android:id="@+id/edcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_27sdp"
+            android:layout_marginVertical="@dimen/_8sdp"
+            android:background="@drawable/et_dotted"
+            android:gravity="center"
+            android:padding="@dimen/_4sdp"
+            android:textSize="@dimen/_16sdp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="@dimen/_85sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/btn_bg1"
+            android:backgroundTint="#ff7000"
+            android:text="SUBMIT"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/et_borderrr"
+    android:backgroundTint="@color/faint_white"
+    android:id="@+id/border"
+    android:padding="2dip"
+    android:layout_margin="7dip">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_borderrr"
+        android:backgroundTint="@color/faint_white"
+        android:id="@+id/card"
+        android:paddingVertical="8dip"
+        android:paddingHorizontal="10dip"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/investment_plan"
+            android:textSize="17sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Business Plan"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="end"
+            android:textSize="17sp"
+            android:id="@+id/plan_name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amt"
+            android:textSize="17sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:textSize="17sp"
+            android:id="@+id/amt"/>
+
+        <ImageView
+            android:layout_width="18.5dip"
+            android:layout_height="18.5dip"
+            android:src="@drawable/ic_coin"
+            android:layout_marginStart="5dip"
+            android:layout_gravity="center"
+            app:tint="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/return_interest"
+            android:textSize="17sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="7 Coins Per Day"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:gravity="end"
+            android:textSize="17sp"
+            android:id="@+id/interest"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/received_amount"
+            android:textSize="17sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="107"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="end"
+            android:textSize="17sp"
+            android:id="@+id/rec_amt"/>
+
+        <ImageView
+            android:layout_width="18.5dip"
+            android:layout_height="18.5dip"
+            android:src="@drawable/ic_coin"
+            android:layout_marginStart="5dip"
+            android:layout_gravity="center"
+            app:tint="@color/white"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_filled_outline_down"
+        android:orientation="vertical"
+        android:paddingTop="8dip" 
+        android:paddingHorizontal="10dip"
+        android:paddingBottom="10dip"
+        android:backgroundTint="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+    
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/upcoming_payment"
+                android:textSize="17sp"
+                android:id="@+id/upcoming_txt"
+                android:textColor="@color/black"/>
+    
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13 Oct,2023"
+                android:textColor="@color/black"
+                android:gravity="end"
+                android:textSize="17sp"
+                android:id="@+id/upcoming"/>
+        </LinearLayout>
+    
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            app:trackCornerRadius="7dip"
+            app:trackThickness="15dip"
+            app:trackColor="@color/offwhiteblack"
+            app:indicatorColor="@color/black"
+            android:id="@+id/progress"
+            android:layout_marginTop="9dip"
+            android:progress="16"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/et_filled_outline_down"
+            android:backgroundTint="@color/faint_white"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:id="@+id/cancel"
+            android:padding="5dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/cancel_plan"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/ic_cancel"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

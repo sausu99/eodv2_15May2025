@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/transprant">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="@dimen/_222sdp"
+                android:layout_height="@dimen/_222sdp"
+                android:layout_marginTop="@dimen/_45sdp"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:paddingHorizontal="@dimen/_6sdp"
+                android:id="@+id/card"
+                android:orientation="vertical"
+                android:background="@drawable/et_filled_profile"
+                android:backgroundTint="@color/light_gray">
+
+                <ImageView
+                    android:layout_width="@dimen/_65sdp"
+                    android:layout_height="@dimen/_65sdp"
+                    android:src="@drawable/trophy" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/youwon2"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_9sdp"
+                    android:fontFamily="sans-serif"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9 Coins"
+                    android:id="@+id/prize"
+                    android:textSize="@dimen/_18ssp"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:fontFamily="monospace"/>
+            </LinearLayout>
+
+
+            <com.anupkumarpanwar.scratchview.ScratchView
+                android:layout_width="@dimen/_222sdp"
+                android:layout_height="@dimen/_222sdp"
+                android:scaleType="fitXY"
+                android:id="@+id/scratch"
+                app:overlay_image="@drawable/scratch_card"
+                app:overlay_width="@dimen/_222sdp"
+                app:overlay_height="@dimen/_222sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_45sdp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/et_filled_up"
+                android:orientation="vertical"
+                android:padding="@dimen/_6sdp"
+                android:id="@+id/details"
+                android:layout_below="@id/card"
+                android:layout_marginTop="@dimen/_35sdp"
+                android:backgroundTint="@color/black">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONGRATULATIONS !!"
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold"
+                    android:id="@+id/congrats"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="casual"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:text="+ 9 Coins"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:textColor="@color/green_forest"
+                    android:textStyle="bold"
+                    android:id="@+id/bonus"
+                    android:textSize="@dimen/_23ssp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/et_filled_profile"
+                    android:backgroundTint="@color/light_gray"
+                    android:padding="@dimen/_4sdp"
+                    android:id="@+id/coupon"
+                    android:visibility="gone"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:layout_marginHorizontal="@dimen/_9sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PAYTM10"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:paddingEnd="@dimen/_6sdp"
+                        android:layout_marginStart="@dimen/_6sdp"
+                        android:id="@+id/code"
+                        android:textSize="@dimen/_16ssp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="COPY"
+                        android:fontFamily="sans-serif"
+                        android:textSize="@dimen/_15ssp"
+                        android:textStyle="bold"
+                        android:id="@+id/copy"
+                        android:background="@drawable/et_filled_profile"
+                        android:layout_marginEnd="@dimen/_3sdp"
+                        android:paddingHorizontal="@dimen/_9sdp"
+                        android:paddingVertical="@dimen/_6sdp"
+                        android:backgroundTint="@color/black"
+                        android:textColor="@color/light_gray"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="@dimen/_165sdp"
+                    android:layout_height="@dimen/_90sdp"
+                    android:src="@drawable/img_background"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:padding="@dimen/_6sdp"
+                    android:id="@+id/product_img"
+                    android:visibility="gone"
+                    android:background="@drawable/et_filled"
+                    android:backgroundTint="@color/light_gray"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:text="You won : 9 COINS"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:id="@+id/prize2"
+                    android:textSize="@dimen/_14ssp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:text="Description"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/desc"
+                    android:textSize="@dimen/_13ssp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dip"
+                    android:background="@color/light_gray"
+                    android:layout_marginTop="@dimen/_6sdp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Steps to Redeem :-"
+                    android:fontFamily="monospace"
+                    android:textSize="@dimen/_12ssp"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:textColor="@color/light_gray"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:text="@string/coin_steps"
+                    android:textColor="@color/light_gray"
+                    android:textSize="@dimen/_12ssp"
+                    android:id="@+id/steps"
+                    android:layout_marginStart="@dimen/_6sdp"
+                    android:fontFamily="sans-serif"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_6sdp"
+                    android:background="@drawable/et_filled_profile"
+                    android:backgroundTint="#a8c7fb"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:text="@string/redeemnow"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:id="@+id/redeem"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_13ssp"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dip"
+    android:background="@drawable/et_curve_border"
+    android:backgroundTint="@color/offwhiteblack"
+    android:elevation="5dip"
+    android:padding="1dip"
+    tools:context=".Activity.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_curve_border"
+        android:backgroundTint="@color/white">
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="160dip"
+            android:layout_height="160dip"
+            android:layout_gravity="center"
+            android:layout_marginStart="2dip"
+            android:elevation="1dip"
+            android:src="@drawable/img_coins" />
+
+        <LinearLayout
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dip"
+            android:layout_toEndOf="@id/imageview"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtSetName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensansbold"
+                android:gravity="end"
+                android:paddingLeft="5dp"
+                android:paddingTop="11dp"
+                android:paddingRight="18dp"
+                android:paddingBottom="5dp"
+                android:text="Apple Watch"
+                android:textColor="@color/black"
+                android:textSize="17.5sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/endsin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dip"
+                android:layout_marginEnd="32dip"
+                android:fontFamily="@font/opensansbold"
+                android:gravity="end"
+                android:text="Ends in"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tx_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="13dip"
+                android:fontFamily="@font/opensansbold"
+                android:gravity="end"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:text="10:25:30"
+                android:textColor="@color/red"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bid_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/details"
+            android:layout_marginTop="16dip"
+            android:background="@drawable/et_filled_down"
+            android:backgroundTint="@color/offwhiteblack"
+            android:gravity="center_vertical|end"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:padding="3dip">
+
+            <ImageView
+                android:id="@+id/txtIcon"
+                android:layout_width="17dip"
+                android:layout_height="17dip"
+                android:layout_marginEnd="9dip"
+                app:tint="@color/black"
+                android:src="@drawable/ic_ticket" />
+
+            <TextView
+                android:id="@+id/txtBids"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="13dip"
+                android:fontFamily="@font/opensansbold"
+                android:text="26 Tickets Bought"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

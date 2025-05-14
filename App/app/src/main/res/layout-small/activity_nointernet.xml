@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/nointernetlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_330sdp"
+            android:layout_margin="@dimen/_14sdp"
+            android:src="@drawable/nointernet" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string71"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:fontFamily="@font/opensansregular"
+            android:textStyle="bold"
+            android:textSize="@dimen/_19sdp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string279"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:fontFamily="@font/opensansregular"
+
+            android:layout_marginTop="@dimen/_3sdp"
+            android:textSize="@dimen/_12ssp"/>
+
+        <LinearLayout
+            android:id="@+id/layouttryagain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_6sdp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="@color/black">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string73"
+                android:padding="@dimen/_6sdp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/opensansregular"
+
+                android:textSize="@dimen/_12ssp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

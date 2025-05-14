@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App theme for night mode -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme for night mode -->
+        <item name="colorPrimary">@color/black</item> <!-- Set to black for night mode -->
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/white</item> <!-- Accent can stay white for contrast -->
+    </style>
+
+    <!-- Style for foo in night mode -->
+    <style name="foo">
+        <item name="textColorError">@color/black</item> <!-- Changed for night mode -->
+    </style>
+
+    <!-- ProgressBarStyle for night mode -->
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/black</item> <!-- Set to black for night mode -->
+    </style>
+
+    <!-- ProgressBarStylePenny for night mode -->
+    <style name="ProgressBarStylePenny">
+        <item name="colorAccent">@color/black</item> <!-- Set to black for night mode -->
+    </style>
+
+    <!-- ProgressBarStyleLotto for night mode -->
+    <style name="ProgressBarStyleLotto">
+        <item name="colorAccent">@color/black</item> <!-- Set to black for night mode -->
+    </style>
+</resources>

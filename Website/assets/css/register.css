@@ -1,0 +1,106 @@
+a{
+    font-style: normal!important;
+}
+
+i {
+  font-style: normal!important;
+}
+
+.login-form {
+    background-color: white!important;
+    border-radius: 5px!important;
+    display: flex!important;
+    flex-direction: column!important;
+    gap: 10px!important;
+    width: 55rem!important;
+    display: flex!important;
+}
+
+.login-form form {
+    display: flex!important;
+    flex-direction: column!important;
+    gap: 10px!important;
+}
+
+.login-form h1 {
+    margin: 0!important;
+    font-size: 1.5rem!important;
+    color: #bdb9b9!important;
+}
+
+.form-group {
+    border: none!important;
+}
+
+.form-group label {
+    font-size: 20px!important;
+    font-weight: 500!important;
+}
+
+.form-group input {
+    font-size: 16px!important;
+    box-shadow: 0px -1px 4px #00000063!important;
+    border-radius: 5px!important;
+    color: black !important;
+    margin-bottom: 0!important;
+}
+
+.form-group .alert-dismissible {
+    margin: 0!important;
+    border-radius: 5px!important;
+    font-size: 16px!important;
+}
+
+.btn-submit {
+    border-radius: 6px!important;
+    background-color: #213343!important;
+    color: white!important;
+    font-size: 2.2rem!important;
+    font-weight: bold!important;
+}
+
+.btn-submit:hover {
+    color: white!important;
+    background-color: #213343!important;
+}
+
+.login-extra {
+    display: flex!important;
+    justify-content: center!important;
+    gap: 15px!important;
+    font-size: 15px!important;
+}
+
+.iti--separate-dial-code {
+    width: 100%!important;
+}
+
+#iti-0__country-listbox {
+z-index: 9999999999999999999999999999999999999999999!important;
+}
+
+#referralCodeSelect {
+font-size: 18px!important;
+text-align: center!important;
+}
+
+.close-button-user {
+    position: absolute!important;
+    right: 11px!important;
+    top: 7px!important;
+    font-size: 2rem!important;
+    font-weight: bold!important;
+    cursor: pointer!important;
+    color: #333!important;
+}
+
+.close-button-user:hover {
+    color: #6a6464!important;
+}
+
+@media (max-width: 900px)
+{
+    .app-login .app-body .app-block {
+        width: 38rem !important;
+    }
+}

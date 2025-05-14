@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/et_filled_sqaure"
+    android:paddingHorizontal="15dip"
+    android:backgroundTint="#edf3ff"
+    android:id="@+id/card"
+    android:layout_margin="11dp">
+
+        <RadioButton
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:buttonTint="#f04f60"
+            android:id="@+id/radio"
+            android:layout_gravity="center_vertical"
+            android:clickable="false"
+            android:checked="true"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginHorizontal="7dip"
+            android:textSize="20sp"
+            android:textColor="@color/blackblack" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:src="@drawable/location"
+            android:layout_gravity="bottom"/>
+</LinearLayout>

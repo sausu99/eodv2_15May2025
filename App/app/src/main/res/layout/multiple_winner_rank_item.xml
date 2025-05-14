@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/mainlinearll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="4dp"
+    android:layout_marginVertical="@dimen/_6sdp"
+    android:background="@drawable/multiwinner"
+    android:layout_marginHorizontal="@dimen/_5sdp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/winnerimg"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="@dimen/_45sdp"
+            android:padding="@dimen/_5sdp"
+            android:layout_height="@dimen/_45sdp">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+    <LinearLayout
+        android:id="@+id/linear"
+        android:paddingVertical="@dimen/_3sdp"
+        app:layout_constraintStart_toEndOf="@+id/winnerimg"
+        app:layout_constraintEnd_toStartOf="@id/ranktxt"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/winnernametxt"
+                android:textColor="@color/blackblack"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/string477"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="@dimen/_13ssp"
+                android:maxWidth="@dimen/_85sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:id="@+id/giftcardtxt"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/dark_gray"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/string485"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:id="@+id/winningvalue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/btn_bglightredbgcard"
+                android:backgroundTint="#FAE4FF"
+                android:layout_marginVertical="@dimen/_3sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:fontFamily="sans-serif-black"
+                android:maxLines="1"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:paddingVertical="@dimen/_3sdp"
+                android:text="@string/string486"
+                android:textColor="@color/selected1"
+                android:textSize="@dimen/_13ssp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ranktxt"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="@dimen/_8sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/rank_bg"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Rank\n4"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary">
+
+        </TextView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/claimtxt"
+            android:layout_alignParentStart="true"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:textColor="#ECD274"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/string487"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <Button
+            android:id="@+id/claim_prizebtn"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:textSize="@dimen/_10ssp"
+            android:textAllCaps="false"
+            android:text="@string/string488"
+            android:textColor="@color/white"
+            android:backgroundTint="#306857"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp">
+
+        </Button>
+        <Button
+            android:id="@+id/view_orderbtn"
+            android:visibility="gone"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:textSize="@dimen/_10ssp"
+            android:textAllCaps="false"
+            android:text="@string/string489"
+            android:textColor="@color/white"
+            android:backgroundTint="#007AFF"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp">
+
+        </Button>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

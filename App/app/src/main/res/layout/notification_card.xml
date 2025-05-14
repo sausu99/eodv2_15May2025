@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/card">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="9.5dip"
+        android:paddingHorizontal="6dip"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="7dip"
+            android:layout_height="7dip"
+            android:id="@+id/new_notification"
+            android:layout_marginTop="12dip"
+            android:src="#ab7e84"/>
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:src="@drawable/img_background"
+            android:scaleType="centerCrop"
+            android:layout_marginStart="9dip"
+            android:id="@+id/icon_img"
+            app:riv_corner_radius="5dip"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dip"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="Notification Title"
+                android:textColor="@color/black"
+                android:id="@+id/title"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="The description of the notification will go here .."
+                android:textSize="16sp"
+                android:textColor="@color/darkgray"
+                android:id="@+id/desc"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 Weeks Ago"
+                android:layout_gravity="end"
+                android:layout_marginEnd="7dip"
+                android:layout_marginTop="2dip"
+                android:textSize="14sp"
+                android:id="@+id/date"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.6dip"
+        android:background="#ecebf1"/>
+</LinearLayout>

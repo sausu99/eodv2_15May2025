@@ -1,0 +1,224 @@
+{
+  "project_info": {
+    "project_number": "680220151191",
+    "project_id": "wowcodes-supreme",
+    "storage_bucket": "wowcodes-supreme.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680220151191:android:614b349eaefc42a19788d2",
+        "android_client_info": {
+          "package_name": "com.wowcodes.bidking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680220151191-f9cr4sg8r5vjr65lbgb73q9inaaij2lq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wowcodes.bidking",
+            "certificate_hash": "86547b25590ca1692c63608ec38d7708014482ff"
+          }
+        },
+        {
+          "client_id": "680220151191-4trpnmrqeir80mkei7b472clfo8c6kr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKq6VPUi6r6Bnwm4GwBT8BpKP4tJWZpa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680220151191-4trpnmrqeir80mkei7b472clfo8c6kr6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680220151191:android:1f4d934e4301a39b9788d2",
+        "android_client_info": {
+          "package_name": "com.wowcodes.bidqueen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680220151191-9ml4j3ia7t29j7umo4kjvlp2r2kam6be.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wowcodes.bidqueen",
+            "certificate_hash": "86547b25590ca1692c63608ec38d7708014482ff"
+          }
+        },
+        {
+          "client_id": "680220151191-4trpnmrqeir80mkei7b472clfo8c6kr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKq6VPUi6r6Bnwm4GwBT8BpKP4tJWZpa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680220151191-4trpnmrqeir80mkei7b472clfo8c6kr6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680220151191:android:47ba269f663fe9369788d2",
+        "android_client_info": {
+          "package_name": "com.wowcodes.bidrook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680220151191-4trpnmrqeir80mkei7b472clfo8c6kr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKq6VPUi6r6Bnwm4GwBT8BpKP4tJWZpa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680220151191-4trpnmrqeir80mkei7b472clfo8c6kr6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680220151191:android:e5dc77fd0d09a9739788d2",
+        "android_client_info": {
+          "package_name": "com.wowcodes.bidwazir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680220151191-rijn3bfr3u773o5lh5f27vv0sp6rbn3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wowcodes.bidwazir",
+            "certificate_hash": "86547b25590ca1692c63608ec38d7708014482ff"
+          }
+        },
+        {
+          "client_id": "680220151191-4trpnmrqeir80mkei7b472clfo8c6kr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKq6VPUi6r6Bnwm4GwBT8BpKP4tJWZpa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680220151191-4trpnmrqeir80mkei7b472clfo8c6kr6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680220151191:android:4fcefb752153f9a69788d2",
+        "android_client_info": {
+          "package_name": "com.wowcodes.raffle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680220151191-4trpnmrqeir80mkei7b472clfo8c6kr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKq6VPUi6r6Bnwm4GwBT8BpKP4tJWZpa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680220151191-4trpnmrqeir80mkei7b472clfo8c6kr6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680220151191:android:69877f1b7635cfb29788d2",
+        "android_client_info": {
+          "package_name": "com.wowcodes.supreme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680220151191-lctbuggm5d22iljqf4g9ceip73ukf0ed.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wowcodes.supreme",
+            "certificate_hash": "86547b25590ca1692c63608ec38d7708014482ff"
+          }
+        },
+        {
+          "client_id": "680220151191-o9uq376a26j0ecgkn98k162p7b0o0ias.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wowcodes.supreme",
+            "certificate_hash": "3b6375eaeb5308fdea54790fe421167b27e45586"
+          }
+        },
+        {
+          "client_id": "680220151191-4trpnmrqeir80mkei7b472clfo8c6kr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKq6VPUi6r6Bnwm4GwBT8BpKP4tJWZpa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680220151191-4trpnmrqeir80mkei7b472clfo8c6kr6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

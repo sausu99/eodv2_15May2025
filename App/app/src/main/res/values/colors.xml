@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#242433</color>
+    <color name="colorPrimaryDark">#242433</color>
+    <color name="colorAccent">#242433</color>
+    <color name="lightcolor">#9F71C2</color>
+    <color name="pieceColor">#efe6f3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="colorPrimaryLight">#efe6f3</color>
+    <color name="txtcolor">#333333</color> <!-- Almost black for the background or text -->
+    <color name="searchbg">#E5E4E2</color>
+    <color name="tabbg">#fdfdfd</color>
+
+    <color name="darkgray">#848484</color>
+    <color name="lightgray">#CACACA</color>
+    <color name="gray">#fafafa</color>
+    <color name="redd">#242433</color>
+    <color name="teal">#147</color>
+    <color name="lightgrayy">#F1EDED</color>
+
+    <color name="selected1">#242433</color>
+    <color name="selected2">#242433</color>
+    <color name="selected3">#3A3A52</color>
+    <color name="btncolor">#242433</color>
+    <color name="transprant">#00000000</color>
+    <color name="gold">#FFD700</color>
+    <!-- TODO:  You can change the Onboarding Page colour below -->
+    <color name="docotorcolor">#242433</color>
+    <color name="lightblack">#dcdcdc</color>
+    <color name="black2">#0f1012</color>
+    <color name="pink">#ED1B76</color>
+    <color name="purple">#9C27B0</color>
+    <color name="paypal">#0070BA</color>
+    <color name="background">#000000 </color>
+    <color name="progress">#000</color>
+    <color name="back">#000</color>
+    <color name="cardBackground">#F7F1FF</color>
+    <color name="cartText">#242433</color>
+    <color name="cartText1">#555555</color>
+    <color name="raffle">#242433</color>
+    <color name="raffledark">#242433</color>
+    <color name="txtWinner">#050505</color>
+    <color name="bluelayout">#0096FF</color>
+    <color name="whiteNight">#303030</color>
+    <color name="dominantWinner">#242433</color>
+    <color name="backgroundForCategoryDetail">#313150</color>
+    <color name="txtColorForCategoryDetail">#F80E0E0E</color>
+
+    <!-- auctionitemcard-->
+    <color name="primarylight">#242433</color>
+    <color name="auctionbg">#fdfdfd</color>
+    <color name="txtprimary">#242433</color>
+    <color name="buttoncolor">#fdfdfd</color>
+    <color name="tabcolor">#242433</color>
+    <color name="graywhite">#848484</color>
+    <color name="blackdeep">#FFFFFF</color>
+    <color name="youbg">#FFFFFF</color>
+    <color name="strokes">#000000</color>
+    <color name="youtxtcolor">#848484</color>
+    <color name="imgtint">#000000</color>
+    <color name="viewdark">#C6C6C6</color>
+    <color name="youbg0">#FAFAFA</color>
+    <color name="blackblack">#000000</color>
+    <color name="whitewhite">#FFFFFF</color>
+    <color name="dotsactive">#000000</color>
+    <color name="button0">#010e1f</color>
+    <color name="button1">#252620</color>
+    <color name="graygray">#848484</color>
+    <color name="darkgraywhite">#535353</color>
+    <color name="primaryblack">#242433</color>
+    <color name="offwhiteblack">#EFEEF3</color>
+    <color name="dialogtitle">#414141</color>
+    <color name="offwhitewhite">#EFEEF3</color>
+    <color name="hintcolor">#848484</color>
+    <color name="faint_yellow">#FFFFC5</color>
+
+    <color name="dark_gray">#848484</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="dark_gray_primer">#848484</color>
+    <color name="light_gray">#F1EDED</color>
+    <color name="faint_white">#FAFAFA</color>
+    <color name="green_forest_primary_dark">#228B22</color>
+    <color name="green_forest">#228B22</color>
+
+    <color name="hot_pink">#6f2293</color>
+    <color name="crimson">#DC143C</color>
+    <color name="coral_primary">#FF7F50</color>
+    <color name="green_forest_secondary">#228B22</color>
+    <color name="winnerbottom">#f6f6f6</color>
+
+</resources>

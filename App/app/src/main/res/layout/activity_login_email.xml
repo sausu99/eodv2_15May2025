@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Activity.LoginActivity">
+
+    <include layout="@layout/activity_loading"></include>
+
+    <ImageView
+        android:layout_width="45dip"
+        android:layout_height="45dip"
+        android:src="@drawable/payu_left_arrow"
+        android:layout_marginTop="7dip"
+        app:tint="@color/black"
+        android:id="@+id/imgBackk"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="-20dip"
+        android:src="@drawable/ic_addtop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_gray"
+        android:text="@string/securely_sign_in_mail"
+        android:gravity="center"
+        android:layout_marginHorizontal="30dip"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:fontFamily="monospace"
+        android:layout_marginHorizontal="11dip"
+        android:text="@string/email_address"
+        android:textColor="@color/dark_gray"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/darkgray"
+        android:hint="@string/fieldEmail"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="5dip"
+        android:layout_marginHorizontal="11dip"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_filled_sqaure"
+        android:backgroundTint="#96b5f2"
+        android:layout_marginTop="25dip"
+        android:layout_marginHorizontal="11dip"
+        android:padding="11dip"
+        android:text="@string/txt_continue"
+        android:id="@+id/txtcontinue"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:id="@+id/txtTopDeals"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:text="OR"
+            android:outlineAmbientShadowColor="@color/transprant"
+            android:outlineSpotShadowColor="@color/transprant"
+            android:elevation="10dip"
+            android:background="@color/white"
+            android:paddingHorizontal="7dip"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.25dip"
+            android:layout_centerInParent="true"
+            android:background="@color/darkgray" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_borderrr"
+        android:padding="10dip"
+        android:layout_marginTop="20dip"
+        android:id="@+id/mob_login"
+        android:layout_marginHorizontal="11dip"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="23dip"
+            android:layout_height="23dip"
+            android:tint="@color/whitewhite"
+            android:src="@android:drawable/stat_sys_phone_call"
+            app:riv_corner_radius="5dip"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loginwithmob"
+            android:textColor="@color/black"
+            android:layout_marginStart="16dip"
+            android:textSize="19sp"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_borderrr"
+        android:padding="10dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginHorizontal="11dip"
+        android:orientation="horizontal"
+        android:id="@+id/google_login"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="28dip"
+            android:layout_height="28dip"
+            android:src="@drawable/ic_google"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loginwithgoogle"
+            android:textColor="@color/black"
+            android:layout_marginStart="16dip"
+            android:textSize="19sp"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_borderrr"
+        android:padding="10dip"
+        android:visibility="gone"
+        android:layout_marginTop="20dip"
+        android:layout_marginHorizontal="11dip"
+        android:orientation="horizontal"
+        android:id="@+id/fb_login"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="28dip"
+            android:layout_height="28dip"
+            android:src="@drawable/com_facebook_button_icon"
+            app:tint="@color/com_facebook_blue"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loginwithfb"
+            android:textColor="@color/black"
+            android:layout_marginStart="16dip"
+            android:textSize="19sp"/>
+    </LinearLayout>
+</LinearLayout>

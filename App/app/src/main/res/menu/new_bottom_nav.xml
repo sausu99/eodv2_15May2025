@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item
+        android:id="@+id/invest_section"
+        android:icon="@drawable/ic_invest"
+        android:title="@string/invest"
+        android:checked="true"
+        app:cnb_iconColor="@color/colorPrimary"
+        app:itemIconSize="14dp"/> &lt;!&ndash; Set the icon size here &ndash;&gt;-->
+    <item
+        android:id="@+id/auctions_section"
+        android:icon="@drawable/homeselector"
+        android:title="@string/title_home"
+        app:itemIconSize="21dp"/>
+    <item
+        android:id="@+id/wallet_section"
+        android:icon="@drawable/walletselector"
+        android:title="@string/wallet"
+        app:itemIconSize="21dp"/> <!-- Set the icon size here -->
+
+    <!-- Set the icon size here -->
+
+     <!-- Set the icon size here -->
+
+
+    <item
+
+        android:id="@+id/winners_section"
+        android:icon="@drawable/trophyselector"
+        android:title="@string/string454"
+        app:itemIconSize="22dp"/>
+    <item
+        android:id="@+id/profile_section"
+        android:icon="@drawable/userprofileselector"
+        android:title="@string/string453"
+        app:itemIconSize="21dp"/>
+
+
+
+    <!-- Set the icon size here -->
+</menu>

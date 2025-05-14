@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFE9DB"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity">
+
+
+    <include layout="@layout/activity_loading"></include>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/refer1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:paddingTop="@dimen/_9sdp"
+                android:paddingBottom="@dimen/_6sdp"
+                android:layout_weight="1"
+                android:background="@drawable/referback"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/_19ssp"
+                    android:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:text="@string/referearn"
+                    android:textColor="@color/colorPrimary"/>
+
+                <ImageView
+                    android:id="@+id/imgItemImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_95sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/refer2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="monospace"
+                    android:layout_marginTop="@dimen/_9sdp"
+                    android:paddingBottom="@dimen/_3sdp"
+                    android:textStyle="bold"
+                    android:text="@string/string365"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_13ssp"/>
+
+                <TextView
+                    android:id="@+id/txtRefercode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/et_dotted"
+                    android:fontFamily="@font/opensansmediam"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:textIsSelectable="true"
+                    android:text="####"
+                    android:textStyle="bold"
+                    android:paddingVertical="@dimen/_4sdp"
+                    android:paddingHorizontal="@dimen/_6sdp"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/_22ssp"/>
+
+                <TextView
+                    android:id="@+id/taptocopy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="@dimen/_7sdp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/taptocopy"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14ssp"
+                    android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/txtShare"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_18sdp"
+                        android:paddingRight="@dimen/_14sdp"
+                        android:paddingLeft="@dimen/_14sdp"
+                        android:background="@drawable/btn_bg1"
+                        android:drawableLeft="@drawable/refer_share"
+                        android:gravity="center"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="@string/string366"
+                        android:textColor="@color/whitewhite"
+                        android:textSize="@dimen/_13ssp" />
+
+                    <TextView
+                        android:id="@+id/txtreferrals"
+                        android:layout_gravity="center|bottom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_14sdp"
+                        android:paddingRight="@dimen/_14sdp"
+                        android:paddingLeft="@dimen/_14sdp"
+                        android:background="@drawable/et_border13"
+                        android:gravity="center"
+                        android:paddingTop="@dimen/_4sdp"
+                        android:paddingBottom="@dimen/_4sdp"
+                        android:layout_marginBottom="@dimen/_3sdp"
+                        android:text="@string/string367"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/_11ssp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#70000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_filled_up"
+        android:orientation="vertical"
+        android:padding="16dip"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/details"
+        android:elevation="1dip"
+        android:backgroundTint="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plan Name"
+                android:textSize="20sp"
+                android:fontFamily="@font/opensansbold"
+                android:textStyle="bold"
+                android:layout_gravity="bottom"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:id="@+id/plan_name"/>
+
+            
+            <ImageView
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:src="@drawable/admob_close_button_white_circle_black_cross"
+                android:id="@+id/close"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="..plan description goes here.."
+            android:textSize="18sp"
+            android:fontFamily="@font/opensansmediam"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="1dip"
+            android:id="@+id/desc"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/investment_range"
+            android:textSize="20sp"
+            android:layout_marginTop="7dip"
+            android:fontFamily="@font/opensansbold"
+            android:textColor="#a8c7fb"
+            android:id="@+id/range"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interest"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:id="@+id/interest"
+            android:layout_marginTop="2dip"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/duration"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:id="@+id/time"
+            android:textStyle="bold"
+            android:layout_marginTop="3dip"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_amount"
+            android:textSize="18sp"
+            android:id="@+id/txt_amount"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dip"/>
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_dotted_black"
+            android:layout_marginTop="14dip"
+            android:padding="5dip"
+            android:hint="Range"
+            android:maxLength="9"
+            android:inputType="number"
+            android:paddingStart="10dip"
+            android:textSize="19sp"/>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dip"
+            android:background="@drawable/et_filled_profile"
+            android:backgroundTint="#a8c7fb"
+            android:layout_marginTop="25dip"
+            android:text="@string/investnow"
+            android:textColor="@color/whitewhite"
+            android:layout_marginHorizontal="10dip"
+            android:gravity="center"
+            android:id="@+id/invest"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</RelativeLayout>

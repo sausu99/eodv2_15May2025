@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Activity.ReferralsActivity">
+
+    <include layout="@layout/activity_toolbar" />
+    <include layout="@layout/activity_loading" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/noreferrals"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/noreferralsyet"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_referral"
+            android:textSize="33dp"
+            android:layout_marginHorizontal="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/primarylight"
+            android:fontFamily="monospace"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yourreferrals"
+        android:text="YOUR REFERRALS"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textColor="@color/primarylight"
+        android:fontFamily="serif-monospace"
+        android:visibility="gone"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:divider="@drawable/et_border11"
+        android:id="@+id/referralView"/>
+
+
+</LinearLayout>

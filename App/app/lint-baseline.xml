@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint Hedgehog | 2023.1.1 Patch 2">
+
+    <issue
+        id="SimpleDateFormat"
+        message="To get local formatting use `getDateInstance()`, `getDateTimeInstance()`, or `getTimeInstance()`, or use `new SimpleDateFormat(String template, Locale locale)` with for example `Locale.US` for ASCII dates.">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="371"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="126"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="271"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="272"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="273"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="274"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="275"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="278"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="279"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="280"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="281"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="282"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="285"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="286"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="287"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="288"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="289"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="292"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="293"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="294"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="295"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="296"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="299"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="300"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="301"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="302"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="303"/>
+    </issue>
+
+    <issue
+        id="UnsafeIntentLaunch"
+        message="This intent could be coming from an untrusted source. It is later launched by \&#xA;an unprotected component. You could either make the component \&#xA;protected; or sanitize this intent using androidx.core.content.IntentSanitizer.">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="419"/>
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="424"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 26">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="121"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 26">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="360"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 26">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="587"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="311"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="324"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="325"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="332"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="334"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="393"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="395"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="402"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="529"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="530"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="558"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="558"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="src/main/java/com/wowcodes/supreme/Activity/DynamicAuctionActivity.java"
+            line="573"/>
+    </issue>
+
+</issues>

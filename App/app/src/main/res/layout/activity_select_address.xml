@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/offwhiteblack"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SelectAddress">
+
+    <include layout="@layout/activity_toolbar" android:id="@+id/toolbar"/>
+    <include layout="@layout/activity_loading" />
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:background="@drawable/btn_bgwhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/addic"
+            android:layout_alignParentStart="true"
+            android:backgroundTint="@color/primarylight"
+            android:background="@drawable/payu_add_icon"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/addaddresstxt"
+            android:layout_toEndOf="@+id/addic"
+            android:textSize="@dimen/_15ssp"
+            android:paddingVertical="@dimen/_10sdp"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/primarylight"
+            android:text="@string/string507"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <ImageView
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:layout_alignParentEnd="true"
+            app:tint="@color/primarylight"
+            android:background="@drawable/ic_arrow_right"
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp">
+
+        </ImageView>
+
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_viewaddress"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

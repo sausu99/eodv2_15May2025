@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/offwhiteblack"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <include layout="@layout/activity_loading" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgBackk"
+            android:layout_width="@dimen/_27sdp"
+            android:layout_height="@dimen/_27sdp"
+            app:tint="@color/black"
+            android:src="@drawable/payu_left_arrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/poppins"
+            android:text="@string/reset_pass"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13ssp" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/opensansbold"
+        android:layout_marginTop="@dimen/_19sdp"
+        android:gravity="center"
+        android:text="@string/string59" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_12ssp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_gravity="center"
+        android:id="@+id/mobno"
+        android:textColor="@color/black"
+        android:fontFamily="@font/opensansregular"
+        android:text="@string/string60" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_19sdp"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:hint="@string/string172"
+        android:textColorHint="@color/darkgraywhite"
+        app:passwordToggleTint="@color/dotsactive"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edPass"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:inputType="textPassword"
+            android:textSize="@dimen/_13ssp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_19sdp"
+        android:textColorHint="@color/darkgraywhite"
+        android:layout_marginTop="@dimen/_6sdp"
+        app:passwordToggleTint="@color/dotsactive"
+        android:hint="@string/string173"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edConfrimPass"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:inputType="textPassword"
+            android:textSize="@dimen/_13ssp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/txtSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/et_bordergray12"
+        android:backgroundTint="#96b5f2"
+        android:layout_marginTop="@dimen/_19sdp"
+        android:layout_marginHorizontal="@dimen/_9sdp"
+        android:text="@string/string330"
+        android:textColor="@color/whitewhite"
+        android:textSize="@dimen/_14ssp"
+        android:padding="@dimen/_6sdp"
+        android:textStyle="bold"/>
+</LinearLayout>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/btn_bglightredoutlineblack"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="@dimen/_4sdp"
+    android:layout_marginVertical="@dimen/_8sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<RelativeLayout
+    android:layout_marginTop="@dimen/_5sdp"
+    android:paddingHorizontal="@dimen/_10sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/ticketp"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:text="Coins Spent:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_below="@+id/ticketp"
+        android:id="@+id/ticketprize"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="@color/dark_gray"
+        android:fontFamily="sans-serif-black"
+        android:text="1 coin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <ImageView
+        android:layout_below="@+id/ticketp"
+        android:layout_toEndOf="@+id/ticketprize"
+        android:background="@drawable/coinimg"
+        android:layout_width="@dimen/_17sdp"
+        android:layout_height="@dimen/_17sdp">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/purchasedate"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:text="Purchase date:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_below="@+id/purchasedate"
+        android:id="@+id/purchasedt"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="@color/dark_gray"
+        android:fontFamily="sans-serif-black"
+        android:text="12/02/2000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</RelativeLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:paddingStart="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ball1bg"
+            android:visibility="gone"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:layout_marginHorizontal="@dimen/_2sdp"
+            android:background="@drawable/blue"
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"
+            >
+            <TextView
+                android:id="@+id/ball1txt"
+                android:text="88"
+                android:textSize="@dimen/_17ssp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/blackblack"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ball2bg"
+            android:visibility="gone"
+
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:layout_marginHorizontal="@dimen/_2sdp"
+            android:background="@drawable/blue"
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"
+            >
+            <TextView
+
+                android:id="@+id/ball2txt"
+                android:text="88"
+                android:textSize="@dimen/_17ssp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/blackblack"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ball3bg"
+            android:visibility="gone"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:layout_marginHorizontal="@dimen/_2sdp"
+            android:background="@drawable/blue"
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"
+            >
+
+            <TextView
+                android:id="@+id/ball3txt"
+                android:text="88"
+                android:textSize="@dimen/_17ssp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/blackblack"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ball4bg"
+            android:visibility="gone"
+            android:background="@drawable/blue"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:layout_marginHorizontal="@dimen/_2sdp"
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"
+            >
+            <TextView
+                android:id="@+id/ball4txt"
+                android:text="88"
+                android:textSize="@dimen/_17ssp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/blackblack"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ball5bg"
+            android:visibility="gone"
+            android:background="@drawable/blue"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:layout_marginHorizontal="@dimen/_2sdp"
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"
+            >
+            <TextView
+                android:id="@+id/ball5txt"
+                android:text="88"
+                android:textSize="@dimen/_17ssp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/blackblack"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ball6bg"
+            android:visibility="gone"
+            android:background="@drawable/blue"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:layout_marginHorizontal="@dimen/_2sdp"
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"
+            >
+            <TextView
+                android:id="@+id/ball6txt"
+                android:text="88"
+                android:textSize="@dimen/_17ssp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/blackblack"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ball7bg"
+            android:visibility="gone"
+            android:background="@drawable/blue"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:layout_marginHorizontal="@dimen/_2sdp"
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"
+            >
+            <TextView
+                android:id="@+id/ball7txt"
+                android:text="88"
+                android:textSize="@dimen/_17ssp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/blackblack"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ball8bg"
+            android:visibility="gone"
+            android:background="@drawable/blue"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:layout_marginHorizontal="@dimen/_2sdp"
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"
+            >
+
+            <TextView
+                android:id="@+id/ball8txt"
+                android:text="88"
+                android:textSize="@dimen/_17ssp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/blackblack"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+<TextView
+    android:textSize="@dimen/_12ssp"
+    android:layout_marginEnd="@dimen/_11sdp"
+    android:textAlignment="center"
+    android:textColor="@color/primarylight"
+    android:fontFamily="sans-serif-black"
+    android:text="View ticket"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></TextView>
+</LinearLayout>

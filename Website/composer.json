@@ -1,0 +1,21 @@
+{
+    "config": {
+        "platform-check": false
+    },
+    "autoload": {
+        "classmap": [
+            "payment-gateway/mpesa_mz/mpesa",
+            "payment-gateway/instamojo"
+        ],
+        "files": [
+            
+        ]
+    },
+    "require": {
+        "srmklive/paypal": "~3.0",
+        "paypal/rest-api-sdk-php": "^1.14",
+        "instamojo/instamojo-php": "^1.0",
+        "phpmailer/phpmailer": "^6.9",
+        "endroid/qr-code": "^5.0"
+    }
+}

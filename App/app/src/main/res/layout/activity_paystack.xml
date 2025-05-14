@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PaystackActivity"
+    android:background="@color/white"
+    tools:ignore="NamespaceTypo">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+  >
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <include layout="@layout/activity_toolbar" />
+
+    <!-- Expiry Text for email address-->
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="55dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+        <EditText
+            android:id="@+id/amountedit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:hint="@string/string182"
+            android:minHeight="48dp"
+            android:textColorHint="@color/graywhite"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    <EditText
+        android:id="@+id/edit_email_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/amountedit"
+        android:hint="@string/email"
+        android:imeOptions="actionNext"
+        android:textColorHint="@color/graywhite"
+        android:inputType="textEmailAddress" />
+    <!-- Expiry Text for credit card number-->
+    <EditText
+        android:id="@+id/edit_card_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textColorHint="@color/graywhite"
+        android:layout_below="@id/edit_email_address"
+        android:layout_marginTop="8dp"
+        android:hint="@string/card_number"
+        android:imeOptions="actionNext"
+        android:inputType="number" />
+
+    <!-- Divider-->
+    <View
+        android:id="@+id/horizontal_divider"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:id="@+id/layout_expiry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/edit_card_number"
+        android:layout_marginTop="8dp"
+        android:layout_toLeftOf="@id/horizontal_divider">
+
+        <!-- Expiry Text -->
+        <TextView
+            android:id="@+id/textview_expiry_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:textColor="@color/dotsactive"
+            android:text="Expiry" />
+
+        <!-- EditText for expiry month -->
+        <EditText
+            android:id="@+id/edit_expiry_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview_expiry_text"
+            android:hint="MM"
+            android:textColorHint="@color/graywhite"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxEms="4"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:padding="8dp" />
+
+        <!-- EditText for expiry year -->
+        <EditText
+            android:id="@+id/edit_expiry_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview_expiry_text"
+            android:layout_toRightOf="@id/edit_expiry_month"
+            android:hint="YY"
+            android:textColorHint="@color/graywhite"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxEms="4"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:padding="8dp" />
+    </RelativeLayout>
+
+    <!-- layout for cvv -->
+    <RelativeLayout
+        android:id="@+id/layout_cvv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/edit_card_number"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/horizontal_divider">
+
+        <!-- CVV text -->
+        <TextView
+            android:id="@+id/textview_cvv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="CVV"
+            android:textColor="@color/dotsactive"
+            android:paddingLeft="8dp"
+            android:text="CVV" />
+
+        <!-- EditText for cvv -->
+        <EditText
+            android:id="@+id/edit_cvv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview_cvv"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:hint="CVV"
+            android:textColorHint="@color/graywhite"
+            android:maxLength="3"
+            android:maxLines="1"
+            android:padding="8dp" />
+    </RelativeLayout>
+
+    <!--Pay Button -->
+    <Button
+        android:id="@+id/pay_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@color/colorAccent"
+        android:text="@string/pay"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+</RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

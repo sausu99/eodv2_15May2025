@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Activity.Multiplewinners">
+    <include layout="@layout/activity_toolbar" android:id="@+id/toolbar"/>
+
+
+    <ScrollView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:id="@+id/allwinnersll"
+            android:layout_below="@+id/mainlayout"
+            app:layout_constraintTop_toBottomOf="@+id/thirdll"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="@dimen/_minus14sdp"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            android:background="@drawable/et_filled_up"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@color/primarylight"
+                android:fontFamily="@font/poppins_bold"
+                android:textAlignment="center"
+                android:id="@+id/prizepool"
+                android:textSize="@dimen/_20ssp"
+                android:text="Prize Pool : 150 $"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TextView>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/imagelayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/image_pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="@drawable/et_filled_profile"
+                    android:backgroundTint="@color/offwhitewhite"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+                </androidx.viewpager.widget.ViewPager>
+
+                <ImageView
+                    android:id="@+id/leftimgbtn"
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:layout_marginTop="75sp"
+                    android:src="@drawable/payu_left_arrow"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/blackblack"/>
+
+                <ImageView
+                    android:id="@+id/rightimgbtn"
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="75sp"
+                    android:src="@drawable/payu_arrow_right"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:tint="@color/blackblack"/>
+
+
+                <LinearLayout
+                    android:id="@+id/pointslay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingBottom="9dip"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    app:layout_constraintTop_toBottomOf="@+id/image_pager"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent">
+
+                    <ImageView
+                        android:id="@+id/p0"
+                        android:layout_width="14dip"
+                        android:layout_height="14dip"
+                        android:layout_marginHorizontal="5dip"
+                        android:src="@drawable/img_notselected_b" />
+
+                    <ImageView
+                        android:id="@+id/p1"
+                        android:layout_width="14dip"
+                        android:layout_height="14dip"
+                        android:layout_marginHorizontal="5dip"
+                        android:src="@drawable/img_notselected_b" />
+
+                    <ImageView
+                        android:id="@+id/p2"
+                        android:layout_width="14dip"
+                        android:layout_height="14dip"
+                        android:layout_marginHorizontal="5dip"
+                        android:src="@drawable/img_notselected_b" />
+                    <ImageView
+                        android:id="@+id/p3"
+                        android:layout_width="14dip"
+                        android:layout_height="14dip"
+                        android:layout_marginHorizontal="5dip"
+                        android:src="@drawable/img_notselected_b" />
+                    <ImageView
+                        android:id="@+id/p4"
+                        android:layout_width="14dip"
+                        android:layout_height="14dip"
+                        android:layout_marginHorizontal="5dip"
+                        android:src="@drawable/img_notselected_b" />
+
+
+                </LinearLayout>
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <LinearLayout
+                app:layout_constraintTop_toBottomOf="@+id/pointslay"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/closedt"
+                    android:layout_weight="7"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="Closed at :- 2024-09-29"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/winnercount"
+                    android:layout_weight="3"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="Total winners :- 5"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:textSize="22sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/primarylight"
+                android:layout_marginHorizontal="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/leaderboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_viewwinners"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <include layout="@layout/activity_loading" />
+
+
+
+</RelativeLayout>

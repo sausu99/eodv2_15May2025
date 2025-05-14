@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        tools:overrideLibrary="com.ismaeldivita.chipnavigation" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.Ad_ID" />
+
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version"
+        tools:replace="android:value"/>
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/img_logo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/img_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup,UnusedAttribute"
+        tools:replace="android:allowBackup,android:theme,android:usesCleartextTraffic">
+        <activity
+            android:name=".Activity.MyAddress"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MyWishlist"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.RedeemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ViewAllAchievementsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddressSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PurchaseCoinsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SelectAddress"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddAddress"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Multiplewinners"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SingleWinner"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Slotworks"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Reverseworks"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Toolbar2"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AuctionActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+
+        <activity
+            android:name=".Activity.CancelJarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.changeCityAnimationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.EnterPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LoginActivityEmail"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ShopItemsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.NotificationHistory"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.chooseLanguageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.changeLangAnimationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ScratchRewardsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.BeforeRaffleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CategorySelected"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.KycUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.game_cric"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.game_ouc"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LottoWorks"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.game_spin_wheel"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.game_tc"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ReferralsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.game_gn"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.game_rps"
+            android:exported="false" />
+        <activity
+            android:name=".gamesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.EditProfileActivityForAndroid13"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ThemeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AuctionWorks"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.RaffleWorks"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PennyWorks"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DynamicWorks"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.HighestBidWorks"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CityDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.HowBidWorks"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.OpenPixActivity"
+            android:exported="false"
+            android:label="@string/title_activity_open_pix"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.EdukanPayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.PaystackActivity"
+            android:exported="false"
+            android:label="@string/title_activity_paystack"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".InterstitialAds"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activity.LotoDetailActivity"
+            android:exported="false"
+            android:label="@string/title_activity_loto_detail"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activity.PaypalCheckout"
+            android:exported="true">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "example://gizmos” -->
+                <data
+                    android:host="wowcodes.shop"
+                    android:path="/raffle/paypal/checkout.php"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".Activity.Paypalpay"
+            android:exported="true" />
+        <activity android:name=".ADSHOW" />
+        <activity android:name=".Activity.YourBidsActivity" />
+        <activity android:name=".Activity.IntroductionActivity" />
+        <activity android:name=".Activity.ChangepassActivity" />
+        <activity android:name=".Activity.ForgotPasswordActivity" />
+        <activity android:name=".Activity.PhoneVerificationActivity" />
+        <activity android:name=".Activity.PhoneVerificationnActivity" />
+        <activity
+            android:name=".Activity.RazorpayActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <data
+                    android:host="rzp.io"
+                    android:scheme="io.rzp" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.razorpay.RzpTokenReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="rzp.device_token.share" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.onesignal.GcmBroadcastReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="${applicationId}" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@style/CheckoutTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <data
+                    android:host="rzp.io"
+                    android:scheme="io.rzp" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.AllBidderActivity" />
+        <activity android:name=".Activity.AllUserBidderActivity" />
+        <activity android:name=".Activity.AllLottoActivity" />
+        <activity android:name=".Activity.AllUserLottoActivity" />
+        <activity android:name=".Activity.GetOrderActivity" />
+        <activity android:name=".Activity.GetCoinTraActivity" />
+        <activity
+            android:name=".Activity.WalletPassbookActivity"
+            android:exported="true" />
+        <activity android:name=".Activity.IMPFeedbackActivity" />
+        <activity android:name=".Activity.PrivacyPolicyActivity" />
+        <activity android:name=".Activity.VisitWebsiteActivity" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:exported="true" />
+        <activity android:name=".Activity.EditProfileActivity" />
+        <activity android:name=".Activity.GetCoinActivity" />
+        <activity android:name=".CheckoutActivityJava" />
+        <activity android:name=".Activity.CategoryDetailsActivity" />
+        <activity android:name=".Activity.ViewAllTicketsActivity" />
+        <activity android:name=".Activity.WebViewActivity" />
+        <activity android:name=".Activity.NoInternetActivity" />
+        <activity android:name=".Activity.mpesaActivity" />
+        <activity
+            android:name=".Activity.StartSplashActivity"
+            android:exported="true"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".AlarmReceiver" />
+
+        <meta-data
+            android:name="co.paystack.android.PublicKey"
+            android:value="pk_live_7fa8f481b3e2802375ea1dabb388f9d4dc91ef41" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"
+            />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7444381611301835~1920687765" /> <!-- TODO:  You can change The API Key with your live razorpay key below -->
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_DIoVyzJUUK6w5t" />
+        <meta-data
+            android:name="com.startapp.sdk.APPLICATION_ID"
+            android:value="211239016" />
+        <meta-data
+            android:name="com.startapp.sdk.SPLASH_ADS_ENABLED"
+            android:value="false" />
+        <meta-data
+            android:name="com.startapp.sdk.RETURN_ADS_ENABLED"
+            android:value="false" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="CH_ID" />
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.onesignal.HmsMessageServiceOneSignal"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.onesignal.BootUpReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.onesignal.UpgradeReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.onesignal.NotificationOpenedActivityHMS"
+            android:exported="true"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".NotificationExtenderExample"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE">
+            <intent-filter>
+                <action android:name="com.onesignal.NotificationExtender" />
+            </intent-filter>
+        </service>
+
+<!--        <meta-data-->
+<!--            android:name="com.facebook.sdk.ApplicationId"-->
+<!--            android:value="@string/facebook_app_id"-->
+<!--            tools:replace="android:resource" />-->
+<!--        <meta-data-->
+<!--            android:name="com.facebook.sdk.ClientToken"-->
+<!--            android:value="@string/facebook_client_token" />-->
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="@string/fb_login_protocol_scheme"
+                    tools:ignore="ManifestResource" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.adcolony.sdk.AdColonyInterstitialActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name="com.adcolony.sdk.AdColonyAdViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity android:name=".Activity.ReferActivity" />
+
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="5AIf26iP4pvHJ92DStI_gTzP2oParkkoCfbTZpx5XFSaUoZmfdXqFLwOpLWtSKavJRgm4JLzBx4noolQKDDd0I" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <property
+            android:name="android.adservices.AD_SERVICES_CONFIG"
+            android:resource="@xml/gma_ad_services_config"
+            tools:replace="android:resource" />
+
+    </application>
+
+</manifest>

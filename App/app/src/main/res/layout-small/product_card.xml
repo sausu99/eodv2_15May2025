@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_5sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_8sdp"
+        android:orientation="vertical"
+        android:backgroundTint="#8d58f0"
+        android:background="@drawable/et_filled_profile">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_108sdp"
+            android:background="@drawable/et_filled_up"
+            android:backgroundTint="@color/offwhiteblack">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/img_background"
+                android:background="@color/white"
+                android:layout_margin="@dimen/_7sdp"
+                android:id="@+id/imageview"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRODUCT NAME"
+            android:fontFamily="monospace"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center_horizontal"
+            android:id="@+id/pro_name"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type :- RAFFLE"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="0dp"
+            android:textSize="@dimen/_11ssp"
+            android:id="@+id/pro_type"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/et_filled"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:paddingHorizontal="@dimen/_8sdp"
+            android:paddingVertical="@dimen/_1sdp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price - 5"
+                android:textStyle="bold"
+                android:textColor="@color/darkgray"
+                android:textSize="@dimen/_11ssp"
+                android:id="@+id/pro_price"/>
+
+            <ImageView
+                android:layout_width="@dimen/_17sdp"
+                android:layout_height="@dimen/_17sdp"
+                android:src="@drawable/coinimg"
+                android:layout_marginStart="@dimen/_3sdp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

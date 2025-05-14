@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dip"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/et_borderr"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/areyousure"
+        android:textSize="19sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="monospace"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/keep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_curve_border"
+        android:text="@string/keepplan"
+        android:gravity="center"
+        android:layout_marginTop="20dip"
+        android:padding="7dip"
+        android:layout_marginHorizontal="20dip"
+        android:textColor="@color/black"
+        android:fontFamily="@font/opensansbold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_curve_border"
+        android:backgroundTint="#f03848"
+        android:text="@string/cancelplan"
+        android:textColor="@color/white"
+        android:layout_marginTop="13dip"
+        android:padding="7dip"
+        android:fontFamily="@font/opensansbold"
+        android:gravity="center"
+        android:layout_marginHorizontal="20dip"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="foo">
+        <item name="textColorError">@color/colorPrimary</item>
+    </style>
+
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="ProgressBarStylePenny">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="ProgressBarStyleLotto">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="roundimage">
+        <item name="color">@color/white</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="background">@color/white</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">0%</item>
+        <item name="cornerSizeBottomLeft">0%</item>
+        <item name="cornerSizeTopRight">16%</item>
+        <item name="cornerSizeBottomRight">16%</item>
+    </style>
+
+    <style name="animation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="mydialog"/>
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/logofirst</item>
+    </style>
+
+</resources>

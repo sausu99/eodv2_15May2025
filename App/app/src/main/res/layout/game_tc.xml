@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Activity.game_tc">
+
+    <include layout="@layout/activity_toolbar"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lnlCoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:padding="7dp"
+                android:background="@drawable/et_dotted"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yourbal"
+                    android:fontFamily="monospace"
+                    android:textSize="20dp"
+                    android:padding="11dp"
+                    android:textColor="@color/primarylight"
+                    />
+
+                <TextView
+                    android:id="@+id/txtGetCoinTop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="0"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="21dp"/>
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_coin"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingTop="18dp"
+                android:paddingHorizontal="14dp"
+                android:paddingBottom="7dp">
+
+                <ImageView
+                    android:id="@+id/computer_move_img"
+                    android:layout_width="120dp"
+                    android:layout_gravity="start|center_vertical"
+                    android:layout_height="120dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="47dp"
+                    android:layout_toRightOf="@id/computer_move_img"
+                    android:fontFamily="monospace"
+                    android:text="V/S"
+                    android:textColor="@color/primarylight"
+                    android:textSize="35dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/user_move_img"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:padding="0.7dp"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/question_mark" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:paddingVertical="10dp"
+                    android:layout_below="@id/computer_move_img"
+                    android:text="Computer"
+                    android:id="@+id/compname"
+                    android:textColor="@color/primarylight"
+                    android:textSize="20dp"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="You"
+                    android:paddingTop="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/user_move_img"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textColor="@color/primarylight"
+                    android:textSize="20dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/primarylight"
+                android:id="@+id/winner_tv"
+                android:gravity="center"
+                android:layout_marginTop="1dp"
+                android:visibility="gone"
+                android:padding="20dp"/>
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/dotted_line"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enternoofcoins"
+                android:textSize="19dp"
+                android:textColor="@color/primarylight"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/noofcoins"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_marginTop="20dp"
+                android:padding="7dp"
+                android:inputType="number"
+                android:gravity="center"
+                android:layout_marginHorizontal="11dp"
+                android:background="@drawable/et_dotted"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingVertical="7dp"
+                android:paddingHorizontal="10dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                android:text="@string/choosemove"
+                android:textColor="@color/primarylight"
+                android:textSize="20dp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="7dp">
+
+                    <ImageView
+                        android:id="@+id/heads_btn"
+                        android:layout_width="100dp"
+                        android:scaleType="centerCrop"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="7dp"
+                        android:src="@drawable/heads" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="HEADS"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginLeft="25dp"
+                        android:textColor="@color/primarylight"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="7dp">
+
+                    <ImageView
+                        android:id="@+id/tails_btn"
+                        android:layout_width="100dp"
+                        android:scaleType="centerCrop"
+                        android:layout_height="100dp"
+                        android:src="@drawable/tails" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TAILS"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginLeft="28dp"
+                        android:textColor="@color/primarylight"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submitplay"
+                android:textSize="22dp"
+                android:id="@+id/submit"
+                android:layout_marginTop="22dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="11dp"
+                android:background="@drawable/et_filled"
+                android:textColor="@color/whitewhite"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/howtoplay"
+                android:textStyle="italic"
+                android:id="@+id/underline"
+                android:textSize="18dp"
+                android:layout_marginTop="11dp"
+                android:textColor="@color/primarylight"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/tc_min"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/tc_max"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/tc_win"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/tc_chance"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/amt"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/ordid"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/pckid"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/_6sdp"
+    android:layout_marginVertical="@dimen/_4sdp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingVertical="@dimen/_4sdp"
+        android:paddingHorizontal="@dimen/_17sdp"
+        android:text="Plan Name"
+        android:textSize="@dimen/_13ssp"
+        android:textColor="@color/white"
+        android:background="@drawable/et_curved_border"
+        android:backgroundTint="@color/faint_white"
+        android:fontFamily="monospace"
+        android:elevation="1dp"
+        android:id="@+id/plan_name"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_filled_profile"
+        android:id="@+id/border"
+        android:padding="1.6dip"
+        android:layout_below="@id/plan_name"
+        android:layout_marginTop="-20dip"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/et_filled_profile"
+            android:backgroundTint="@color/white"
+            android:id="@+id/card"
+            android:paddingTop="@dimen/_9sdp"
+            android:paddingHorizontal="@dimen/_9sdp"
+            android:paddingBottom="@dimen/_9sdp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="investment | short_desc"
+                android:gravity="center"
+                android:textSize="@dimen/_13ssp"
+                android:layout_marginTop="@dimen/_9sdp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/inv_desc"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/compound_interest"
+                android:textSize="@dimen/_9sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:textColor="@color/black"
+                android:id="@+id/ci"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/capital_back"
+                android:textSize="@dimen/_12ssp"
+                android:layout_marginTop="1.6dip"
+                android:textColor="@color/black"
+                android:id="@+id/cb"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lifetime_earning"
+                android:textSize="@dimen/_12ssp"
+                android:layout_marginTop="1.6dip"
+                android:textColor="@color/black"
+                android:id="@+id/le"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/investnow"
+                android:textSize="@dimen/_13ssp"
+                android:layout_marginTop="@dimen/_13sdp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/opensansmediam"
+                android:background="@drawable/et_filled_profile"
+                android:backgroundTint="@color/faint_white"
+                android:paddingVertical="@dimen/_4sdp"
+                android:paddingHorizontal="@dimen/_19sdp"
+                android:id="@+id/invest"/>
+        </LinearLayout>
+    </LinearLayout>
+        
+</RelativeLayout>

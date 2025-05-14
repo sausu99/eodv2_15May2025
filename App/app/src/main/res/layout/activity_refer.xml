@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Activity.MainActivity">
+    <include layout="@layout/activity_toolbar" />
+
+    <include layout="@layout/activity_loading"></include>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:fontFamily="@font/opensansmediam"
+                android:text="@string/string47"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/topcode"
+                android:layout_height="100sp"/>
+            <TextView
+                android:id="@+id/txtRefercode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/et_dotted"
+                android:fontFamily="@font/opensansmediam"
+                android:padding="10dp"
+                android:text="@string/string47"
+                android:textColor="@color/primarylight"
+                android:textSize="30dp"/>
+
+            <ImageView
+                android:id="@+id/imgItemImg"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/bottomcode"
+                android:layout_height="100sp">
+
+            </ImageView>
+
+            <!-- TODO: You can change the First Point of Refer n Earn Bellow -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:layout_gravity="left"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:gravity="left"
+                android:layout_marginRight="8dp"
+                android:fontFamily="@font/opensansmediam"
+                android:text="@string/string80"
+                android:textColor="@color/darkgraywhite"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <!-- TODO: You can change the Second Point of Refer n Earn Bellow -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="left"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:gravity="left"
+                android:layout_marginRight="8dp"
+                android:fontFamily="@font/opensansmediam"
+                android:text="@string/string81"
+                android:textColor="@color/darkgraywhite"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <!-- TODO: You can change the Third Point of Refer n Earn Bellow -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="left"
+                android:textSize="16dp"
+                android:layout_marginLeft="8dp"
+                android:gravity="left"
+                android:layout_marginRight="8dp"
+                android:fontFamily="@font/opensansmediam"
+                android:text="@string/string82"
+                android:textColor="@color/darkgraywhite"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+
+
+            <TextView
+                android:id="@+id/txtShare"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:background="@drawable/btn_bg1"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/string51"
+                android:textColor="@color/whitewhite"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

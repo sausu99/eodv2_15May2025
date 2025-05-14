@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Activity.GetCoinTraActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="954535" />
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_addfriend"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/darkgray"
+            android:fontFamily="@font/opensansmediam"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/string251"
+            android:textColor="@color/darkgray"
+            android:textSize="17dp"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/lightgray"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/txtGetCoin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/imgPrivacy"
+                android:fontFamily="@font/opensansbold"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/imgPrivacy"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_information"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/lightgray"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txtGetCoinHis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="7dp"
+            android:background="@drawable/rounded_corner"
+            android:checked="false"
+            android:drawableLeft="@drawable/ic_history"
+            android:drawableRight="@drawable/ic_next"
+            android:drawablePadding="12dp"
+            android:layoutDirection="rtl"
+            android:padding="20dp"
+            android:text="@string/string10"
+            android:textAlignment="textStart"
+            android:textColor="@color/teal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text_tran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="7dp"
+            android:background="@drawable/rounded_corner"
+            android:checked="false"
+            android:drawableLeft="@drawable/ic_history"
+            android:drawableRight="@drawable/ic_next"
+            android:drawablePadding="12dp"
+            android:layoutDirection="rtl"
+            android:padding="20dp"
+            android:text="@string/string45"
+            android:textAlignment="textStart"
+            android:textColor="@color/teal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensansbold"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/string15_1"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensansregular"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/string259"
+            android:textColor="@color/darkgray"
+            android:textSize="17dp" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mancard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableEnd="@drawable/ic_next"
+            android:padding="5dp"
+            app:cardCornerRadius="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="start"
+                        android:layout_marginRight="5dp"
+                        android:orientation="horizontal">
+
+                        <!-- TextView for Set Name -->
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:gravity="left|center"
+                            android:paddingRight="5dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txtSetName"
+                                android:layout_width="match_parent"
+                                android:layout_height="65dp"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/opensansbold"
+                                android:gravity="center"
+                                android:paddingLeft="5dp"
+                                android:paddingTop="5dp"
+                                android:paddingRight="5dp"
+                                android:paddingBottom="5dp"
+                                android:text="@string/manual2"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <!-- Button-like TextView for Next -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:background="@drawable/rounded_corner"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/next"
+                                android:layout_width="60sp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2sp"
+                                android:background="@drawable/rounded_corner"
+                                android:backgroundTint="@color/black"
+                                android:fontFamily="@font/opensansregular"
+                                android:gravity="center"
+                                android:padding="7dp"
+                                android:text="@string/string131"
+                                android:textColor="@color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- RecyclerView -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView
+        android:background="@color/white"
+        android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Top Section with colorPrimary background -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:orientation="vertical"
+                    android:paddingRight="7dp"
+                    android:paddingVertical="24dp"
+                    android:paddingLeft="11dp"
+                    android:background="@drawable/btn_bg1"
+                    android:backgroundTint="#333">
+
+                    <!-- RelativeLayout for Image and Details Button -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="30dip"
+                            android:layout_height="30dip"
+                            android:layout_marginStart="10dip"
+                            android:src="@drawable/home_a" />
+
+                        <TextView
+                            android:id="@+id/details"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/view_details"
+                            android:textColor="@color/black"
+                            android:background="@drawable/et_curve_border"
+                            android:textSize="17sp"
+                            android:paddingVertical="3dip"
+                            android:paddingHorizontal="10dip"
+                            android:gravity="end"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="7dp" />
+                    </RelativeLayout>
+
+                    <!-- Balance Section -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginTop="7dip"
+                        android:padding="8dp">
+
+                        <ImageView
+                            android:layout_width="55dp"
+                            android:layout_height="45dp"
+                            android:src="@drawable/simcard" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical|end">
+
+                            <TextView
+                                android:id="@+id/balance"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="20,000"
+                                android:textSize="24dp"
+                                android:fontFamily="monospace"
+                                android:textStyle="bold"
+                                android:textColor="@color/whitewhite" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/coinimg"
+                                android:layout_marginLeft="7dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!-- Username Section -->
+                    <TextView
+                        android:id="@+id/username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="WowCodes.in"
+                        android:textSize="16.7sp"
+                        android:layout_marginStart="10dip"
+                        android:layout_marginBottom="-25dip"
+                        android:textColor="@color/whitewhite"
+                        android:fontFamily="monospace" />
+
+                    <!-- Mobile Number Section -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="4dp"
+                        android:gravity="center_vertical|end">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="end">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/string345"
+                                android:textColor="@color/lightgray"
+                                android:fontFamily="serif"
+                                android:textStyle="bold"
+                                android:textSize="11sp" />
+
+                            <TextView
+                                android:id="@+id/mobno"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="9339932830"
+                                android:textSize="12sp"
+                                android:textColor="@color/whitewhite" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/connectivity"
+                            android:visibility="gone"
+                            android:layout_marginLeft="16sp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/addmoney"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_8sdp"
+                    android:background="@drawable/bg_recharge"
+                    android:gravity="center"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="7dp">
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_margin="7dip"
+                        android:tint="@color/black"
+                        android:padding="@dimen/_3sdp"
+                        android:src="@drawable/addmoney_ic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dip"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/recharge_wallet"
+                            android:textColor="@color/blackblack"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/buy_more"
+                            android:textColor="@color/dark_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+
+                    android:fontFamily="@font/opensansbold"
+                    android:paddingVertical="11dp"
+                    android:paddingStart="18dp"
+                    android:text="@string/earn_coins"
+                    android:textColor="@color/primarylight"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <!-- Watch and Earn Section -->
+                <RelativeLayout
+                    android:id="@+id/watch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="16dip"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/et_filled"
+                    android:backgroundTint="#7e1e1f">
+
+                    <ImageView
+                        android:layout_width="70dip"
+                        android:layout_height="70dip"
+                        android:src="@drawable/ic_watchandearn" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="@string/watchearn"
+                        android:textColor="@color/whitewhite"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <!-- Scratch and Win Section -->
+                <RelativeLayout
+                    android:id="@+id/scratch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="16dip"
+                    android:layout_marginTop="16dip"
+                    android:background="@drawable/et_filled"
+                    android:backgroundTint="#c8251c">
+
+                    <ImageView
+                        android:layout_width="70dip"
+                        android:layout_height="70dip"
+                        android:src="@drawable/ic_scratchandwin" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="@string/scratchearn"
+                        android:textColor="@color/whitewhite"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <!-- Spin and Win Section -->
+                <RelativeLayout
+                    android:id="@+id/spin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="16dip"
+                    android:layout_marginTop="16dip"
+                    android:background="@drawable/et_filled"
+                    android:backgroundTint="@color/button0">
+
+                    <ImageView
+                        android:layout_width="70dip"
+                        android:layout_height="70dip"
+                        android:src="@drawable/ic_spinandwin" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="@string/spinearn"
+                        android:textColor="@color/whitewhite"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <!-- Play and Earn Section -->
+                <RelativeLayout
+                    android:id="@+id/play"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="16dip"
+                    android:layout_marginTop="16dip"
+                    android:background="@drawable/et_filled"
+                    android:backgroundTint="@color/button1">
+
+                    <ImageView
+                        android:layout_width="70dip"
+                        android:layout_height="70dip"
+                        android:src="@drawable/ic_playandearn" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="@string/playearn"
+                        android:textColor="@color/whitewhite"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <!-- Refer and Earn Section -->
+                <RelativeLayout
+                    android:id="@+id/refer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="16dip"
+                    android:layout_marginTop="16dip"
+                    android:background="@drawable/et_filled"
+                    android:backgroundTint="#dbb10d">
+
+                    <ImageView
+                        android:layout_width="70dip"
+                        android:layout_height="70dip"
+                        android:src="@drawable/ic_referandearn" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="@string/referearn"
+                        android:textColor="@color/whitewhite"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/invest" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="16dip" android:layout_marginTop="16dip" android:background="@drawable/et_filled" android:backgroundTint="#e314f8">
+                    <ImageView android:layout_width="70dip" android:layout_height="70dip" android:src="@drawable/ic_investandearn"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="@string/investearn"
+                        android:textColor="@color/whitewhite"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

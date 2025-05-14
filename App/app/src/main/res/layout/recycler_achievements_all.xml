@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/card"
+    android:layout_marginHorizontal="7dip"
+    android:orientation="vertical"
+    android:background="@drawable/et_curve_border"
+    android:backgroundTint="@color/graywhite"
+    android:paddingVertical="11dip"
+    android:layout_marginVertical="10dip"
+    android:paddingHorizontal="25dip"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="52dip"
+        android:layout_height="52dip"
+        android:src="@drawable/gifticon"
+        android:id="@+id/image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="NAME"
+        android:textStyle="bold"
+        android:layout_marginTop="12dip"
+        android:gravity="center"
+        android:fontFamily="@font/opensansbold"
+        android:textColor="@color/white"
+        android:id="@+id/name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="DESCRIPTION"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:fontFamily="@font/opensansregular"
+        android:layout_marginTop="2dip"
+        android:id="@+id/goal"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Winning Amount"
+        android:textStyle="bold"
+        android:layout_marginTop="7dip"
+        android:fontFamily="@font/opensansregular"
+        android:textColor="@color/white"
+        android:id="@+id/amt"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="10/10"
+        android:textSize="15sp"
+        android:background="@drawable/et_curved_border"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/opensansbold"
+        android:layout_marginTop="12dip"
+        android:paddingHorizontal="11dip"
+        android:paddingVertical="3dip"
+        android:id="@+id/progress"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="CLAIM"
+        android:textSize="15sp"
+        android:background="@drawable/et_curve_border"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/opensansbold"
+        android:layout_marginTop="11dip"
+        android:paddingHorizontal="16dip"
+        android:gravity="center"
+        android:layout_marginHorizontal="7dip"
+        android:paddingVertical="7dip"
+        android:id="@+id/claim"/>
+</LinearLayout>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:elevation="10sp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Fragments.WinnerList">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:elevation="@dimen/_6sdp"
+            android:background="@drawable/bg_tab"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:id="@+id/singlewin"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_10ssp"
+                android:textStyle="bold"
+                android:paddingVertical="@dimen/_5sdp"
+                android:gravity="center"
+                android:id="@+id/prod_name"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/graywhite"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/string475" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/darkgray"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_110sdp">
+
+                <TextView
+                    android:id="@+id/wontxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/_28sdp"
+                    android:layout_marginTop="@dimen/_20ssp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/string476"
+                    android:textSize="@dimen/_10ssp">
+
+                </TextView>
+                <TextView
+                    android:id="@+id/winnernametxt"
+                    android:layout_marginStart="@dimen/_28sdp"
+                    android:textColor="@color/graywhite"
+                    android:text="@string/string477"
+                    android:gravity="top"
+                    android:textSize="@dimen/_14ssp"
+                    android:layout_marginTop="@dimen/_32sdp"
+                    android:fontFamily="sans-serif-black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_marginHorizontal="@dimen/_120sdp"
+                    android:layout_marginVertical="@dimen/_3sdp"
+                    android:src="@drawable/youwon"
+                    android:visibility="gone"
+                    android:backgroundTint="@color/white"
+                    android:background="@color/white"
+                    android:id="@+id/youwonimg"/>
+
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    android:layout_marginVertical="@dimen/_3sdp"
+                    android:src="@drawable/img_background"
+                    android:background="@color/white"
+                    android:id="@+id/prod_img"/>
+
+                <RelativeLayout
+                    android:layout_below="@+id/youwonimg"
+                    android:layout_marginBottom="@dimen/_1sdp"
+                    android:layout_marginHorizontal="@dimen/_1sdp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_4sdp"
+                    android:background="@drawable/btn_bglightredbgcard2"
+                    >
+                    <TextView
+                        android:id="@+id/windatetxt"
+                        android:layout_marginStart="@dimen/_3sdp"
+                        android:layout_alignParentStart="true"
+                        android:textSize="@dimen/_11ssp"
+                        android:textColor="@color/graywhite"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/string478"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/viewdetailstext"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_marginStart="@dimen/_8sdp"
+                        android:layout_alignParentEnd="true"
+                        android:textSize="@dimen/_10ssp"
+                        android:textColor="@color/graywhite"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/string479"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:elevation="@dimen/_6sdp"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:id="@+id/multiplewin"
+            android:background="@drawable/bg_tab"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="@dimen/_11sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:paddingTop="@dimen/_4sdp"
+                android:layout_marginVertical="3sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/pooltext"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/_11ssp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/string480"
+                    android:elevation="5sp"
+                    android:textColor="@color/graywhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:id="@+id/prizetxt"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_toEndOf="@+id/pooltext"
+                    android:textSize="@dimen/_11ssp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/string481"
+                    android:textColor="@color/graywhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:elevation="5sp"
+                    android:id="@+id/viewwinnertxt"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/_11ssp"
+                    android:textColor="@color/graywhite"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/string482"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </RelativeLayout>
+            <View
+                android:id="@+id/mulipleview"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/darkgray"></View>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listwinners"
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:layout_marginHorizontal="@dimen/_4sdp"
+                android:elevation="10dp"
+                android:layout_marginVertical="@dimen/_8sdp"/>
+            <RelativeLayout
+                android:layout_marginHorizontal="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/_1sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_4sdp"
+                android:background="@drawable/btn_bglightredbgcard2"
+                >
+                <TextView
+                    android:id="@+id/windatetxt2"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/_11ssp"
+                    android:textColor="@color/graywhite"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/string478"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <ImageView
+                    android:layout_marginVertical="2sp"
+                    android:layout_toStartOf="@+id/viewdetailstext2"
+                    android:background="@drawable/ic_trophy"
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp">
+                </ImageView>
+                <TextView
+                    android:id="@+id/viewdetailstext2"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/_10ssp"
+                    android:textColor="@color/graywhite"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/string483"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

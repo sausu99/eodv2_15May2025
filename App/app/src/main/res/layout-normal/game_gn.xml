@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Activity.game_gn">
+
+    <include layout="@layout/activity_toolbar"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lnlCoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:padding="@dimen/_5sdp"
+                android:background="@drawable/et_dotted"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yourbal"
+                    android:fontFamily="monospace"
+                    android:textSize="@dimen/_14ssp"
+                    android:padding="@dimen/_4sdp"
+                    android:textColor="@color/primarylight"
+                    />
+
+                <TextView
+                    android:id="@+id/txtGetCoinTop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_3sdp"
+                    android:text="0"
+                    android:fontFamily="monospace"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15ssp"/>
+
+                <ImageView
+                    android:layout_width="@dimen/_17sdp"
+                    android:layout_height="@dimen/_17sdp"
+                    android:src="@drawable/ic_coin"
+                    android:tint="@color/gold"/>
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enternoofcoins"
+                android:textSize="@dimen/_17ssp"
+                android:textColor="@color/primarylight"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/noofcoins"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_24ssp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:padding="@dimen/_4sdp"
+                android:inputType="number"
+                android:gravity="center"
+                android:layout_marginHorizontal="@dimen/_6sdp"
+                android:background="@drawable/et_dotted"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submitplay"
+                android:textSize="@dimen/_16ssp"
+                android:id="@+id/submit"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/_10sdp"
+                android:background="@drawable/et_filled"
+                android:textColor="@color/whitewhite"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/howtoplay"
+                android:textStyle="italic"
+                android:id="@+id/underline"
+                android:textSize="@dimen/_14ssp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textColor="@color/primarylight"/>
+
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:src="@drawable/dotted_line"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp"
+                android:visibility="gone"
+                android:id="@+id/gamezone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enterguess"
+                android:textSize="@dimen/_14ssp"
+                android:textColor="@color/primarylight"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_40sdp"
+                android:textSize="@dimen/_16ssp"
+                android:inputType="number"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:gravity="center"
+                android:id="@+id/guess"
+                android:background="@drawable/et_dotted"
+                android:padding="@dimen/_5sdp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15ssp"
+                android:text="@string/submitguess"
+                android:id="@+id/subguess"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:paddingVertical="@dimen/_4sdp"
+                android:paddingHorizontal="@dimen/_7sdp"
+                android:background="@drawable/et_filled"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="triesremain"
+                android:textSize="@dimen/_17ssp"
+                android:textColor="@color/primarylight"
+                android:layout_gravity="center"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:textSize="@dimen/_30sdp"
+                android:id="@+id/tries"
+                android:textStyle="bold"
+                android:textColor="@color/crimson"
+                android:fontFamily="serif-monospace"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hinttv"
+                android:textSize="@dimen/_14ssp"
+                android:fontFamily="monospace"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_4sdp"/>
+
+            <ImageView
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_55sdp"
+                android:id="@+id/hint"
+                android:layout_gravity="center"
+                android:src="@drawable/guessfirst"
+                android:layout_marginTop="@dimen/_6sdp"/>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/gn_min"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/gn_max"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/gn_win"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/gn_chance"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/result"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

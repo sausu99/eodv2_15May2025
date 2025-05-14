@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/offwhiteblack"
+    tools:context=".Activity.BeforeRaffleActivity">
+
+    <include layout="@layout/activity_toolbar" />
+
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:paddingVertical="60sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <include layout="@layout/activity_loading" />
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:src="@drawable/back_btn"
+                android:id="@+id/cancel"
+                android:layout_marginTop="7dip"
+                android:layout_marginStart="7dip"
+                android:visibility="gone"
+                app:tint="@color/colorPrimary" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="370dip"
+                    android:layout_height="140dip"
+                    android:scaleType="fitXY"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/cat_timer"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/drawclosesin"
+                    android:textColor="@color/darkgray"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="54dip"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="60dip"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="5dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="64dip"
+                    android:paddingVertical="10dip">
+
+                    <TextView
+                        android:layout_width="23dip"
+                        android:layout_height="40dip"
+                        android:textSize="26sp"
+                        android:fontFamily="casual"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:background="@drawable/et_filled_sqaure"
+                        android:padding="3dip"
+                        android:textStyle="bold"
+                        android:id="@+id/day0"
+                        android:text="0"/>
+
+                    <TextView
+                        android:layout_width="23dip"
+                        android:layout_height="40dip"
+                        android:textSize="26sp"
+                        android:fontFamily="casual"
+                        android:gravity="center"
+                        android:layout_marginStart="5dip"
+                        android:textColor="@color/black"
+                        android:background="@drawable/et_filled_sqaure"
+                        android:padding="3dip"
+                        android:textStyle="bold"
+                        android:id="@+id/day1"
+                        android:text="0"/>
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/days"
+                        android:fontFamily="casual"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="9dip"
+                        android:textStyle="bold"
+                        android:textColor="@color/blackblack"
+                        android:layout_marginHorizontal="7dip"/>
+
+
+
+                    <TextView
+                        android:layout_width="23dip"
+                        android:layout_height="40dip"
+                        android:textSize="26sp"
+                        android:fontFamily="casual"
+                        android:gravity="center"
+                        android:layout_marginStart="5dip"
+                        android:textColor="@color/black"
+                        android:background="@drawable/et_filled_sqaure"
+                        android:padding="3dip"
+                        android:textStyle="bold"
+                        android:id="@+id/hour0"
+                        android:text="0"/>
+
+                    <TextView
+                        android:layout_width="23dip"
+                        android:layout_height="40dip"
+                        android:textSize="26sp"
+                        android:fontFamily="casual"
+                        android:gravity="center"
+                        android:layout_marginStart="5dip"
+                        android:textColor="@color/black"
+                        android:background="@drawable/et_filled_sqaure"
+                        android:padding="3dip"
+                        android:textStyle="bold"
+                        android:id="@+id/hour1"
+                        android:text="0"/>
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="7dip"
+                        android:textSize="40sp"
+                        android:textColor="@color/blackblack"/>
+
+
+                    <TextView
+                        android:layout_width="23dip"
+                        android:layout_height="40dip"
+                        android:textSize="26sp"
+                        android:fontFamily="casual"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:background="@drawable/et_filled_sqaure"
+                        android:padding="3dip"
+                        android:textStyle="bold"
+                        android:id="@+id/min0"
+                        android:text="0"/>
+
+                    <TextView
+                        android:layout_width="23dip"
+                        android:layout_height="40dip"
+                        android:textSize="26sp"
+                        android:fontFamily="casual"
+                        android:gravity="center"
+                        android:layout_marginStart="5dip"
+                        android:textColor="@color/black"
+                        android:background="@drawable/et_filled_sqaure"
+                        android:padding="3dip"
+                        android:textStyle="bold"
+                        android:id="@+id/min1"
+                        android:text="0"/>
+
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="7dip"
+                        android:textSize="40sp"
+                        android:textColor="@color/blackblack"/>
+
+
+
+
+                    <TextView
+                        android:layout_width="23dip"
+                        android:layout_height="40dip"
+                        android:textSize="26sp"
+                        android:fontFamily="casual"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:background="@drawable/et_filled_sqaure"
+                        android:padding="3dip"
+                        android:textStyle="bold"
+                        android:id="@+id/sec0"
+                        android:text="0"/>
+
+                    <TextView
+                        android:layout_width="23dip"
+                        android:layout_height="40dip"
+                        android:textSize="26sp"
+                        android:fontFamily="casual"
+                        android:gravity="center"
+                        android:layout_marginStart="5dip"
+                        android:textColor="@color/black"
+                        android:background="@drawable/et_filled_sqaure"
+                        android:padding="3dip"
+                        android:textStyle="bold"
+                        android:id="@+id/sec1"
+                        android:text="0"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/myticketrelative"
+                android:layout_width="match_parent"
+                android:layout_marginTop="19dip"
+                android:layout_marginHorizontal="16dip"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/myticket"
+                    android:drawablePadding="10sp"
+                    android:drawableTint="@color/primarylight"
+                    android:drawableRight="@drawable/ic_ticket"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primarylight"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/viewalltickets"
+                    android:textSize="18sp"
+                    android:id="@+id/viewall"
+                    android:textStyle="bold"
+                    android:layout_alignParentEnd="true"
+                    android:textColor="@color/primarylight"/>
+            </RelativeLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/notickets"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:background="@drawable/et_filled_profile"
+                android:backgroundTint="#fafafa"
+                android:layout_marginVertical="18dip"
+                android:layout_marginHorizontal="16dip"
+                android:padding="7dip"
+                android:visibility="gone"
+                android:id="@+id/notickets"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:gravity="center"
+                android:paddingStart="@dimen/_10sdp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/ball1bg"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:background="@drawable/blue"
+                    android:layout_width="@dimen/_32sdp"
+                    android:layout_height="@dimen/_32sdp"
+                    >
+                    <TextView
+                        android:id="@+id/ticket0"
+                        android:text="88"
+                        android:textSize="@dimen/_17ssp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/ball2bg"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:background="@drawable/blue"
+                    android:layout_width="@dimen/_32sdp"
+                    android:layout_height="@dimen/_32sdp"
+                    >
+                    <TextView
+
+                        android:id="@+id/ticket1"
+                        android:text="88"
+                        android:textSize="@dimen/_17ssp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/ball3bg"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:background="@drawable/blue"
+                    android:layout_width="@dimen/_32sdp"
+                    android:layout_height="@dimen/_32sdp"
+                    >
+
+                    <TextView
+                        android:id="@+id/ticket2"
+                        android:text="88"
+                        android:textSize="@dimen/_17ssp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/ball4bg"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:background="@drawable/blue"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:layout_width="@dimen/_32sdp"
+                    android:layout_height="@dimen/_32sdp"
+                    >
+                    <TextView
+                        android:id="@+id/ticket3"
+                        android:text="88"
+                        android:textSize="@dimen/_17ssp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/ball5bg"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:background="@drawable/blue"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:layout_width="@dimen/_32sdp"
+                    android:layout_height="@dimen/_32sdp"
+                    >
+                    <TextView
+                        android:id="@+id/ticket4"
+                        android:text="88"
+                        android:textSize="@dimen/_17ssp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/ball6bg"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:background="@drawable/blue"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:layout_width="@dimen/_32sdp"
+                    android:layout_height="@dimen/_32sdp"
+                    >
+                    <TextView
+                        android:id="@+id/ticket5"
+                        android:text="88"
+                        android:textSize="@dimen/_17ssp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/ball7bg"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:background="@drawable/blue"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:layout_width="@dimen/_32sdp"
+                    android:layout_height="@dimen/_32sdp"
+                    >
+                    <TextView
+                        android:id="@+id/ticket6"
+                        android:text="88"
+                        android:textSize="@dimen/_17ssp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/ball8bg"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:background="@drawable/blue"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:layout_marginHorizontal="@dimen/_2sdp"
+                    android:layout_width="@dimen/_32sdp"
+                    android:layout_height="@dimen/_32sdp"
+                    >
+
+                    <TextView
+                        android:id="@+id/ticket7"
+                        android:text="88"
+                        android:textSize="@dimen/_17ssp"
+                        android:fontFamily="sans-serif-black"
+                        android:textColor="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prizes"
+                android:layout_gravity="center"
+                android:drawableEnd="@drawable/ic_withdraw"
+                android:drawablePadding="10sp"
+                android:drawableTint="@color/primarylight"
+                android:textColor="@color/primarylight"
+                android:fontFamily="monospace"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="20dip"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dip"
+                android:id="@+id/recycler_prizes"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:id="@+id/txt_morelikethis"
+                android:background="@color/offwhiteblack">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="16dip"
+                    android:background="@color/offwhiteblack"
+                    android:elevation="10dip"
+                    android:fontFamily="@font/poppins_medium"
+                    android:outlineAmbientShadowColor="@color/transprant"
+                    android:outlineSpotShadowColor="@color/transprant"
+                    android:paddingHorizontal="16dip"
+                    android:text="@string/morelikethis"
+                    android:textColor="@color/black"
+                    android:textSize="19sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_centerInParent="true"
+                    android:background="@color/black" />
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/moreitems"
+                android:layout_margin="11dip"/>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutbottom"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_bgred"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <!-- Left-aligned text (Tickets Left) -->
+        <TextView
+            android:id="@+id/tktleft"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/addmore"
+            android:layout_marginStart="15dp"
+            android:text="100000 tickets left"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/whitewhite"
+            android:textSize="19sp"
+            android:fontFamily="sans-serif-black" />
+
+        <!-- Buy Ticket button, aligned to the right -->
+        <TextView
+            android:id="@+id/addmore"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bglboutlinewhite"
+            android:text="@string/buy_ticket"
+            android:textSize="18sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:fontFamily="@font/opensansbold"
+            android:textColor="@color/selected2"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="15dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_marginStart="25sp"
+        android:layout_marginBottom="57sp"
+        android:src="@drawable/pngticket"
+        app:tint="@color/whitewhite"
+        android:padding="14sp"
+
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/clockredbg"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        ></ImageView>
+
+
+</RelativeLayout>

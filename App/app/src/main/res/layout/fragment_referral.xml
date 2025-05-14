@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFE9DB"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity">
+
+
+    <include layout="@layout/activity_loading"></include>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/refer1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/referback"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="30dp"
+                    android:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:text="@string/referearn"
+                    android:textColor="@color/colorPrimary"/>
+
+                <ImageView
+                    android:id="@+id/imgItemImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/refer2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="monospace"
+                    android:layout_marginTop="15dp"
+                    android:paddingBottom="5dp"
+                    android:textStyle="bold"
+                    android:text="@string/string365"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/txtRefercode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/et_dotted"
+                    android:fontFamily="@font/opensansmediam"
+                    android:layout_marginTop="10dp"
+                    android:textIsSelectable="true"
+                    android:text="####"
+                    android:textStyle="bold"
+                    android:paddingVertical="7dp"
+                    android:paddingHorizontal="11dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="30sp"/>
+
+                <TextView
+                    android:id="@+id/taptocopy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="11.7dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/taptocopy"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/txtShare"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="@drawable/btn_bg1"
+                        android:drawableLeft="@drawable/refer_share"
+                        android:gravity="center"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/string366"
+                        android:textColor="@color/whitewhite"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtreferrals"
+                        android:layout_gravity="center|bottom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="@drawable/et_border13"
+                        android:gravity="center"
+                        android:paddingTop="7dp"
+                        android:paddingBottom="7dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/string367"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="14dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

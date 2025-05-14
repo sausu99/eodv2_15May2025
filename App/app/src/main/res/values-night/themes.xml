@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base theme for night mode, inheriting from Material Components DayNight theme -->
+    <style name="AppTheme.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize night theme attributes here -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/black</item> <!-- Changed from white to black -->
+        <item name="colorSurface">@color/black</item> <!-- Changed from white to black -->
+        <item name="colorOnBackground">@color/black</item> <!-- Changed from white to black -->
+        <item name="colorOnSurface">@color/black</item> <!-- Changed from white to black -->
+        <item name="colorError">@color/black</item> <!-- Changed from white to black -->
+    </style>
+
+    <!-- Overlay for popups in night mode -->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:padding">4dp</item>
+    </style>
+
+</resources>

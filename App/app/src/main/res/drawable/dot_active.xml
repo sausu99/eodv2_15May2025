@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/dot_active.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/dotsactive" /> <!-- Active color (e.g., black) -->
+    <corners android:radius="4dp" />
+</shape>

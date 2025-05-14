@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity">
+
+
+    <include layout="@layout/activity_loading"/>
+    <include layout="@layout/activity_toolbar"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@color/offwhiteblack"
+                android:paddingBottom="@dimen/_5sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingHorizontal="@dimen/_12sdp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/bullet"
+                    android:layout_marginHorizontal="@dimen/_5sdp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/watchearn"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:foreground="@drawable/img_admob"
+                android:background="@color/offwhiteblack">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_90sdp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_64sdp"
+                        android:layout_marginRight="@dimen/_14sdp"
+                        android:layout_marginLeft="@dimen/_14sdp"
+                        android:id="@+id/adreward_bttn"
+                        android:padding="@dimen/_8sdp"
+                        android:textSize="@dimen/_17ssp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:foreground="@drawable/img_facebook"
+                android:background="@color/offwhiteblack">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_90sdp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_64sdp"
+                        android:layout_marginRight="@dimen/_14sdp"
+                        android:layout_marginLeft="@dimen/_14sdp"
+                        android:id="@+id/fbrewardbtn"
+                        android:padding="@dimen/_8sdp"
+                        android:textSize="@dimen/_17ssp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:foreground="@drawable/img_unity"
+                android:background="@color/offwhiteblack">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_90sdp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_64sdp"
+                        android:layout_marginRight="@dimen/_14sdp"
+                        android:layout_marginLeft="@dimen/_14sdp"
+                        android:id="@+id/unity_bttn"
+                        android:padding="@dimen/_8sdp"
+                        android:textSize="@dimen/_17ssp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:foreground="@drawable/img_applovin"
+                android:background="@color/offwhiteblack">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_90sdp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_64sdp"
+                        android:layout_marginRight="@dimen/_14sdp"
+                        android:layout_marginLeft="@dimen/_14sdp"
+                        android:id="@+id/applovinBtn"
+                        android:padding="@dimen/_8sdp"
+                        android:textSize="@dimen/_17ssp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:foreground="@drawable/img_startio"
+                android:background="@color/offwhiteblack">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_90sdp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_64sdp"
+                        android:layout_marginRight="@dimen/_14sdp"
+                        android:layout_marginLeft="@dimen/_14sdp"
+                        android:id="@+id/startioBtn"
+                        android:padding="@dimen/_8sdp"
+                        android:textSize="@dimen/_17ssp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:foreground="@drawable/img_adcolony"
+                android:background="@color/offwhiteblack">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_90sdp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_64sdp"
+                        android:layout_marginRight="@dimen/_14sdp"
+                        android:layout_marginLeft="@dimen/_14sdp"
+                        android:id="@+id/adcolonyBtn"
+                        android:padding="@dimen/_8sdp"
+                        android:textSize="@dimen/_17ssp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:foreground="@drawable/img_ironsource"
+                android:background="@color/offwhiteblack">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_90sdp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_64sdp"
+                        android:layout_marginRight="@dimen/_14sdp"
+                        android:layout_marginLeft="@dimen/_14sdp"
+                        android:id="@+id/ironsourceBtn"
+                        android:padding="@dimen/_8sdp"
+                        android:textSize="@dimen/_17ssp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:foreground="@drawable/img_vungle"
+                android:background="@color/offwhiteblack">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_90sdp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_64sdp"
+                        android:layout_marginRight="@dimen/_14sdp"
+                        android:layout_marginLeft="@dimen/_14sdp"
+                        android:id="@+id/vungleBtn"
+                        android:padding="@dimen/_8sdp"
+                        android:textSize="@dimen/_17ssp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
